@@ -19,9 +19,9 @@ _ReSharper*/
 *.DotSettings.user
 
 # Auto-generated files
-*.Designer.cs
-*.g.cs
-*.g.i.cs
+# *.Designer.cs
+# *.g.cs
+# *.g.i.cs
 
 # Packages and dependencies
 *.nuget/
