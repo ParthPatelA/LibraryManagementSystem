@@ -18,7 +18,7 @@ namespace LibraryManagementSystem
 
         public static int incrementId = -1;
 
-        public bool IsAvailable { get; set; }
+        public bool IsAvailable { get; set; } = true;
 
         public Book(string title, string author, string genre, string yearPublished, string iSBN, int copiesAvailable, bool isAvailable)
         {

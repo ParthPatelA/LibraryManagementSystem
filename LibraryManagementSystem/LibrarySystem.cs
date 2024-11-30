@@ -12,6 +12,7 @@ namespace LibraryManagementSystem
 
         private List<Book> books = new List<Book>();
         private List<User> users = new List<User>();
+        public User CurrentUser { get; set; }
 
         private readonly string logFilePath = "LibrarySystemLog.txt";
         private readonly string inventoryFilePath = "BookInventory.txt";
