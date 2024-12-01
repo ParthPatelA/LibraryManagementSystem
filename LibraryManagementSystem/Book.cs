@@ -16,13 +16,13 @@ namespace LibraryManagementSystem
         public string ISBN { get; set; }
         public int CopiesAvailable { get; set; }
 
-        public static int incrementId = 1;
-
         public bool IsAvailable { get; set; } = true;
+        private static readonly HashSet<int> generatedIds = new HashSet<int>();
+        private static readonly Random random = new Random();
 
         public Book(string title, string author, string genre, string yearPublished, string iSBN, int copiesAvailable, bool isAvailable)
         {
-            BookId = incrementId;
+            BookId = GenerateUniqueRandomId();
             Title = title;
             Author = author;
             Genre = genre;
@@ -30,17 +30,19 @@ namespace LibraryManagementSystem
             ISBN = iSBN;
             CopiesAvailable = copiesAvailable;
             IsAvailable = isAvailable;
-            incrementId++;
         }
 
-        public void MarkedAsBorrowed()
+        public static int GenerateUniqueRandomId()
         {
-            IsAvailable = false;
-        }
+            int newId;
 
-        public void MarkAsReturned()
-        {
-            IsAvailable = true;
+            // Keep generating until we get a unique ID
+            do
+            {
+                newId = random.Next(1, 1000); // Generate a random ID within a range
+            } while (!generatedIds.Add(newId)); // Add to HashSet, ensures uniqueness
+
+            return newId;
         }
     }
 }

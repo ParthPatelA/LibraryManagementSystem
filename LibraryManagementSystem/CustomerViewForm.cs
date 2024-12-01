@@ -17,12 +17,23 @@ namespace LibraryManagementSystem
         }
         private void viewBooksButton_Click(object sender, EventArgs e)
         {
+
+            //clear borrow book
+            bookIdPromptLabel.Visible = false;
+            bookIdTextBox.Visible = false;
+            borrowBookButton.Visible = false;
+            //clear return book
+            bookIdPromptLabel.Visible = false;
+            bookIdTextBox.Visible = false;
+            returnBookButton.Visible = false;
             //clear search related stuff
             searchLabelPromptLabel.Visible = false;
             searchByComboBox.Visible = false;
             queryPromptLabel.Visible = false;
             queryTextBox.Visible = false;
             searchButton.Visible = false;
+            searchBookListView.Visible = false;
+
             // Clear existing columns and items in the ListView
             bookListView.Columns.Clear();
             bookListView.Items.Clear();
