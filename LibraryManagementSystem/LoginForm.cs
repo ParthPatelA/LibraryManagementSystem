@@ -22,6 +22,7 @@ namespace LibraryManagementSystem
 
         private void validateButton_Click(object sender, EventArgs e)
         {
+            String role = roleComboBox.SelectedItem.ToString();
             String name = nameTextBox.Text;
             String email = emailTextBox.Text;
             string pattern = @"^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$";
@@ -29,7 +30,7 @@ namespace LibraryManagementSystem
 
             if (name == null || regex.IsMatch(email) )
             {
-                User user = new User(name, email);
+                User user = new User(name, email, role);
                 // Create an instance of LibrarySystemForm
                 LibrarySystemForm librarySystem = new LibrarySystemForm(roleComboBox.SelectedItem.ToString());
 

@@ -40,6 +40,12 @@ namespace LibraryManagementSystem
             return instance;
         }
 
+        public List<Book> Books
+        {
+            get { return books; }
+        }
+
+
         // Log Actions
         private void LogAction(string message)
         {

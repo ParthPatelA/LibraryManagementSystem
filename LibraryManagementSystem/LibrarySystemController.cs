@@ -45,10 +45,10 @@ namespace LibraryManagementSystem
                 switch (userType.ToLower())
                 {
                     case "librarian":
-                        user = new Librarian(name, email);
+                        user = new Librarian(name, email, "Librarian");   // To change
                         break;
                     case "customer":
-                        user = new Customer(name, email);
+                        user = new Customer(name, email, "Customer"); // To change
                         break;
                     default:
                         throw new ArgumentException("Invalid user type. Must be 'librarian' or 'customer'.");
@@ -196,5 +196,16 @@ namespace LibraryManagementSystem
                 Console.WriteLine("No users found.");
             }
         }
+
+        public List<Book> GetAllBooks()
+        {
+            return librarySystem.GetAllBooks();
+        }
+
+        public List<User> GetAllUsers()
+        {
+            return librarySystem.GetAllUsers();
+        }
+
     }
 }

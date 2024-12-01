@@ -8,7 +8,7 @@ namespace LibraryManagementSystem
 {
     internal class Librarian : User
     {
-        public Librarian(string name, string email) : base(name, email)
+        public Librarian(string name, string email, string role) : base(name, email, role)
         {
         }
 

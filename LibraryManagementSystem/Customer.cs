@@ -9,7 +9,7 @@ namespace LibraryManagementSystem
     internal class Customer : User
     {
         public List<int> BorrowedBooks { get; set; }
-        public Customer(string name, string email) : base(name, email)
+        public Customer(string name, string email, string role) : base(name, email, role)
         {
             BorrowedBooks = new List<int>();
         }
