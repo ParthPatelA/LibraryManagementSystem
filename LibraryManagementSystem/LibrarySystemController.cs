@@ -100,10 +100,9 @@ namespace LibraryManagementSystem
         }
 
         // Search Books
-        public void SearchBooks(string searchType, string query)
+        public List<Book> SearchBooks(string searchType, string query)
         {
-            List<Book> results;
-
+            List<Book> results = new List<Book>(); // Initialize results list
             switch (searchType.ToLower())
             {
                 case "title":
@@ -117,9 +116,9 @@ namespace LibraryManagementSystem
                     break;
                 default:
                     Console.WriteLine("Invalid search type. Must be 'title', 'author', or 'genre'.");
-                    return;
+                    return results; // Return an empty list in case of an invalid search type
             }
-
+            // If we have results, print them
             if (results.Count > 0)
             {
                 Console.WriteLine($"Books found ({results.Count}):");
@@ -132,7 +131,9 @@ namespace LibraryManagementSystem
             {
                 Console.WriteLine("No books found.");
             }
+            return results; // Return the results list
         }
+
 
         // Search Users
         public void SearchUsers(string name)
@@ -166,19 +167,9 @@ namespace LibraryManagementSystem
         }
 
         // List All Books
-        public void ListAllBooks()
+        public List<Book> ListAllBooks()
         {
-            var books = librarySystem.GetAllBooks();
-            if (books.Count > 0)
-            {
-                Console.WriteLine("Books:");
-                foreach (var book in books)
-                    Console.WriteLine($"ID: {book.BookId}, Title: {book.Title}, Copies: {book.CopiesAvailable}");
-            }
-            else
-            {
-                Console.WriteLine("No books available.");
-            }
+            return librarySystem.GetAllBooks();
         }
 
         // List All Users

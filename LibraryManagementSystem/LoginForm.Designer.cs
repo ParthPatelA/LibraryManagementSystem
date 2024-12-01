@@ -43,10 +43,9 @@
             // 
             this.welcomeMessageLabel.AutoSize = true;
             this.welcomeMessageLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.welcomeMessageLabel.Location = new System.Drawing.Point(428, 115);
-            this.welcomeMessageLabel.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.welcomeMessageLabel.Location = new System.Drawing.Point(214, 60);
             this.welcomeMessageLabel.Name = "welcomeMessageLabel";
-            this.welcomeMessageLabel.Size = new System.Drawing.Size(781, 63);
+            this.welcomeMessageLabel.Size = new System.Drawing.Size(406, 31);
             this.welcomeMessageLabel.TabIndex = 0;
             this.welcomeMessageLabel.Text = "Welcome to our library system";
             // 
@@ -54,10 +53,9 @@
             // 
             this.loginPromptLabel.AutoSize = true;
             this.loginPromptLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.loginPromptLabel.Location = new System.Drawing.Point(658, 260);
-            this.loginPromptLabel.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.loginPromptLabel.Location = new System.Drawing.Point(329, 135);
             this.loginPromptLabel.Name = "loginPromptLabel";
-            this.loginPromptLabel.Size = new System.Drawing.Size(283, 44);
+            this.loginPromptLabel.Size = new System.Drawing.Size(148, 24);
             this.loginPromptLabel.TabIndex = 1;
             this.loginPromptLabel.Text = "Please sign-in ";
             // 
@@ -65,10 +63,9 @@
             // 
             this.namePromptLabel.AutoSize = true;
             this.namePromptLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.namePromptLabel.Location = new System.Drawing.Point(314, 417);
-            this.namePromptLabel.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.namePromptLabel.Location = new System.Drawing.Point(157, 217);
             this.namePromptLabel.Name = "namePromptLabel";
-            this.namePromptLabel.Size = new System.Drawing.Size(349, 44);
+            this.namePromptLabel.Size = new System.Drawing.Size(183, 24);
             this.namePromptLabel.TabIndex = 2;
             this.namePromptLabel.Text = "Enter your name : ";
             // 
@@ -76,37 +73,33 @@
             // 
             this.emailPromptLabel.AutoSize = true;
             this.emailPromptLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.emailPromptLabel.Location = new System.Drawing.Point(314, 533);
-            this.emailPromptLabel.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.emailPromptLabel.Location = new System.Drawing.Point(157, 277);
             this.emailPromptLabel.Name = "emailPromptLabel";
-            this.emailPromptLabel.Size = new System.Drawing.Size(347, 44);
+            this.emailPromptLabel.Size = new System.Drawing.Size(181, 24);
             this.emailPromptLabel.TabIndex = 3;
             this.emailPromptLabel.Text = "Enter your email : ";
             // 
             // nameTextBox
             // 
-            this.nameTextBox.Location = new System.Drawing.Point(788, 427);
-            this.nameTextBox.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.nameTextBox.Location = new System.Drawing.Point(394, 222);
             this.nameTextBox.Name = "nameTextBox";
-            this.nameTextBox.Size = new System.Drawing.Size(448, 31);
+            this.nameTextBox.Size = new System.Drawing.Size(226, 20);
             this.nameTextBox.TabIndex = 4;
             // 
             // emailTextBox
             // 
-            this.emailTextBox.Location = new System.Drawing.Point(788, 540);
-            this.emailTextBox.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.emailTextBox.Location = new System.Drawing.Point(394, 281);
             this.emailTextBox.Name = "emailTextBox";
-            this.emailTextBox.Size = new System.Drawing.Size(448, 31);
+            this.emailTextBox.Size = new System.Drawing.Size(226, 20);
             this.emailTextBox.TabIndex = 5;
             // 
             // validateButton
             // 
             this.validateButton.BackColor = System.Drawing.SystemColors.ControlDark;
             this.validateButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.validateButton.Location = new System.Drawing.Point(538, 713);
-            this.validateButton.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.validateButton.Location = new System.Drawing.Point(269, 371);
             this.validateButton.Name = "validateButton";
-            this.validateButton.Size = new System.Drawing.Size(488, 73);
+            this.validateButton.Size = new System.Drawing.Size(244, 38);
             this.validateButton.TabIndex = 6;
             this.validateButton.Text = "Validate";
             this.validateButton.UseVisualStyleBackColor = false;
@@ -117,10 +110,9 @@
             this.displayMessage.AutoSize = true;
             this.displayMessage.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.displayMessage.ForeColor = System.Drawing.Color.Red;
-            this.displayMessage.Location = new System.Drawing.Point(550, 633);
-            this.displayMessage.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.displayMessage.Location = new System.Drawing.Point(275, 329);
             this.displayMessage.Name = "displayMessage";
-            this.displayMessage.Size = new System.Drawing.Size(0, 37);
+            this.displayMessage.Size = new System.Drawing.Size(0, 20);
             this.displayMessage.TabIndex = 7;
             // 
             // roleComboBox
@@ -130,17 +122,19 @@
             this.roleComboBox.Items.AddRange(new object[] {
             "Librarian",
             "Customer"});
-            this.roleComboBox.Location = new System.Drawing.Point(322, 341);
+            this.roleComboBox.Location = new System.Drawing.Point(161, 177);
+            this.roleComboBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.roleComboBox.Name = "roleComboBox";
-            this.roleComboBox.Size = new System.Drawing.Size(317, 39);
+            this.roleComboBox.Size = new System.Drawing.Size(160, 24);
             this.roleComboBox.TabIndex = 8;
             this.roleComboBox.Text = "Type of User";
+            this.roleComboBox.SelectedIndexChanged += new System.EventHandler(this.roleComboBox_SelectedIndexChanged);
             // 
             // LoginForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1600, 865);
+            this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.roleComboBox);
             this.Controls.Add(this.displayMessage);
             this.Controls.Add(this.validateButton);
@@ -150,7 +144,6 @@
             this.Controls.Add(this.namePromptLabel);
             this.Controls.Add(this.loginPromptLabel);
             this.Controls.Add(this.welcomeMessageLabel);
-            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.Name = "LoginForm";
             this.Text = "Libreary Management System - Login Form";
             this.ResumeLayout(false);
