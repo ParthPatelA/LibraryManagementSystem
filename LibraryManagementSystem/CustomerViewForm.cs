@@ -168,7 +168,7 @@ namespace LibraryManagementSystem
                 bool isValid = int.TryParse(bookIdTextBox.Text, out bookId);
                 if (isValid && bookId > 0)
                 {
-                    int userId = librarySystem.user.UserId;
+                    int userId = librarySystem.CurrentUser.UserId;
                     controller.BorrowBook(bookId, userId);
                 }
                 else
@@ -206,7 +206,7 @@ namespace LibraryManagementSystem
         {
             if (int.TryParse(bookIdTextBox.Text, out int bookId))
             {
-                int userId = librarySystem.user.UserId;
+                int userId = librarySystem.CurrentUser.UserId;
 
                 try
                 {
