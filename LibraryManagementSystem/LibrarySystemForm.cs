@@ -12,17 +12,20 @@ namespace LibraryManagementSystem
 {
     public partial class LibrarySystemForm : Form
     {
+
+        private LibrarySystemController librarySystemController;
         private LibrarySystem librarySystem;
-        private String userRole;
+        
         public LibrarySystemForm(String role) { 
 
             InitializeComponent();
-            userRole = role;
+            librarySystemController = new LibrarySystemController();
+            librarySystem = LibrarySystem.GetInstance();
         }
 
         private void LibrarySystemForm_Load(object sender, EventArgs e)
         {
-            welcomeLabel.Text = $"Welcome, {userRole}";
+            welcomeLabel.Text = $"Welcome, {librarySystem.CurrentUser.Name}";
         }
         private void ManageBookButton_Click(object sender, EventArgs e)
         {

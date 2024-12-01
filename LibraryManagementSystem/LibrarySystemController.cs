@@ -27,13 +27,33 @@ namespace LibraryManagementSystem
             }
         }
 
+        // Add a Book : Overloaded construcor acceptin book as parameter
+        public void AddBook(Book book)
+        {
+            try
+            {
+                var books = new Book(book.Title, book.Author, book.Genre, book.YearPublished, book.ISBN, book.CopiesAvailable, book.IsAvailable);
+                librarySystem.AddBook(books);
+                Console.WriteLine($"Book '{book.Title}' added successfully.");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error adding book: {ex.Message}");
+            }
+        }
         // Remove a Book
-        public void RemoveBook(int bookId)
+        public bool RemoveBook(int bookId)
         {
             if (librarySystem.RemoveBook(bookId))
+            {
                 Console.WriteLine($"Book with ID {bookId} removed successfully.");
+                return true;
+            }
             else
+            {
                 Console.WriteLine($"Book with ID {bookId} not found.");
+                return false;
+            }
         }
 
         // Add a User
@@ -173,19 +193,9 @@ namespace LibraryManagementSystem
         }
 
         // List All Users
-        public void ListAllUsers()
+        public List<User> ListAllUsers()
         {
-            var users = librarySystem.GetAllUsers();
-            if (users.Count > 0)
-            {
-                Console.WriteLine("Users:");
-                foreach (var user in users)
-                    Console.WriteLine($"ID: {user.UserId}, Name: {user.Name}, Email: {user.Email}");
-            }
-            else
-            {
-                Console.WriteLine("No users found.");
-            }
+            return librarySystem.GetAllUsers();
         }
     }
 }
