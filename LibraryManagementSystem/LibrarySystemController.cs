@@ -83,12 +83,9 @@ namespace LibraryManagementSystem
         }
 
         // Remove a User
-        public void RemoveUser(int userId)
+        public bool RemoveUser(int userId)
         {
-            if (librarySystem.RemoveUser(userId))
-                Console.WriteLine($"User with ID {userId} removed successfully.");
-            else
-                Console.WriteLine($"User with ID {userId} not found.");
+            return librarySystem.RemoveUser(userId);
         }
 
         // Borrow a Book
@@ -156,19 +153,19 @@ namespace LibraryManagementSystem
 
 
         // Search Users
-        public void SearchUsers(string name)
+        public List<User> SearchUsers(string name)
         {
             var results = librarySystem.SearchUserByName(name);
             if (results.Count > 0)
             {
                 Console.WriteLine($"Users found ({results.Count}):");
-                foreach (var user in results)
-                    Console.WriteLine($"ID: {user.UserId}, Name: {user.Name}, Email: {user.Email}");
+                return results;
             }
             else
             {
                 Console.WriteLine("No users found.");
             }
+            return null;
         }
 
         // Generate Reports
