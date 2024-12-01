@@ -1,5 +1,4 @@
-﻿using System;
-using System.CodeDom;
+using System;
 using System.Text.RegularExpressions;
 using System.Windows.Forms;
 
@@ -7,34 +6,33 @@ namespace LibraryManagementSystem
 {
     public partial class LoginForm : Form
     {
-        private static String selectedRole;
+        private static string selectedRole;
         private LibrarySystemController controller;
 
         public LoginForm()
         {
-
             InitializeComponent();
             controller = new LibrarySystemController();
         }
 
         private void validateButton_Click(object sender, EventArgs e)
         {
-            string name = nameTextBox.Text;
-            string email = emailTextBox.Text;
+            string name = nameTextBox.Text.Trim();
+            string email = emailTextBox.Text.Trim();
             string pattern = @"^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$";
             Regex regex = new Regex(pattern);
 
             // Validate inputs
             if (string.IsNullOrEmpty(name) || !regex.IsMatch(email))
             {
-                displayMessage.Text = "ERROR: Name or email is invalid";
+                displayMessage.Text = "ERROR: Name or email is invalid.";
                 return;
             }
 
             // Check if role is selected
             if (string.IsNullOrEmpty(selectedRole))
             {
-                displayMessage.Text = "ERROR: You must select your role";
+                displayMessage.Text = "ERROR: You must select your role.";
                 return;
             }
 
@@ -43,8 +41,10 @@ namespace LibraryManagementSystem
             if (selectedRole.Equals("Librarian"))
             {
                 user = new Librarian(name, email);
-                LibrarySystem.GetInstance().user = user; 
+                LibrarySystem.GetInstance().CurrentUser = user;
                 controller.AddUser(name, email, selectedRole);
+                
+                // Navigate to Librarian view
                 LibrarySystemForm librarySystem = new LibrarySystemForm();
                 librarySystem.Show();
                 this.Hide();
@@ -52,8 +52,10 @@ namespace LibraryManagementSystem
             else if (selectedRole.Equals("Customer"))
             {
                 user = new Customer(name, email);
-                LibrarySystem.GetInstance().user = user;
+                LibrarySystem.GetInstance().CurrentUser = user;
                 controller.AddUser(name, email, selectedRole);
+
+                // Navigate to Customer view
                 CustomerViewForm customerViewForm = new CustomerViewForm();
                 customerViewForm.Show();
                 this.Hide();
@@ -65,16 +67,10 @@ namespace LibraryManagementSystem
             var selectedItem = roleComboBox.SelectedItem;
             if (selectedItem != null)
             {
-                String role = selectedItem.ToString().Trim();
-                switch (role)
+                string role = selectedItem.ToString().Trim();
+                if (role == "Librarian" || role == "Customer")
                 {
-                    case "Librarian":
-                        selectedRole = role;
-
-                        break;
-                    case "Customer":
-                        selectedRole = role;
-                        break;
+                    selectedRole = role;
                 }
             }
         }
