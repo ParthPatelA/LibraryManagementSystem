@@ -8,7 +8,7 @@ namespace LibraryManagementSystem
 {
     public class Book
     {
-        public int BookId { get; set; }
+        public int BookId { get; private set; } // Auto-generated ID
         public string Title { get; set; }
         public string Author { get; set; }
         public string Genre { get; set; }
@@ -16,13 +16,13 @@ namespace LibraryManagementSystem
         public string ISBN { get; set; }
         public int CopiesAvailable { get; set; }
 
-        public static int incrementId = -1;
+        public static int incrementId = 1;
 
         public bool IsAvailable { get; set; } = true;
 
         public Book(string title, string author, string genre, string yearPublished, string iSBN, int copiesAvailable, bool isAvailable)
         {
-            BookId = ++incrementId;
+            BookId = incrementId;
             Title = title;
             Author = author;
             Genre = genre;
@@ -30,6 +30,7 @@ namespace LibraryManagementSystem
             ISBN = iSBN;
             CopiesAvailable = copiesAvailable;
             IsAvailable = isAvailable;
+            incrementId++;
         }
 
         public void MarkedAsBorrowed()

@@ -45,7 +45,7 @@ namespace LibraryManagementSystem
                 controller.AddUser(name, email, selectedRole);
                 
                 // Navigate to Librarian view
-                LibrarySystemForm librarySystem = new LibrarySystemForm(selectedRole);
+                LibrarySystemForm librarySystem = new LibrarySystemForm();
                 librarySystem.Show();
                 this.Hide();
             }

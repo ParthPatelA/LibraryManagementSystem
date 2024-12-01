@@ -170,7 +170,7 @@ namespace LibraryManagementSystem
 
         private void dashboardButton_Click(object sender, EventArgs e)
         {
-            LibrarySystemForm librarySystem = new LibrarySystemForm("Librarian");
+            LibrarySystemForm librarySystem = new LibrarySystemForm();
             librarySystem.Show();
             this.Hide();
         }

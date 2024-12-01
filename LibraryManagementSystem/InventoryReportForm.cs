@@ -61,7 +61,7 @@ namespace LibraryManagementSystem
 
         private void returnToPreviousScreen_Click(object sender, EventArgs e)
         {
-            LibrarySystemForm librarySystemForm = new LibrarySystemForm("Librarian");
+            LibrarySystemForm librarySystemForm = new LibrarySystemForm();
             librarySystemForm.Show();
             this.Hide();
         }

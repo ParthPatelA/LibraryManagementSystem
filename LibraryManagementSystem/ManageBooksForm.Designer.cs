@@ -278,7 +278,7 @@
             // removeBooksButton
             // 
             this.removeBooksButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.removeBooksButton.Location = new System.Drawing.Point(88, 264);
+            this.removeBooksButton.Location = new System.Drawing.Point(75, 254);
             this.removeBooksButton.Name = "removeBooksButton";
             this.removeBooksButton.Size = new System.Drawing.Size(236, 39);
             this.removeBooksButton.TabIndex = 22;
