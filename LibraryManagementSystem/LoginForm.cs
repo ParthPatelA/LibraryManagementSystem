@@ -1,4 +1,7 @@
 using System;
+using System.Globalization;
+using System.Resources;
+using System.Security.Cryptography;
 using System.Text.RegularExpressions;
 using System.Windows.Forms;
 
@@ -8,6 +11,8 @@ namespace LibraryManagementSystem
     {
         private static string selectedRole;
         private LibrarySystemController controller;
+        ResourceManager resManager; // For managing resources
+        CultureInfo cultureInfo;
 
         public LoginForm()
         {
@@ -43,7 +48,7 @@ namespace LibraryManagementSystem
                 user = new Librarian(name, email);
                 LibrarySystem.GetInstance().CurrentUser = user;
                 controller.AddUser(name, email, selectedRole);
-                
+
                 // Navigate to Librarian view
                 LibrarySystemForm librarySystem = new LibrarySystemForm();
                 librarySystem.Show();
@@ -71,11 +76,32 @@ namespace LibraryManagementSystem
                 if (role == "Librarian" || role == "Customer")
                 {
                     selectedRole = role;
-                } else
+                }
+                else
                 {
                     selectedRole = null;
                 }
             }
         }
+
+        private void languagesComboBox_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            var changeLanguage = new ChangeLanguage();
+            switch (languagesComboBox.SelectedIndex)
+            {
+                case 0: changeLanguage.UpdateConfig("language", "en");
+                        Application.Restart();
+                        break;
+
+                case 1: changeLanguage.UpdateConfig("language", "fr-CA");
+                        Application.Restart();
+                        break;
+            }
+
+
+        }
+
+    
+
     }
 }
