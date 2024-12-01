@@ -34,6 +34,8 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Configuration.Install" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -53,6 +55,7 @@
       <DependentUpon>AboutUsForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Book.cs" />
+    <Compile Include="ChangeLanguage.cs" />
     <Compile Include="Customer.cs" />
     <Compile Include="CustomerViewForm.cs">
       <SubType>Form</SubType>
@@ -105,8 +108,14 @@
     <EmbeddedResource Include="InventoryReportForm.resx">
       <DependentUpon>InventoryReportForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="LibrarySystemForm.fr-CA.resx">
+      <DependentUpon>LibrarySystemForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="LibrarySystemForm.resx">
       <DependentUpon>LibrarySystemForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginForm.fr-CA.resx">
+      <DependentUpon>LoginForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LoginForm.resx">
       <DependentUpon>LoginForm.cs</DependentUpon>

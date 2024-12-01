@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(LoginForm));
             this.welcomeMessageLabel = new System.Windows.Forms.Label();
             this.loginPromptLabel = new System.Windows.Forms.Label();
             this.namePromptLabel = new System.Windows.Forms.Label();
@@ -37,104 +38,85 @@
             this.validateButton = new System.Windows.Forms.Button();
             this.displayMessage = new System.Windows.Forms.Label();
             this.roleComboBox = new System.Windows.Forms.ComboBox();
+            this.languageLabel = new System.Windows.Forms.Label();
+            this.languagesComboBox = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
             // welcomeMessageLabel
             // 
-            this.welcomeMessageLabel.AutoSize = true;
-            this.welcomeMessageLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.welcomeMessageLabel.Location = new System.Drawing.Point(214, 60);
+            resources.ApplyResources(this.welcomeMessageLabel, "welcomeMessageLabel");
             this.welcomeMessageLabel.Name = "welcomeMessageLabel";
-            this.welcomeMessageLabel.Size = new System.Drawing.Size(406, 31);
-            this.welcomeMessageLabel.TabIndex = 0;
-            this.welcomeMessageLabel.Text = "Welcome to our library system";
             // 
             // loginPromptLabel
             // 
-            this.loginPromptLabel.AutoSize = true;
-            this.loginPromptLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.loginPromptLabel.Location = new System.Drawing.Point(329, 135);
+            resources.ApplyResources(this.loginPromptLabel, "loginPromptLabel");
             this.loginPromptLabel.Name = "loginPromptLabel";
-            this.loginPromptLabel.Size = new System.Drawing.Size(148, 24);
-            this.loginPromptLabel.TabIndex = 1;
-            this.loginPromptLabel.Text = "Please sign-in ";
             // 
             // namePromptLabel
             // 
-            this.namePromptLabel.AutoSize = true;
-            this.namePromptLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.namePromptLabel.Location = new System.Drawing.Point(157, 217);
+            resources.ApplyResources(this.namePromptLabel, "namePromptLabel");
             this.namePromptLabel.Name = "namePromptLabel";
-            this.namePromptLabel.Size = new System.Drawing.Size(183, 24);
-            this.namePromptLabel.TabIndex = 2;
-            this.namePromptLabel.Text = "Enter your name : ";
             // 
             // emailPromptLabel
             // 
-            this.emailPromptLabel.AutoSize = true;
-            this.emailPromptLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.emailPromptLabel.Location = new System.Drawing.Point(157, 277);
+            resources.ApplyResources(this.emailPromptLabel, "emailPromptLabel");
             this.emailPromptLabel.Name = "emailPromptLabel";
-            this.emailPromptLabel.Size = new System.Drawing.Size(181, 24);
-            this.emailPromptLabel.TabIndex = 3;
-            this.emailPromptLabel.Text = "Enter your email : ";
             // 
             // nameTextBox
             // 
-            this.nameTextBox.Location = new System.Drawing.Point(394, 222);
+            resources.ApplyResources(this.nameTextBox, "nameTextBox");
             this.nameTextBox.Name = "nameTextBox";
-            this.nameTextBox.Size = new System.Drawing.Size(226, 20);
-            this.nameTextBox.TabIndex = 4;
             // 
             // emailTextBox
             // 
-            this.emailTextBox.Location = new System.Drawing.Point(394, 281);
+            resources.ApplyResources(this.emailTextBox, "emailTextBox");
             this.emailTextBox.Name = "emailTextBox";
-            this.emailTextBox.Size = new System.Drawing.Size(226, 20);
-            this.emailTextBox.TabIndex = 5;
             // 
             // validateButton
             // 
+            resources.ApplyResources(this.validateButton, "validateButton");
             this.validateButton.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.validateButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.validateButton.Location = new System.Drawing.Point(269, 371);
             this.validateButton.Name = "validateButton";
-            this.validateButton.Size = new System.Drawing.Size(244, 38);
-            this.validateButton.TabIndex = 6;
-            this.validateButton.Text = "Validate";
             this.validateButton.UseVisualStyleBackColor = false;
             this.validateButton.Click += new System.EventHandler(this.validateButton_Click);
             // 
             // displayMessage
             // 
-            this.displayMessage.AutoSize = true;
-            this.displayMessage.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            resources.ApplyResources(this.displayMessage, "displayMessage");
             this.displayMessage.ForeColor = System.Drawing.Color.Red;
-            this.displayMessage.Location = new System.Drawing.Point(275, 329);
             this.displayMessage.Name = "displayMessage";
-            this.displayMessage.Size = new System.Drawing.Size(0, 20);
-            this.displayMessage.TabIndex = 7;
             // 
             // roleComboBox
             // 
-            this.roleComboBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            resources.ApplyResources(this.roleComboBox, "roleComboBox");
             this.roleComboBox.FormattingEnabled = true;
             this.roleComboBox.Items.AddRange(new object[] {
-            "Librarian",
-            "Customer"});
-            this.roleComboBox.Location = new System.Drawing.Point(161, 177);
-            this.roleComboBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            resources.GetString("roleComboBox.Items"),
+            resources.GetString("roleComboBox.Items1")});
             this.roleComboBox.Name = "roleComboBox";
-            this.roleComboBox.Size = new System.Drawing.Size(160, 24);
-            this.roleComboBox.TabIndex = 8;
-            this.roleComboBox.Text = "Type of User";
             this.roleComboBox.SelectedIndexChanged += new System.EventHandler(this.roleComboBox_SelectedIndexChanged);
+            // 
+            // languageLabel
+            // 
+            resources.ApplyResources(this.languageLabel, "languageLabel");
+            this.languageLabel.Name = "languageLabel";
+            // 
+            // languagesComboBox
+            // 
+            resources.ApplyResources(this.languagesComboBox, "languagesComboBox");
+            this.languagesComboBox.FormattingEnabled = true;
+            this.languagesComboBox.Items.AddRange(new object[] {
+            resources.GetString("languagesComboBox.Items"),
+            resources.GetString("languagesComboBox.Items1")});
+            this.languagesComboBox.Name = "languagesComboBox";
+            this.languagesComboBox.SelectedIndexChanged += new System.EventHandler(this.languagesComboBox_SelectedIndexChanged);
             // 
             // LoginForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.languagesComboBox);
+            this.Controls.Add(this.languageLabel);
             this.Controls.Add(this.roleComboBox);
             this.Controls.Add(this.displayMessage);
             this.Controls.Add(this.validateButton);
@@ -145,7 +127,6 @@
             this.Controls.Add(this.loginPromptLabel);
             this.Controls.Add(this.welcomeMessageLabel);
             this.Name = "LoginForm";
-            this.Text = "Libreary Management System - Login Form";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -162,6 +143,8 @@
         private System.Windows.Forms.Button validateButton;
         private System.Windows.Forms.Label displayMessage;
         private System.Windows.Forms.ComboBox roleComboBox;
+        private System.Windows.Forms.Label languageLabel;
+        private System.Windows.Forms.ComboBox languagesComboBox;
     }
 }
 
