@@ -12,9 +12,26 @@ namespace LibraryManagementSystem
 {
     public partial class InventoryReportForm : Form
     {
+        private LibrarySystemController controller;
         public InventoryReportForm()
         {
             InitializeComponent();
+            controller = new LibrarySystemController();
+        }
+
+        private void generateInventoryReportButton_Click(object sender, EventArgs e)
+        {
+            reportListView.Items.Clear();
+            String iventory = controller.GenerateInventoryReport();
+            reportListView.Items.Add(iventory);
+
+        }
+
+        private void generateUserReportButton_Click(object sender, EventArgs e)
+        {
+            reportListView.Items.Clear();
+            String user = controller.GenerateUserReport();
+            reportListView.Items.Add(user);
         }
     }
 }

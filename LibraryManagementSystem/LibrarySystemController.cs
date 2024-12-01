@@ -169,18 +169,14 @@ namespace LibraryManagementSystem
         }
 
         // Generate Reports
-        public void GenerateInventoryReport()
+        public string GenerateInventoryReport()
         {
-            string report = librarySystem.GenerateInventoryReport();
-            Console.WriteLine("Inventory Report:");
-            Console.WriteLine(report);
+            return librarySystem.GenerateInventoryReport();
         }
 
-        public void GenerateUserReport()
+        public string GenerateUserReport()
         {
-            string report = librarySystem.GenerateUserReport();
-            Console.WriteLine("User Report:");
-            Console.WriteLine(report);
+            return librarySystem.GenerateUserReport();
         }
 
         // List All Books
