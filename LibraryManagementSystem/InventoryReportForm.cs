@@ -21,17 +21,54 @@ namespace LibraryManagementSystem
 
         private void generateInventoryReportButton_Click(object sender, EventArgs e)
         {
-            reportListView.Items.Clear();
-            String iventory = controller.GenerateInventoryReport();
-            reportListView.Items.Add(iventory);
+            // Clear the RichTextBox
+            reportRichTextBox.Clear();
 
+            // Generate the inventory report
+            string inventory = controller.GenerateInventoryReport();
+
+            // Add the report to the RichTextBox with formatting
+            reportRichTextBox.AppendText("Inventory Report\n");
+            var lines = inventory.Split(new[] { Environment.NewLine }, StringSplitOptions.None);
+
+            foreach (var line in lines)
+            {
+                reportRichTextBox.AppendText(line + "\n");
+            }
+
+            reportRichTextBox.AppendText("\n");
         }
 
         private void generateUserReportButton_Click(object sender, EventArgs e)
         {
-            reportListView.Items.Clear();
-            String user = controller.GenerateUserReport();
-            reportListView.Items.Add(user);
+            // Clear the RichTextBox
+            reportRichTextBox.Clear();
+
+            // Generate the user report
+            string user = controller.GenerateUserReport();
+
+            // Add the report to the RichTextBox with formatting
+            reportRichTextBox.AppendText("User Report\n");
+            var lines = user.Split(new[] { Environment.NewLine }, StringSplitOptions.None);
+
+            foreach (var line in lines)
+            {
+                reportRichTextBox.AppendText(line + "\n");
+            }
+
+            reportRichTextBox.AppendText("\n");
+        }
+
+        private void returnToPreviousScreen_Click(object sender, EventArgs e)
+        {
+            LibrarySystemForm librarySystemForm = new LibrarySystemForm("Librarian");
+            librarySystemForm.Show();
+            this.Hide();
+        }
+
+        private void ExitButton_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

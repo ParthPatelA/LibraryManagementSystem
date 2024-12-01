@@ -108,7 +108,6 @@ namespace LibraryManagementSystem
 
         private void addBooksButton_Click(object sender, EventArgs e)
         {
-
             try
             {
                 // Gather input from text boxes
@@ -119,8 +118,28 @@ namespace LibraryManagementSystem
                 string isbn = isbnTB.Text;
                 int copiesAvailable = int.Parse(copiesAvailableTB.Text);
                 bool isAvailable = availabilityTB.Text.ToLower() == "true";
+
+                // Check if the yearPublished is a valid year and not in the future
+                if (int.TryParse(yearPublished, out int year))
+                {
+                    int currentYear = DateTime.Now.Year;
+                    if (year > currentYear)
+                    {
+                        MessageBox.Show("The year cannot be in the future.", "Invalid Year", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                        clearTextBoxs();
+                        return;
+                    }
+                }
+                else
+                {
+                    MessageBox.Show("Please enter a valid year.", "Invalid Year", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    clearTextBoxs();
+                    return;
+                }
+
                 // Create a new Book object
                 Book newBook = new Book(title, author, genre, yearPublished, isbn, copiesAvailable, isAvailable);
+
                 // Add the book to the library system
                 AddBook(newBook);
             }
@@ -132,9 +151,10 @@ namespace LibraryManagementSystem
             catch (Exception ex)
             {
                 MessageBox.Show($"An unexpected error occurred: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                clearTextBoxs();   
+                clearTextBoxs();
             }
         }
+
 
 
         public void AddBook(Book book)

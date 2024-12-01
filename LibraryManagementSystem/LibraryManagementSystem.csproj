@@ -109,12 +109,6 @@
     </Compile>
     <Compile Include="Transaction.cs" />
     <Compile Include="User.cs" />
-    <Compile Include="UserReportForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="UserReportForm.Designer.cs">
-      <DependentUpon>UserReportForm.cs</DependentUpon>
-    </Compile>
     <EmbeddedResource Include="CustomerViewForm.resx">
       <DependentUpon>CustomerViewForm.cs</DependentUpon>
     </EmbeddedResource>

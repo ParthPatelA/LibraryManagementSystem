@@ -40,14 +40,14 @@ namespace LibraryManagementSystem
             return instance;
         }
 
-        // Log Actions
+        // Log Actions with formatted date and message
         private void LogAction(string message)
         {
             try
             {
                 using (StreamWriter writer = new StreamWriter(logFilePath, append: true))
                 {
-                    writer.WriteLine($"{DateTime.Now}: {message}");
+                    writer.WriteLine($"{DateTime.Now:yyyy-MM-dd HH:mm:ss} | {message}");
                 }
             }
             catch (IOException ex)
@@ -56,17 +56,21 @@ namespace LibraryManagementSystem
             }
         }
 
-        // Update Inventory File
+        // Update Inventory File with formatted output
         private void UpdateInventoryFile()
         {
             try
             {
                 using (StreamWriter writer = new StreamWriter(inventoryFilePath, append: false))
                 {
+                    // Write header with column names, adjusting width for readability
+                    writer.WriteLine($"{"ID",-5}{"Title",-30}{"Author",-30}{"Copies Available",-15}{"ISBN",-15}");
+                    writer.WriteLine(new string('-', 95)); // Add a separator line for better readability
+
                     foreach (var book in books)
                     {
-                        writer.WriteLine($"ID: {book.BookId}, Title: {book.Title}, Author: {book.Author}, " +
-                                         $"Copies Available: {book.CopiesAvailable}, ISBN: {book.ISBN}");
+                        // Format each line with fixed width for each property
+                        writer.WriteLine($"{book.BookId,-5}{book.Title,-30}{book.Author,-30}{book.CopiesAvailable,-15}{book.ISBN,-15}");
                     }
                 }
             }
@@ -75,6 +79,7 @@ namespace LibraryManagementSystem
                 LogAction($"Failed to update inventory file: {ex.Message}");
             }
         }
+
 
         // 1. Add Book
         public void AddBook(Book book)
@@ -168,22 +173,24 @@ namespace LibraryManagementSystem
                                     u.Name.IndexOf(name, StringComparison.OrdinalIgnoreCase) >= 0).ToList();
         }
 
-        // 11. Generate Inventory Report
+        // 11. Generate Inventory Report with formatted output
         public string GenerateInventoryReport()
         {
             var report = string.Join(Environment.NewLine, books.Select(b =>
-                $"Title: {b.Title}, Author: {b.Author}, Copies Available: {b.CopiesAvailable}"));
+                $"{"Title:",-15} {b.Title,-30} {"Author:",-10} {b.Author,-30} {"Copies Available:",-20} {b.CopiesAvailable}"));
             LogAction("Inventory report generated.");
             return report;
         }
 
-        // 12. Generate User Report
+        // 12. Generate User Report with formatted output
         public string GenerateUserReport()
         {
-            var report = string.Join(Environment.NewLine, users.Select(u => $"Name: {u.Name}, Email: {u.Email}"));
+            var report = string.Join(Environment.NewLine, users.Select(u =>
+                $"{"Name:",-10} {u.Name,-30} {"Email:",-10} {u.Email,-30}"));
             LogAction("User report generated.");
             return report;
         }
+
 
         // 13. Check Availability by Book ID
         public bool IsBookAvailable(int bookId)

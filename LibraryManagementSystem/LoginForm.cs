@@ -71,6 +71,9 @@ namespace LibraryManagementSystem
                 if (role == "Librarian" || role == "Customer")
                 {
                     selectedRole = role;
+                } else
+                {
+                    selectedRole = null;
                 }
             }
         }

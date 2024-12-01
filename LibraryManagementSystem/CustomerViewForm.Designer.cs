@@ -50,21 +50,20 @@
             // bookListView
             // 
             this.bookListView.HideSelection = false;
-            this.bookListView.Location = new System.Drawing.Point(158, 279);
-            this.bookListView.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.bookListView.Location = new System.Drawing.Point(79, 145);
             this.bookListView.Name = "bookListView";
-            this.bookListView.Size = new System.Drawing.Size(1300, 504);
+            this.bookListView.Size = new System.Drawing.Size(652, 264);
             this.bookListView.TabIndex = 4;
             this.bookListView.UseCompatibleStateImageBehavior = false;
+            this.bookListView.View = System.Windows.Forms.View.Details;
             this.bookListView.Visible = false;
             // 
             // viewBooksButton
             // 
             this.viewBooksButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.viewBooksButton.Location = new System.Drawing.Point(158, 78);
-            this.viewBooksButton.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.viewBooksButton.Location = new System.Drawing.Point(79, 41);
             this.viewBooksButton.Name = "viewBooksButton";
-            this.viewBooksButton.Size = new System.Drawing.Size(244, 94);
+            this.viewBooksButton.Size = new System.Drawing.Size(122, 49);
             this.viewBooksButton.TabIndex = 5;
             this.viewBooksButton.Text = "View Books";
             this.viewBooksButton.UseVisualStyleBackColor = true;
@@ -73,10 +72,9 @@
             // searchBooksButton
             // 
             this.searchBooksButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.searchBooksButton.Location = new System.Drawing.Point(485, 78);
-            this.searchBooksButton.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.searchBooksButton.Location = new System.Drawing.Point(242, 41);
             this.searchBooksButton.Name = "searchBooksButton";
-            this.searchBooksButton.Size = new System.Drawing.Size(244, 94);
+            this.searchBooksButton.Size = new System.Drawing.Size(122, 49);
             this.searchBooksButton.TabIndex = 6;
             this.searchBooksButton.Text = "Search Books";
             this.searchBooksButton.UseVisualStyleBackColor = true;
@@ -85,10 +83,9 @@
             // borrowBooksButton
             // 
             this.borrowBooksButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.borrowBooksButton.Location = new System.Drawing.Point(826, 78);
-            this.borrowBooksButton.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.borrowBooksButton.Location = new System.Drawing.Point(413, 41);
             this.borrowBooksButton.Name = "borrowBooksButton";
-            this.borrowBooksButton.Size = new System.Drawing.Size(244, 94);
+            this.borrowBooksButton.Size = new System.Drawing.Size(122, 49);
             this.borrowBooksButton.TabIndex = 7;
             this.borrowBooksButton.Text = "Borrow Books";
             this.borrowBooksButton.UseVisualStyleBackColor = true;
@@ -97,10 +94,9 @@
             // returnBooksButton
             // 
             this.returnBooksButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.returnBooksButton.Location = new System.Drawing.Point(1214, 78);
-            this.returnBooksButton.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.returnBooksButton.Location = new System.Drawing.Point(607, 41);
             this.returnBooksButton.Name = "returnBooksButton";
-            this.returnBooksButton.Size = new System.Drawing.Size(244, 94);
+            this.returnBooksButton.Size = new System.Drawing.Size(122, 49);
             this.returnBooksButton.TabIndex = 8;
             this.returnBooksButton.Text = "Return Books";
             this.returnBooksButton.UseVisualStyleBackColor = true;
@@ -113,10 +109,9 @@
             "genre",
             "author",
             "title"});
-            this.searchByComboBox.Location = new System.Drawing.Point(218, 406);
-            this.searchByComboBox.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.searchByComboBox.Location = new System.Drawing.Point(109, 211);
             this.searchByComboBox.Name = "searchByComboBox";
-            this.searchByComboBox.Size = new System.Drawing.Size(238, 33);
+            this.searchByComboBox.Size = new System.Drawing.Size(121, 21);
             this.searchByComboBox.TabIndex = 9;
             this.searchByComboBox.Text = "Search";
             this.searchByComboBox.Visible = false;
@@ -126,10 +121,9 @@
             // 
             this.searchLabelPromptLabel.AutoSize = true;
             this.searchLabelPromptLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.searchLabelPromptLabel.Location = new System.Drawing.Point(212, 331);
-            this.searchLabelPromptLabel.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.searchLabelPromptLabel.Location = new System.Drawing.Point(106, 172);
             this.searchLabelPromptLabel.Name = "searchLabelPromptLabel";
-            this.searchLabelPromptLabel.Size = new System.Drawing.Size(637, 37);
+            this.searchLabelPromptLabel.Size = new System.Drawing.Size(333, 20);
             this.searchLabelPromptLabel.TabIndex = 10;
             this.searchLabelPromptLabel.Text = "How would you like to search your book?";
             this.searchLabelPromptLabel.Visible = false;
@@ -138,40 +132,37 @@
             // 
             this.queryPromptLabel.AutoSize = true;
             this.queryPromptLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.queryPromptLabel.Location = new System.Drawing.Point(212, 506);
-            this.queryPromptLabel.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.queryPromptLabel.Location = new System.Drawing.Point(106, 263);
             this.queryPromptLabel.Name = "queryPromptLabel";
-            this.queryPromptLabel.Size = new System.Drawing.Size(0, 37);
+            this.queryPromptLabel.Size = new System.Drawing.Size(0, 20);
             this.queryPromptLabel.TabIndex = 11;
             this.queryPromptLabel.Visible = false;
             // 
             // queryTextBox
             // 
-            this.queryTextBox.Location = new System.Drawing.Point(218, 612);
-            this.queryTextBox.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.queryTextBox.Location = new System.Drawing.Point(109, 318);
             this.queryTextBox.Name = "queryTextBox";
-            this.queryTextBox.Size = new System.Drawing.Size(304, 31);
+            this.queryTextBox.Size = new System.Drawing.Size(154, 20);
             this.queryTextBox.TabIndex = 12;
             this.queryTextBox.Visible = false;
             // 
             // searchBookListView
             // 
             this.searchBookListView.HideSelection = false;
-            this.searchBookListView.Location = new System.Drawing.Point(918, 331);
-            this.searchBookListView.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.searchBookListView.Location = new System.Drawing.Point(459, 172);
             this.searchBookListView.Name = "searchBookListView";
-            this.searchBookListView.Size = new System.Drawing.Size(540, 452);
+            this.searchBookListView.Size = new System.Drawing.Size(272, 237);
             this.searchBookListView.TabIndex = 13;
             this.searchBookListView.UseCompatibleStateImageBehavior = false;
+            this.searchBookListView.View = System.Windows.Forms.View.Details;
             this.searchBookListView.Visible = false;
             // 
             // searchButton
             // 
             this.searchButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.searchButton.Location = new System.Drawing.Point(218, 687);
-            this.searchButton.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.searchButton.Location = new System.Drawing.Point(109, 357);
             this.searchButton.Name = "searchButton";
-            this.searchButton.Size = new System.Drawing.Size(308, 67);
+            this.searchButton.Size = new System.Drawing.Size(154, 35);
             this.searchButton.TabIndex = 14;
             this.searchButton.Text = "Search Books";
             this.searchButton.UseVisualStyleBackColor = true;
@@ -182,30 +173,27 @@
             // 
             this.bookIdPromptLabel.AutoSize = true;
             this.bookIdPromptLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bookIdPromptLabel.Location = new System.Drawing.Point(214, 340);
-            this.bookIdPromptLabel.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.bookIdPromptLabel.Location = new System.Drawing.Point(107, 177);
             this.bookIdPromptLabel.Name = "bookIdPromptLabel";
-            this.bookIdPromptLabel.Size = new System.Drawing.Size(404, 37);
+            this.bookIdPromptLabel.Size = new System.Drawing.Size(214, 20);
             this.bookIdPromptLabel.TabIndex = 15;
             this.bookIdPromptLabel.Text = "Please enter the book id :";
             this.bookIdPromptLabel.Visible = false;
             // 
             // bookIdTextBox
             // 
-            this.bookIdTextBox.Location = new System.Drawing.Point(224, 483);
-            this.bookIdTextBox.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.bookIdTextBox.Location = new System.Drawing.Point(112, 251);
             this.bookIdTextBox.Name = "bookIdTextBox";
-            this.bookIdTextBox.Size = new System.Drawing.Size(304, 31);
+            this.bookIdTextBox.Size = new System.Drawing.Size(154, 20);
             this.bookIdTextBox.TabIndex = 16;
             this.bookIdTextBox.Visible = false;
             // 
             // borrowBookButton
             // 
             this.borrowBookButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.borrowBookButton.Location = new System.Drawing.Point(224, 552);
-            this.borrowBookButton.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.borrowBookButton.Location = new System.Drawing.Point(112, 287);
             this.borrowBookButton.Name = "borrowBookButton";
-            this.borrowBookButton.Size = new System.Drawing.Size(308, 67);
+            this.borrowBookButton.Size = new System.Drawing.Size(154, 35);
             this.borrowBookButton.TabIndex = 17;
             this.borrowBookButton.Text = "Borrow Book";
             this.borrowBookButton.UseVisualStyleBackColor = true;
@@ -215,10 +203,9 @@
             // returnBookButton
             // 
             this.returnBookButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.returnBookButton.Location = new System.Drawing.Point(224, 552);
-            this.returnBookButton.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.returnBookButton.Location = new System.Drawing.Point(112, 287);
             this.returnBookButton.Name = "returnBookButton";
-            this.returnBookButton.Size = new System.Drawing.Size(308, 67);
+            this.returnBookButton.Size = new System.Drawing.Size(154, 35);
             this.returnBookButton.TabIndex = 18;
             this.returnBookButton.Text = "Return Book";
             this.returnBookButton.UseVisualStyleBackColor = true;
@@ -228,10 +215,9 @@
             // exitButton
             // 
             this.exitButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.exitButton.Location = new System.Drawing.Point(1254, 204);
-            this.exitButton.Margin = new System.Windows.Forms.Padding(6);
+            this.exitButton.Location = new System.Drawing.Point(627, 106);
             this.exitButton.Name = "exitButton";
-            this.exitButton.Size = new System.Drawing.Size(186, 63);
+            this.exitButton.Size = new System.Drawing.Size(93, 33);
             this.exitButton.TabIndex = 19;
             this.exitButton.Text = "Exit";
             this.exitButton.UseVisualStyleBackColor = true;
@@ -240,10 +226,9 @@
             // dashboardButton
             // 
             this.dashboardButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dashboardButton.Location = new System.Drawing.Point(168, 193);
-            this.dashboardButton.Margin = new System.Windows.Forms.Padding(6);
+            this.dashboardButton.Location = new System.Drawing.Point(84, 100);
             this.dashboardButton.Name = "dashboardButton";
-            this.dashboardButton.Size = new System.Drawing.Size(184, 63);
+            this.dashboardButton.Size = new System.Drawing.Size(92, 33);
             this.dashboardButton.TabIndex = 20;
             this.dashboardButton.Text = "Go Back";
             this.dashboardButton.UseVisualStyleBackColor = true;
@@ -251,9 +236,9 @@
             // 
             // CustomerViewForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1600, 792);
+            this.ClientSize = new System.Drawing.Size(800, 412);
             this.Controls.Add(this.dashboardButton);
             this.Controls.Add(this.exitButton);
             this.Controls.Add(this.returnBookButton);
@@ -271,7 +256,6 @@
             this.Controls.Add(this.searchBooksButton);
             this.Controls.Add(this.viewBooksButton);
             this.Controls.Add(this.bookListView);
-            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.Name = "CustomerViewForm";
             this.Text = "CustomerViewForm";
             this.ResumeLayout(false);

@@ -15,14 +15,36 @@ namespace LibraryManagementSystem
             controller = new LibrarySystemController();
             librarySystem = LibrarySystem.GetInstance();
         }
-
         private void viewBooksButton_Click(object sender, EventArgs e)
         {
+            //clear search related stuff
+            searchLabelPromptLabel.Visible = false;
+            searchByComboBox.Visible = false;
+            queryPromptLabel.Visible = false;
+            queryTextBox.Visible = false;
+            searchButton.Visible = false;
+            // Clear existing columns and items in the ListView
+            bookListView.Columns.Clear();
             bookListView.Items.Clear();
+
+            // Set the View property to show details (columns)
+            bookListView.View = View.Details;
+
+            // Add columns to the ListView
+            bookListView.Columns.Add("Book ID", 100, HorizontalAlignment.Left);
+            bookListView.Columns.Add("Title", 150, HorizontalAlignment.Left);
+            bookListView.Columns.Add("Author", 150, HorizontalAlignment.Left);
+            bookListView.Columns.Add("Copies Available", 120, HorizontalAlignment.Left);
+
+            // Get the list of books
             var books = controller.ListAllBooks();
+
+            // Check if books are available
             if (books.Count > 0)
             {
                 bookListView.Visible = true;
+
+                // Add books to the ListView
                 foreach (var book in books)
                 {
                     ListViewItem item = new ListViewItem(book.BookId.ToString());
@@ -36,11 +58,12 @@ namespace LibraryManagementSystem
             {
                 MessageBox.Show("No books available.");
             }
-
         }
+
 
         private void searchBooksButton_Click(object sender, EventArgs e)
         {
+            bookListView.Visible = false;
             returnBookButton.Visible = false;
             bookIdPromptLabel.Visible = false;
             bookIdTextBox.Visible = false;
@@ -55,18 +78,42 @@ namespace LibraryManagementSystem
 
         private void searchButton_Click(object sender, EventArgs e)
         {
+            // Clear existing columns and items in the ListView
+            searchBookListView.Columns.Clear();
+            searchBookListView.Items.Clear();
+
+            // Set the View property to show details (columns)
+            searchBookListView.View = View.Details;
+
+            // Add columns to the ListView
+            searchBookListView.Columns.Add("Book ID", 100, HorizontalAlignment.Left);
+            searchBookListView.Columns.Add("Title", 150, HorizontalAlignment.Left);
+            searchBookListView.Columns.Add("Author", 150, HorizontalAlignment.Left);
+            searchBookListView.Columns.Add("Genre", 120, HorizontalAlignment.Left);
+            searchBookListView.Columns.Add("Copies Available", 120, HorizontalAlignment.Left);
+
+            // Get the search query and trim any excess whitespace
             string query = queryTextBox.Text.Trim();
+
+            // Check if the query is valid
             if (string.IsNullOrEmpty(query))
             {
                 MessageBox.Show("Please enter a valid search query.");
                 queryTextBox.Clear();
                 return;
             }
+
+            // Perform the search
             List<Book> results = SearchForBooks(selectedSearchType, query);
+
+            // Clear the existing search results and set visibility
             searchBookListView.Items.Clear();
             searchBookListView.Visible = true;
+
+            // Check if results were found
             if (results.Count > 0)
             {
+                // Populate the ListView with search results
                 foreach (var book in results)
                 {
                     ListViewItem item = new ListViewItem(book.BookId.ToString());
@@ -79,10 +126,12 @@ namespace LibraryManagementSystem
             }
             else
             {
+                // Show a message if no books were found
                 MessageBox.Show("No books found matching your search.");
                 queryTextBox.Clear();
             }
         }
+
 
         private void searchByComboBox_SelectedIndexChanged(object sender, EventArgs e)
         {
@@ -170,6 +219,8 @@ namespace LibraryManagementSystem
                 {
                     int userId = librarySystem.CurrentUser.UserId;
                     controller.BorrowBook(bookId, userId);
+                    MessageBox.Show($"Book {bookId} has been borrowed successfully");
+
                 }
                 else
                 {

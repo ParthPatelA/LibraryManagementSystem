@@ -81,5 +81,12 @@ namespace LibraryManagementSystem
             int borrowedBooksCount = librarySystem.GetAllBooks().Count(Book => !Book.IsAvailable);
             borrowedBooksLabel.Text = $"Bororwed Books: {borrowedBooksCount}";
         }
+
+        private void returnLoginFormButton_Click(object sender, EventArgs e)
+        {
+            LoginForm login = new LoginForm();
+            login.Show();
+            this.Hide();
+        }
     }
 }
