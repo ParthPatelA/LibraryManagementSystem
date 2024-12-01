@@ -167,5 +167,17 @@ namespace LibraryManagementSystem
 
             }
         }
+
+        private void dashboardButton_Click(object sender, EventArgs e)
+        {
+            LibrarySystemForm librarySystem = new LibrarySystemForm("Librarian");
+            librarySystem.Show();
+            this.Hide();
+        }
+
+        private void ExitButton_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

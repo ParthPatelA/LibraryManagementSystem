@@ -234,5 +234,17 @@ namespace LibraryManagementSystem
                 bookIdTB.Clear();
             }
         }
+
+        private void dashboardButton_Click(object sender, EventArgs e)
+        {
+            LibrarySystemForm librarySystemForm = new LibrarySystemForm("Librarian");
+            librarySystemForm.Show();
+            this.Hide();
+        }
+
+        private void exitButton_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
