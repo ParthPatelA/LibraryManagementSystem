@@ -47,7 +47,19 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Book.cs" />
+    <Compile Include="BorrowBooksForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BorrowBooksForm.Designer.cs">
+      <DependentUpon>BorrowBooksForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Customer.cs" />
+    <Compile Include="InventoryReportForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InventoryReportForm.Designer.cs">
+      <DependentUpon>InventoryReportForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="LibrarySystem.cs" />
     <Compile Include="LibrarySystemController.cs" />
     <Compile Include="LibrarySystemForm.cs">
@@ -63,10 +75,40 @@
       <DependentUpon>LoginForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Librarian.cs" />
+    <Compile Include="ManageBooksForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManageBooksForm.Designer.cs">
+      <DependentUpon>ManageBooksForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ManageUsersForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManageUsersForm.Designer.cs">
+      <DependentUpon>ManageUsersForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReturnBooksForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReturnBooksForm.Designer.cs">
+      <DependentUpon>ReturnBooksForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SearchBooksForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SearchBooksForm.Designer.cs">
+      <DependentUpon>SearchBooksForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Transaction.cs" />
     <Compile Include="User.cs" />
+    <Compile Include="UserReportForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserReportForm.Designer.cs">
+      <DependentUpon>UserReportForm.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="LibrarySystemForm.resx">
       <DependentUpon>LibrarySystemForm.cs</DependentUpon>
     </EmbeddedResource>

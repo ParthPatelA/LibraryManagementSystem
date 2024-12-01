@@ -31,7 +31,7 @@ namespace LibraryManagementSystem
             {
                 User user = new User(name, email);
                 // Create an instance of LibrarySystemForm
-                LibrarySystemForm librarySystem = new LibrarySystemForm();
+                LibrarySystemForm librarySystem = new LibrarySystemForm(roleComboBox.SelectedItem.ToString());
 
                 // Show the LibrarySystemForm as a modal window
                 librarySystem.Show();
@@ -44,14 +44,12 @@ namespace LibraryManagementSystem
             {
                 displayMessage.Text = "ERROR : name or email is invalid";
             }
-            string role = roleComboBox.SelectedItem?.ToString();
-            if (role == "Customer")
-            {
-                MessageBox.Show("Welcome Customer!");
-            } else if (role == "Librarian")
-            {
-                MessageBox.Show("Welcome Librarian!");
-            }
+            //string role = roleComboBox.SelectedItem?.ToString();
+            //if (role == "Customer")
+            //{
+            //} else if (role == "Librarian")
+            //{
+            //}
         }
     }
 }
