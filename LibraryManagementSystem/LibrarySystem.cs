@@ -12,6 +12,7 @@ namespace LibraryManagementSystem
 
         private List<Book> books = new List<Book>();
         private List<User> users = new List<User>();
+        public User user { get; set; }
 
         private readonly string logFilePath = "LibrarySystemLog.txt";
         private readonly string inventoryFilePath = "BookInventory.txt";
@@ -202,5 +203,6 @@ namespace LibraryManagementSystem
         {
             return users;
         }
+
     }
 }

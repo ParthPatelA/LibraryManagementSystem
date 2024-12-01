@@ -1,56 +1,81 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
+using System.CodeDom;
 using System.Text.RegularExpressions;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace LibraryManagementSystem
 {
     public partial class LoginForm : Form
     {
+        private static String selectedRole;
+        private LibrarySystemController controller;
+
         public LoginForm()
         {
 
             InitializeComponent();
-
+            controller = new LibrarySystemController();
         }
 
         private void validateButton_Click(object sender, EventArgs e)
         {
-            String name = nameTextBox.Text;
-            String email = emailTextBox.Text;
+            string name = nameTextBox.Text;
+            string email = emailTextBox.Text;
             string pattern = @"^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$";
             Regex regex = new Regex(pattern);
 
-            if (name == null || regex.IsMatch(email) )
+            // Validate inputs
+            if (string.IsNullOrEmpty(name) || !regex.IsMatch(email))
             {
-                User user = new User(name, email);
-                // Create an instance of LibrarySystemForm
+                displayMessage.Text = "ERROR: Name or email is invalid";
+                return;
+            }
+
+            // Check if role is selected
+            if (string.IsNullOrEmpty(selectedRole))
+            {
+                displayMessage.Text = "ERROR: You must select your role";
+                return;
+            }
+
+            // Create a user based on the selected role
+            User user;
+            if (selectedRole.Equals("Librarian"))
+            {
+                user = new Librarian(name, email);
+                LibrarySystem.GetInstance().user = user; 
+                controller.AddUser(name, email, selectedRole);
                 LibrarySystemForm librarySystem = new LibrarySystemForm();
-
-                // Show the LibrarySystemForm as a modal window
                 librarySystem.Show();
-
-                // After closing the modal, close the LoginForm
                 this.Hide();
+            }
+            else if (selectedRole.Equals("Customer"))
+            {
+                user = new Customer(name, email);
+                LibrarySystem.GetInstance().user = user;
+                controller.AddUser(name, email, selectedRole);
+                CustomerViewForm customerViewForm = new CustomerViewForm();
+                customerViewForm.Show();
+                this.Hide();
+            }
+        }
 
-            }
-            else
+        private void roleComboBox_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            var selectedItem = roleComboBox.SelectedItem;
+            if (selectedItem != null)
             {
-                displayMessage.Text = "ERROR : name or email is invalid";
-            }
-            string role = roleComboBox.SelectedItem?.ToString();
-            if (role == "Customer")
-            {
-                MessageBox.Show("Welcome Customer!");
-            } else if (role == "Librarian")
-            {
-                MessageBox.Show("Welcome Librarian!");
+                String role = selectedItem.ToString().Trim();
+                switch (role)
+                {
+                    case "Librarian":
+                        selectedRole = role;
+
+                        break;
+                    case "Customer":
+                        selectedRole = role;
+                        break;
+                }
             }
         }
     }
