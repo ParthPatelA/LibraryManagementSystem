@@ -158,6 +158,12 @@ namespace LibraryManagementSystem
                 case "genre":
                     selectedSearchType = choice;
                     break;
+                case "titre":
+                    selectedSearchType = choice;
+                    break;
+                case "auteur":
+                    selectedSearchType = choice;
+                    break;
                 default:
                     selectedSearchType = "";
                     break;
@@ -178,6 +184,12 @@ namespace LibraryManagementSystem
                 case "genre":
                     queryPromptLabel.Text = "Enter book genre:";
                     break;
+                case "titre":
+                    queryPromptLabel.Text = "Enter un titre:";
+                    break;
+                case "auteur":
+                    queryPromptLabel.Text = "Entrer un auteur:";
+                    break;
                 default:
                     queryPromptLabel.Text = "Enter search query:";
                     break;
@@ -196,6 +208,12 @@ namespace LibraryManagementSystem
                     break;
                 case "genre":
                     results = librarySystem.SearchBookByGenre(query);
+                    break;
+                case "titre":
+                    results = librarySystem.SearchBookByTitle(query);
+                    break;
+                case "auteur":
+                    results = librarySystem.SearchBookByAuthor(query);
                     break;
                 default:
                     MessageBox.Show("Invalid search type selected.");

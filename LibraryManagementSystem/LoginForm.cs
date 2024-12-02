@@ -43,7 +43,7 @@ namespace LibraryManagementSystem
 
             // Create a user based on the selected role
             User user;
-            if (selectedRole.Equals("Librarian"))
+            if (selectedRole.Equals("Librarian") || selectedRole.Equals("Bibliothécaire"))
             {
                 user = new Librarian(name, email);
                 LibrarySystem.GetInstance().CurrentUser = user;
@@ -54,7 +54,7 @@ namespace LibraryManagementSystem
                 librarySystem.Show();
                 this.Hide();
             }
-            else if (selectedRole.Equals("Customer"))
+            else if (selectedRole.Equals("Customer") || selectedRole.Equals("Client"))
             {
                 user = new Customer(name, email);
                 LibrarySystem.GetInstance().CurrentUser = user;
@@ -73,7 +73,7 @@ namespace LibraryManagementSystem
             if (selectedItem != null)
             {
                 string role = selectedItem.ToString().Trim();
-                if (role == "Librarian" || role == "Customer")
+                if (role == "Librarian" || role == "Customer" || role == "Client" || role == "Bibliothécaire")
                 {
                     selectedRole = role;
                 }

@@ -117,62 +117,66 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="welcomeLabel.Text" xml:space="preserve">
-    <value>Bienvenue : </value>
+  <data name="viewBooksButton.Text" xml:space="preserve">
+    <value>Regardez les livres</value>
   </data>
-  <data name="LibrarySummaryGroupBox.Text" xml:space="preserve">
-    <value>Résumé de la bibliothèque</value>
+  <data name="searchBooksButton.Text" xml:space="preserve">
+    <value>Recherche de livres</value>
+  </data>
+  <data name="borrowBooksButton.Text" xml:space="preserve">
+    <value>Emprunter des livres</value>
+  </data>
+  <data name="returnBooksButton.Text" xml:space="preserve">
+    <value>Retour de Livres</value>
+  </data>
+  <data name="searchByComboBox.Items1" xml:space="preserve">
+    <value>auteur</value>
+  </data>
+  <data name="searchByComboBox.Items2" xml:space="preserve">
+    <value>titre</value>
+  </data>
+  <data name="searchByComboBox.Text" xml:space="preserve">
+    <value>Recherche</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="totalUsersLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>151, 20</value>
+  <data name="searchLabelPromptLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>372, 20</value>
   </data>
-  <data name="totalUsersLabel.Text" xml:space="preserve">
-    <value>Total des utilisateurs:</value>
+  <data name="searchLabelPromptLabel.Text" xml:space="preserve">
+    <value>Comment voulez-vous rechercher votre livre ?</value>
   </data>
-  <data name="totalBooksLabel.Text" xml:space="preserve">
-    <value>Total des livres:</value>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="searchButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="ManageBookButton.Text" xml:space="preserve">
-    <value>Gérer les livres</value>
+  <data name="searchButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>234, 35</value>
   </data>
-  <data name="ReportsButton.Text" xml:space="preserve">
-    <value>Rapports</value>
+  <data name="searchButton.Text" xml:space="preserve">
+    <value>Recherche de livres</value>
   </data>
-  <data name="exitToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+  <data name="bookIdPromptLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>284, 20</value>
   </data>
-  <data name="exitToolStripMenuItem.Text" xml:space="preserve">
+  <data name="bookIdPromptLabel.Text" xml:space="preserve">
+    <value>Veuillez saisir l'identifiant du livre :</value>
+  </data>
+  <data name="borrowBookButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>216, 35</value>
+  </data>
+  <data name="borrowBookButton.Text" xml:space="preserve">
+    <value>Emprunter un livre</value>
+  </data>
+  <data name="returnBookButton.Text" xml:space="preserve">
+    <value>Livre de retour</value>
+  </data>
+  <data name="exitButton.Text" xml:space="preserve">
     <value>Quitter</value>
   </data>
-  <data name="logoutToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+  <data name="dashboardButton.Text" xml:space="preserve">
+    <value>Retour</value>
   </data>
-  <data name="logoutToolStripMenuItem.Text" xml:space="preserve">
-    <value>Déconnexion</value>
-  </data>
-  <data name="fileToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>54, 22</value>
-  </data>
-  <data name="fileToolStripMenuItem1.Text" xml:space="preserve">
-    <value>Fichier</value>
-  </data>
-  <data name="helpToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>48, 22</value>
-  </data>
-  <data name="helpToolStripMenuItem.Text" xml:space="preserve">
-    <value>Aidez</value>
-  </data>
-  <data name="manageUsersButton.Text" xml:space="preserve">
-    <value>Gérer les utilisateurs</value>
-  </data>
-  <data name="returnLoginFormButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>28, 362</value>
-  </data>
-  <data name="returnLoginFormButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>306, 37</value>
-  </data>
-  <data name="returnLoginFormButton.Text" xml:space="preserve">
-    <value>Retour au formulaire de connexion</value>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Formulaire de visualisation des clients</value>
   </data>
 </root>
