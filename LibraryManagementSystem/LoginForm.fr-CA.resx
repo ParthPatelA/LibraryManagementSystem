@@ -160,4 +160,7 @@
   <data name="languageLabel.Text" xml:space="preserve">
     <value>Langue :</value>
   </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Library Management System - Login Form</value>
+  </data>
 </root>
