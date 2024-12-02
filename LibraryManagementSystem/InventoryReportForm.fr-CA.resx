@@ -117,62 +117,16 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="welcomeLabel.Text" xml:space="preserve">
-    <value>Bienvenue : </value>
+  <data name="generateInventoryReportButton.Text" xml:space="preserve">
+    <value>Générer un rapport d'inventaire</value>
   </data>
-  <data name="LibrarySummaryGroupBox.Text" xml:space="preserve">
-    <value>Résumé de la bibliothèque</value>
+  <data name="generateUserReportButton.Text" xml:space="preserve">
+    <value>Générer un rapport d'utilisateur</value>
   </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="totalUsersLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>151, 20</value>
+  <data name="returnToPreviousScreen.Text" xml:space="preserve">
+    <value>Retour</value>
   </data>
-  <data name="totalUsersLabel.Text" xml:space="preserve">
-    <value>Total des utilisateurs:</value>
-  </data>
-  <data name="totalBooksLabel.Text" xml:space="preserve">
-    <value>Total des livres:</value>
-  </data>
-  <data name="ManageBookButton.Text" xml:space="preserve">
-    <value>Gérer les livres</value>
-  </data>
-  <data name="ReportsButton.Text" xml:space="preserve">
-    <value>Rapports</value>
-  </data>
-  <data name="exitToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
-  </data>
-  <data name="exitToolStripMenuItem.Text" xml:space="preserve">
+  <data name="ExitButton.Text" xml:space="preserve">
     <value>Quitter</value>
-  </data>
-  <data name="logoutToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
-  </data>
-  <data name="logoutToolStripMenuItem.Text" xml:space="preserve">
-    <value>Déconnexion</value>
-  </data>
-  <data name="fileToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>54, 22</value>
-  </data>
-  <data name="fileToolStripMenuItem1.Text" xml:space="preserve">
-    <value>Fichier</value>
-  </data>
-  <data name="helpToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>48, 22</value>
-  </data>
-  <data name="helpToolStripMenuItem.Text" xml:space="preserve">
-    <value>Aidez</value>
-  </data>
-  <data name="manageUsersButton.Text" xml:space="preserve">
-    <value>Gérer les utilisateurs</value>
-  </data>
-  <data name="returnLoginFormButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>28, 362</value>
-  </data>
-  <data name="returnLoginFormButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>306, 37</value>
-  </data>
-  <data name="returnLoginFormButton.Text" xml:space="preserve">
-    <value>Retour au formulaire de connexion</value>
   </data>
 </root>

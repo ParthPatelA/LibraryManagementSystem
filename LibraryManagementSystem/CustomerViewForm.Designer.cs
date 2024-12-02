@@ -50,8 +50,8 @@
             // 
             // bookListView
             // 
-            this.bookListView.HideSelection = false;
             resources.ApplyResources(this.bookListView, "bookListView");
+            this.bookListView.HideSelection = false;
             this.bookListView.Name = "bookListView";
             this.bookListView.UseCompatibleStateImageBehavior = false;
             this.bookListView.View = System.Windows.Forms.View.Details;
@@ -86,12 +86,12 @@
             // 
             // searchByComboBox
             // 
+            resources.ApplyResources(this.searchByComboBox, "searchByComboBox");
             this.searchByComboBox.FormattingEnabled = true;
             this.searchByComboBox.Items.AddRange(new object[] {
             resources.GetString("searchByComboBox.Items"),
             resources.GetString("searchByComboBox.Items1"),
             resources.GetString("searchByComboBox.Items2")});
-            resources.ApplyResources(this.searchByComboBox, "searchByComboBox");
             this.searchByComboBox.Name = "searchByComboBox";
             this.searchByComboBox.SelectedIndexChanged += new System.EventHandler(this.searchByComboBox_SelectedIndexChanged);
             // 
@@ -112,8 +112,8 @@
             // 
             // searchBookListView
             // 
-            this.searchBookListView.HideSelection = false;
             resources.ApplyResources(this.searchBookListView, "searchBookListView");
+            this.searchBookListView.HideSelection = false;
             this.searchBookListView.Name = "searchBookListView";
             this.searchBookListView.UseCompatibleStateImageBehavior = false;
             this.searchBookListView.View = System.Windows.Forms.View.Details;

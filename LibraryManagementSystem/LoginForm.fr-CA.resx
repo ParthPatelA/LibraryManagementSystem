@@ -145,6 +145,12 @@
   <data name="validateButton.Text" xml:space="preserve">
     <value>Validez</value>
   </data>
+  <data name="roleComboBox.Items" xml:space="preserve">
+    <value>Bibliothécaire</value>
+  </data>
+  <data name="roleComboBox.Items1" xml:space="preserve">
+    <value>Client</value>
+  </data>
   <data name="roleComboBox.Text" xml:space="preserve">
     <value>Type d'Utilisateur</value>
   </data>

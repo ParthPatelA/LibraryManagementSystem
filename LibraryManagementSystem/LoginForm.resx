@@ -124,14 +124,14 @@
   <data name="emailPromptLabel.Location" type="System.Drawing.Point, System.Drawing">
     <value>157, 277</value>
   </data>
+  <data name="&gt;&gt;loginPromptLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
   <data name="loginPromptLabel.Location" type="System.Drawing.Point, System.Drawing">
     <value>329, 135</value>
   </data>
   <data name="&gt;&gt;nameTextBox.Type" xml:space="preserve">
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="languageLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>559, 9</value>
   </data>
   <data name="&gt;&gt;welcomeMessageLabel.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -148,10 +148,13 @@
   <data name="&gt;&gt;roleComboBox.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="displayMessage.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
   <data name="displayMessage.Location" type="System.Drawing.Point, System.Drawing">
     <value>275, 329</value>
   </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="displayMessage.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
   </data>
@@ -204,8 +207,8 @@
   <data name="loginPromptLabel.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
-  <data name="&gt;&gt;emailPromptLabel.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="emailPromptLabel.Text" xml:space="preserve">
+    <value>Enter your email : </value>
   </data>
   <data name="roleComboBox.Size" type="System.Drawing.Size, System.Drawing">
     <value>160, 24</value>
@@ -213,7 +216,7 @@
   <data name="languagesComboBox.Size" type="System.Drawing.Size, System.Drawing">
     <value>121, 21</value>
   </data>
-  <data name="&gt;&gt;loginPromptLabel.Parent" xml:space="preserve">
+  <data name="&gt;&gt;emailPromptLabel.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
   <data name="&gt;&gt;languagesComboBox.Type" xml:space="preserve">
@@ -237,8 +240,8 @@
   <data name="&gt;&gt;welcomeMessageLabel.Name" xml:space="preserve">
     <value>welcomeMessageLabel</value>
   </data>
-  <data name="&gt;&gt;loginPromptLabel.Name" xml:space="preserve">
-    <value>loginPromptLabel</value>
+  <data name="&gt;&gt;namePromptLabel.Name" xml:space="preserve">
+    <value>namePromptLabel</value>
   </data>
   <data name="validateButton.Text" xml:space="preserve">
     <value>Validate</value>
@@ -270,11 +273,11 @@
   <data name="roleComboBox.Location" type="System.Drawing.Point, System.Drawing">
     <value>161, 177</value>
   </data>
-  <data name="&gt;&gt;namePromptLabel.Name" xml:space="preserve">
-    <value>namePromptLabel</value>
-  </data>
-  <data name="displayMessage.AutoSize" type="System.Boolean, mscorlib">
+  <data name="emailPromptLabel.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
+  </data>
+  <data name="&gt;&gt;loginPromptLabel.Name" xml:space="preserve">
+    <value>loginPromptLabel</value>
   </data>
   <data name="welcomeMessageLabel.Text" xml:space="preserve">
     <value>Welcome to our library system</value>
@@ -294,9 +297,6 @@
   <data name="&gt;&gt;emailTextBox.Type" xml:space="preserve">
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="emailPromptLabel.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
   <data name="&gt;&gt;displayMessage.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
@@ -315,8 +315,8 @@
   <data name="displayMessage.Size" type="System.Drawing.Size, System.Drawing">
     <value>0, 20</value>
   </data>
-  <data name="emailPromptLabel.Text" xml:space="preserve">
-    <value>Enter your email : </value>
+  <data name="languageLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>559, 9</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
     <value>800, 450</value>
@@ -440,6 +440,9 @@
   </data>
   <data name="loginPromptLabel.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
+  </data>
+  <data name="roleComboBox.Items2" xml:space="preserve">
+    <value>Client</value>
   </data>
   <data name="welcomeMessageLabel.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>

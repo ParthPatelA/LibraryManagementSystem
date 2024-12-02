@@ -117,62 +117,80 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="welcomeLabel.Text" xml:space="preserve">
-    <value>Bienvenue : </value>
-  </data>
-  <data name="LibrarySummaryGroupBox.Text" xml:space="preserve">
-    <value>Résumé de la bibliothèque</value>
-  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="totalUsersLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>151, 20</value>
+  <data name="listAllBooksButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 23</value>
   </data>
-  <data name="totalUsersLabel.Text" xml:space="preserve">
-    <value>Total des utilisateurs:</value>
+  <data name="listAllBooksButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>205, 45</value>
   </data>
-  <data name="totalBooksLabel.Text" xml:space="preserve">
-    <value>Total des livres:</value>
+  <data name="listAllBooksButton.Text" xml:space="preserve">
+    <value>Livre de recherche</value>
   </data>
-  <data name="ManageBookButton.Text" xml:space="preserve">
-    <value>Gérer les livres</value>
+  <data name="addBookButton.Text" xml:space="preserve">
+    <value>Ajouter un livre</value>
   </data>
-  <data name="ReportsButton.Text" xml:space="preserve">
-    <value>Rapports</value>
+  <data name="removeBookButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>202, 45</value>
   </data>
-  <data name="exitToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+  <data name="removeBookButton.Text" xml:space="preserve">
+    <value>Supprimer un livre</value>
   </data>
-  <data name="exitToolStripMenuItem.Text" xml:space="preserve">
+  <data name="fillOutFormLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>326, 20</value>
+  </data>
+  <data name="fillOutFormLabel.Text" xml:space="preserve">
+    <value>Veuillez remplir le formulaire ci-dessous</value>
+  </data>
+  <data name="titleLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>69, 20</value>
+  </data>
+  <data name="titleLabel.Text" xml:space="preserve">
+    <value>Titres : </value>
+  </data>
+  <data name="authorLabel.Text" xml:space="preserve">
+    <value>Auteurs : </value>
+  </data>
+  <data name="copiesAvailableLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>169, 20</value>
+  </data>
+  <data name="copiesAvailableLabel.Text" xml:space="preserve">
+    <value>Copies disponibles :</value>
+  </data>
+  <data name="yearPublishedLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>197, 20</value>
+  </data>
+  <data name="yearPublishedLabel.Text" xml:space="preserve">
+    <value>Années de publication :</value>
+  </data>
+  <data name="availabilityLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>122, 20</value>
+  </data>
+  <data name="availabilityLabel.Text" xml:space="preserve">
+    <value>Disponibilité : </value>
+  </data>
+  <data name="availabilityTB.Text" xml:space="preserve">
+    <value>Vrai/Faux</value>
+  </data>
+  <data name="addBooksButton.Text" xml:space="preserve">
+    <value>Ajouter un livre</value>
+  </data>
+  <data name="bookIdLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>89, 211</value>
+  </data>
+  <data name="bookIdLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 20</value>
+  </data>
+  <data name="bookIdLabel.Text" xml:space="preserve">
+    <value>LivreId : </value>
+  </data>
+  <data name="removeBooksButton.Text" xml:space="preserve">
+    <value>Supprimer le livre</value>
+  </data>
+  <data name="dashboardButton.Text" xml:space="preserve">
+    <value>Retour</value>
+  </data>
+  <data name="exitButton.Text" xml:space="preserve">
     <value>Quitter</value>
-  </data>
-  <data name="logoutToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
-  </data>
-  <data name="logoutToolStripMenuItem.Text" xml:space="preserve">
-    <value>Déconnexion</value>
-  </data>
-  <data name="fileToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>54, 22</value>
-  </data>
-  <data name="fileToolStripMenuItem1.Text" xml:space="preserve">
-    <value>Fichier</value>
-  </data>
-  <data name="helpToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>48, 22</value>
-  </data>
-  <data name="helpToolStripMenuItem.Text" xml:space="preserve">
-    <value>Aidez</value>
-  </data>
-  <data name="manageUsersButton.Text" xml:space="preserve">
-    <value>Gérer les utilisateurs</value>
-  </data>
-  <data name="returnLoginFormButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>28, 362</value>
-  </data>
-  <data name="returnLoginFormButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>306, 37</value>
-  </data>
-  <data name="returnLoginFormButton.Text" xml:space="preserve">
-    <value>Retour au formulaire de connexion</value>
   </data>
 </root>
