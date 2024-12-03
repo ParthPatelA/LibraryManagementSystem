@@ -40,6 +40,7 @@
             this.roleComboBox = new System.Windows.Forms.ComboBox();
             this.languageLabel = new System.Windows.Forms.Label();
             this.languagesComboBox = new System.Windows.Forms.ComboBox();
+            this.DateControl = new LibraryManagementSystem.DateUserControl();
             this.SuspendLayout();
             // 
             // welcomeMessageLabel
@@ -74,8 +75,8 @@
             // 
             // validateButton
             // 
-            resources.ApplyResources(this.validateButton, "validateButton");
             this.validateButton.BackColor = System.Drawing.SystemColors.ControlDark;
+            resources.ApplyResources(this.validateButton, "validateButton");
             this.validateButton.Name = "validateButton";
             this.validateButton.UseVisualStyleBackColor = false;
             this.validateButton.Click += new System.EventHandler(this.validateButton_Click);
@@ -103,19 +104,26 @@
             // 
             // languagesComboBox
             // 
-            resources.ApplyResources(this.languagesComboBox, "languagesComboBox");
             this.languagesComboBox.FormattingEnabled = true;
             this.languagesComboBox.Items.AddRange(new object[] {
             resources.GetString("languagesComboBox.Items"),
             resources.GetString("languagesComboBox.Items1"),
             resources.GetString("languagesComboBox.Items2")});
+            resources.ApplyResources(this.languagesComboBox, "languagesComboBox");
             this.languagesComboBox.Name = "languagesComboBox";
             this.languagesComboBox.SelectedIndexChanged += new System.EventHandler(this.languagesComboBox_SelectedIndexChanged);
+            // 
+            // DateControl
+            // 
+            this.DateControl.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            resources.ApplyResources(this.DateControl, "DateControl");
+            this.DateControl.Name = "DateControl";
             // 
             // LoginForm
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.DateControl);
             this.Controls.Add(this.languagesComboBox);
             this.Controls.Add(this.languageLabel);
             this.Controls.Add(this.roleComboBox);
@@ -146,6 +154,7 @@
         private System.Windows.Forms.ComboBox roleComboBox;
         private System.Windows.Forms.Label languageLabel;
         private System.Windows.Forms.ComboBox languagesComboBox;
+        private DateUserControl DateControl;
     }
 }
 

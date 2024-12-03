@@ -34,6 +34,7 @@
             this.returnToPreviousScreen = new System.Windows.Forms.Button();
             this.ExitButton = new System.Windows.Forms.Button();
             this.reportRichTextBox = new System.Windows.Forms.RichTextBox();
+            this.DateControl = new LibraryManagementSystem.DateUserControl();
             this.SuspendLayout();
             // 
             // generateInventoryReportButton
@@ -69,10 +70,17 @@
             resources.ApplyResources(this.reportRichTextBox, "reportRichTextBox");
             this.reportRichTextBox.Name = "reportRichTextBox";
             // 
+            // DateControl
+            // 
+            resources.ApplyResources(this.DateControl, "DateControl");
+            this.DateControl.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.DateControl.Name = "DateControl";
+            // 
             // InventoryReportForm
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.DateControl);
             this.Controls.Add(this.reportRichTextBox);
             this.Controls.Add(this.ExitButton);
             this.Controls.Add(this.returnToPreviousScreen);
@@ -90,5 +98,6 @@
         private System.Windows.Forms.Button returnToPreviousScreen;
         private System.Windows.Forms.Button ExitButton;
         private System.Windows.Forms.RichTextBox reportRichTextBox;
+        private DateUserControl DateControl;
     }
 }

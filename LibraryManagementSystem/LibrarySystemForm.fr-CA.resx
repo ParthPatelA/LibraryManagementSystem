@@ -117,62 +117,168 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="toolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>133, 44</value>
+  </data>
+  <data name="welcomeLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 85</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="welcomeLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="welcomeLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>620, 38</value>
+  </data>
   <data name="welcomeLabel.Text" xml:space="preserve">
     <value>Bienvenue : </value>
   </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="totalUsersLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 88</value>
+  </data>
+  <data name="totalUsersLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
   <data name="totalUsersLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>151, 20</value>
+    <value>302, 38</value>
   </data>
   <data name="totalUsersLabel.Text" xml:space="preserve">
     <value>Total des utilisateurs:</value>
   </data>
+  <data name="totalBooksLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 50</value>
+  </data>
+  <data name="totalBooksLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="totalBooksLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>282, 38</value>
+  </data>
   <data name="totalBooksLabel.Text" xml:space="preserve">
     <value>Total des livres:</value>
+  </data>
+  <data name="LibrarySummaryGroupBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 185</value>
+  </data>
+  <data name="LibrarySummaryGroupBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="LibrarySummaryGroupBox.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="LibrarySummaryGroupBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>682, 146</value>
   </data>
   <data name="LibrarySummaryGroupBox.Text" xml:space="preserve">
     <value>Résumé de la bibliothèque</value>
   </data>
+  <data name="ManageBookButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>96, 373</value>
+  </data>
+  <data name="ManageBookButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="ManageBookButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>508, 71</value>
+  </data>
   <data name="ManageBookButton.Text" xml:space="preserve">
     <value>Gérer les livres</value>
+  </data>
+  <data name="ReportsButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>96, 590</value>
+  </data>
+  <data name="ReportsButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="ReportsButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>508, 71</value>
   </data>
   <data name="ReportsButton.Text" xml:space="preserve">
     <value>Rapports</value>
   </data>
   <data name="exitToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>144, 22</value>
+    <value>288, 44</value>
   </data>
   <data name="exitToolStripMenuItem.Text" xml:space="preserve">
     <value>Quitter</value>
   </data>
   <data name="logoutToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>144, 22</value>
+    <value>288, 44</value>
   </data>
   <data name="logoutToolStripMenuItem.Text" xml:space="preserve">
     <value>Déconnexion</value>
   </data>
   <data name="fileToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>54, 22</value>
+    <value>104, 36</value>
   </data>
   <data name="fileToolStripMenuItem1.Text" xml:space="preserve">
     <value>Fichier</value>
   </data>
+  <data name="aboutToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>212, 44</value>
+  </data>
   <data name="helpToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>48, 22</value>
+    <value>93, 36</value>
   </data>
   <data name="helpToolStripMenuItem.Text" xml:space="preserve">
     <value>Aidez</value>
+  </data>
+  <data name="menuStrip1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>732, 40</value>
+  </data>
+  <data name="manageUsersButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>96, 487</value>
+  </data>
+  <data name="manageUsersButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="manageUsersButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>508, 71</value>
   </data>
   <data name="manageUsersButton.Text" xml:space="preserve">
     <value>Gérer les utilisateurs</value>
   </data>
   <data name="returnLoginFormButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>28, 362</value>
+    <value>56, 696</value>
+  </data>
+  <data name="returnLoginFormButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="returnLoginFormButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>306, 37</value>
+    <value>612, 71</value>
   </data>
   <data name="returnLoginFormButton.Text" xml:space="preserve">
     <value>Retour au formulaire de connexion</value>
+  </data>
+  <data name="DateControl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>756, 85</value>
+  </data>
+  <data name="DateControl.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 6, 6, 6</value>
+  </data>
+  <data name="DateControl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>521, 108</value>
+  </data>
+  <data name="dateUserControl1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt, style=Bold</value>
+  </data>
+  <data name="dateUserControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>378, 44</value>
+  </data>
+  <data name="dateUserControl1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 4, 5, 4</value>
+  </data>
+  <data name="dateUserControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>354, 37</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>12, 25</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>732, 788</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>12, 12, 12, 12</value>
   </data>
 </root>

@@ -119,25 +119,38 @@
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="welcomeMessageLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>98, 61</value>
+    <value>196, 117</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="welcomeMessageLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 0, 6, 0</value>
   </data>
   <data name="welcomeMessageLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>585, 31</value>
+    <value>1124, 63</value>
   </data>
   <data name="welcomeMessageLabel.Text" xml:space="preserve">
     <value>Bienvenido a nuestro sistema de bibliotecas</value>
   </data>
+  <data name="loginPromptLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>658, 260</value>
+  </data>
+  <data name="loginPromptLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 0, 6, 0</value>
+  </data>
   <data name="loginPromptLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>203, 24</value>
+    <value>394, 44</value>
   </data>
   <data name="loginPromptLabel.Text" xml:space="preserve">
     <value>Por favor, regístrese </value>
   </data>
   <data name="namePromptLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>89, 222</value>
+    <value>178, 427</value>
+  </data>
+  <data name="namePromptLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 0, 6, 0</value>
   </data>
   <data name="namePromptLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>287, 24</value>
+    <value>547, 44</value>
   </data>
   <data name="namePromptLabel.Text" xml:space="preserve">
     <value>Enter Introduzca su nombre : </value>
@@ -147,24 +160,96 @@
     <value>False</value>
   </data>
   <data name="emailPromptLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>100, 259</value>
+    <value>200, 498</value>
+  </data>
+  <data name="emailPromptLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 0, 6, 0</value>
   </data>
   <data name="emailPromptLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>276, 54</value>
+    <value>552, 104</value>
   </data>
   <data name="emailPromptLabel.Text" xml:space="preserve">
     <value>Introduzca su dirección de correo electrónico : </value>
   </data>
+  <data name="nameTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>788, 427</value>
+  </data>
+  <data name="nameTextBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 6, 6, 6</value>
+  </data>
+  <data name="nameTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>448, 31</value>
+  </data>
+  <data name="emailTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>788, 540</value>
+  </data>
+  <data name="emailTextBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 6, 6, 6</value>
+  </data>
+  <data name="emailTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>448, 31</value>
+  </data>
+  <data name="validateButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>538, 713</value>
+  </data>
+  <data name="validateButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 6, 6, 6</value>
+  </data>
+  <data name="validateButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>488, 73</value>
+  </data>
   <data name="validateButton.Text" xml:space="preserve">
     <value>Validar</value>
+  </data>
+  <data name="displayMessage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>550, 633</value>
+  </data>
+  <data name="displayMessage.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 0, 6, 0</value>
+  </data>
+  <data name="displayMessage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 37</value>
+  </data>
+  <data name="roleComboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>322, 340</value>
+  </data>
+  <data name="roleComboBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="roleComboBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>316, 39</value>
   </data>
   <data name="roleComboBox.Text" xml:space="preserve">
     <value>Tipo de usuario</value>
   </data>
+  <data name="languageLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1118, 17</value>
+  </data>
+  <data name="languageLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 0, 6, 0</value>
+  </data>
   <data name="languageLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>76, 24</value>
+    <value>155, 44</value>
   </data>
   <data name="languageLabel.Text" xml:space="preserve">
     <value>Idioma :</value>
+  </data>
+  <data name="languagesComboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1340, 27</value>
+  </data>
+  <data name="languagesComboBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 6, 6, 6</value>
+  </data>
+  <data name="languagesComboBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>238, 33</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>12, 25</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1600, 865</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 6, 6, 6</value>
   </data>
 </root>

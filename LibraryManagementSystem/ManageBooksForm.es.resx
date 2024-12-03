@@ -119,17 +119,14 @@
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="listAllBooksButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>46, 44</value>
+    <value>104, 44</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="listAllBooksButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>6, 6, 6, 6</value>
   </data>
   <data name="listAllBooksButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>410, 87</value>
-  </data>
-  <data name="listAllBooksButton.Text" xml:space="preserve">
-    <value>Livre de recherche</value>
+    <value>304, 87</value>
   </data>
   <data name="addBookButton.Location" type="System.Drawing.Point, System.Drawing">
     <value>486, 44</value>
@@ -140,9 +137,6 @@
   <data name="addBookButton.Size" type="System.Drawing.Size, System.Drawing">
     <value>322, 87</value>
   </data>
-  <data name="addBookButton.Text" xml:space="preserve">
-    <value>Ajouter un livre</value>
-  </data>
   <data name="removeBookButton.Location" type="System.Drawing.Point, System.Drawing">
     <value>864, 44</value>
   </data>
@@ -150,10 +144,7 @@
     <value>6, 6, 6, 6</value>
   </data>
   <data name="removeBookButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>404, 87</value>
-  </data>
-  <data name="removeBookButton.Text" xml:space="preserve">
-    <value>Supprimer un livre</value>
+    <value>370, 87</value>
   </data>
   <data name="bookListView.Location" type="System.Drawing.Point, System.Drawing">
     <value>150, 254</value>
@@ -171,10 +162,7 @@
     <value>6, 0, 6, 0</value>
   </data>
   <data name="fillOutFormLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>622, 37</value>
-  </data>
-  <data name="fillOutFormLabel.Text" xml:space="preserve">
-    <value>Veuillez remplir le formulaire ci-dessous</value>
+    <value>434, 37</value>
   </data>
   <data name="titleLabel.Location" type="System.Drawing.Point, System.Drawing">
     <value>178, 410</value>
@@ -183,10 +171,7 @@
     <value>6, 0, 6, 0</value>
   </data>
   <data name="titleLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>133, 37</value>
-  </data>
-  <data name="titleLabel.Text" xml:space="preserve">
-    <value>Titres : </value>
+    <value>129, 37</value>
   </data>
   <data name="authorLabel.Location" type="System.Drawing.Point, System.Drawing">
     <value>168, 508</value>
@@ -195,10 +180,7 @@
     <value>6, 0, 6, 0</value>
   </data>
   <data name="authorLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>165, 37</value>
-  </data>
-  <data name="authorLabel.Text" xml:space="preserve">
-    <value>Auteurs : </value>
+    <value>166, 37</value>
   </data>
   <data name="genreLabel.Location" type="System.Drawing.Point, System.Drawing">
     <value>168, 596</value>
@@ -216,10 +198,7 @@
     <value>6, 0, 6, 0</value>
   </data>
   <data name="copiesAvailableLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>323, 37</value>
-  </data>
-  <data name="copiesAvailableLabel.Text" xml:space="preserve">
-    <value>Copies disponibles :</value>
+    <value>276, 37</value>
   </data>
   <data name="isbnLabel.Location" type="System.Drawing.Point, System.Drawing">
     <value>168, 765</value>
@@ -237,10 +216,7 @@
     <value>6, 0, 6, 0</value>
   </data>
   <data name="yearPublishedLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>373, 37</value>
-  </data>
-  <data name="yearPublishedLabel.Text" xml:space="preserve">
-    <value>Années de publication :</value>
+    <value>285, 37</value>
   </data>
   <data name="availabilityLabel.Location" type="System.Drawing.Point, System.Drawing">
     <value>168, 940</value>
@@ -249,10 +225,7 @@
     <value>6, 0, 6, 0</value>
   </data>
   <data name="availabilityLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>232, 37</value>
-  </data>
-  <data name="availabilityLabel.Text" xml:space="preserve">
-    <value>Disponibilité : </value>
+    <value>209, 37</value>
   </data>
   <data name="titleTB.Location" type="System.Drawing.Point, System.Drawing">
     <value>422, 410</value>
@@ -317,9 +290,6 @@
   <data name="availabilityTB.Size" type="System.Drawing.Size, System.Drawing">
     <value>196, 31</value>
   </data>
-  <data name="availabilityTB.Text" xml:space="preserve">
-    <value>Vrai/Faux</value>
-  </data>
   <data name="addBooksButton.Location" type="System.Drawing.Point, System.Drawing">
     <value>176, 1038</value>
   </data>
@@ -329,20 +299,14 @@
   <data name="addBooksButton.Size" type="System.Drawing.Size, System.Drawing">
     <value>472, 75</value>
   </data>
-  <data name="addBooksButton.Text" xml:space="preserve">
-    <value>Ajouter un livre</value>
-  </data>
   <data name="bookIdLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>178, 406</value>
+    <value>168, 406</value>
   </data>
   <data name="bookIdLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>6, 0, 6, 0</value>
   </data>
   <data name="bookIdLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>148, 37</value>
-  </data>
-  <data name="bookIdLabel.Text" xml:space="preserve">
-    <value>LivreId : </value>
+    <value>152, 37</value>
   </data>
   <data name="bookIdTB.Location" type="System.Drawing.Point, System.Drawing">
     <value>422, 410</value>
@@ -362,9 +326,6 @@
   <data name="removeBooksButton.Size" type="System.Drawing.Size, System.Drawing">
     <value>472, 75</value>
   </data>
-  <data name="removeBooksButton.Text" xml:space="preserve">
-    <value>Supprimer le livre</value>
-  </data>
   <data name="dashboardButton.Location" type="System.Drawing.Point, System.Drawing">
     <value>104, 156</value>
   </data>
@@ -373,9 +334,6 @@
   </data>
   <data name="dashboardButton.Size" type="System.Drawing.Size, System.Drawing">
     <value>274, 87</value>
-  </data>
-  <data name="dashboardButton.Text" xml:space="preserve">
-    <value>Retour</value>
   </data>
   <data name="exitButton.Location" type="System.Drawing.Point, System.Drawing">
     <value>898, 156</value>
@@ -386,14 +344,11 @@
   <data name="exitButton.Size" type="System.Drawing.Size, System.Drawing">
     <value>302, 87</value>
   </data>
-  <data name="exitButton.Text" xml:space="preserve">
-    <value>Quitter</value>
-  </data>
   <data name="DateControl.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 12pt, style=Bold</value>
   </data>
   <data name="DateControl.Location" type="System.Drawing.Point, System.Drawing">
-    <value>466, 184</value>
+    <value>468, 186</value>
   </data>
   <data name="DateControl.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>5, 4, 5, 4</value>
@@ -406,5 +361,8 @@
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
     <value>1292, 1169</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>12, 12, 12, 12</value>
   </data>
 </root>

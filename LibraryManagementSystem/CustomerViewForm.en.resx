@@ -137,9 +137,6 @@
   <data name="viewBooksButton.Size" type="System.Drawing.Size, System.Drawing">
     <value>244, 94</value>
   </data>
-  <data name="viewBooksButton.Text" xml:space="preserve">
-    <value>Regarder les livres</value>
-  </data>
   <data name="searchBooksButton.Location" type="System.Drawing.Point, System.Drawing">
     <value>484, 79</value>
   </data>
@@ -148,9 +145,6 @@
   </data>
   <data name="searchBooksButton.Size" type="System.Drawing.Size, System.Drawing">
     <value>244, 94</value>
-  </data>
-  <data name="searchBooksButton.Text" xml:space="preserve">
-    <value>Recherche de livres</value>
   </data>
   <data name="borrowBooksButton.Location" type="System.Drawing.Point, System.Drawing">
     <value>826, 79</value>
@@ -161,9 +155,6 @@
   <data name="borrowBooksButton.Size" type="System.Drawing.Size, System.Drawing">
     <value>244, 94</value>
   </data>
-  <data name="borrowBooksButton.Text" xml:space="preserve">
-    <value>Prêt de livres</value>
-  </data>
   <data name="returnBooksButton.Location" type="System.Drawing.Point, System.Drawing">
     <value>1214, 79</value>
   </data>
@@ -172,15 +163,6 @@
   </data>
   <data name="returnBooksButton.Size" type="System.Drawing.Size, System.Drawing">
     <value>244, 94</value>
-  </data>
-  <data name="returnBooksButton.Text" xml:space="preserve">
-    <value>Retour aux livres</value>
-  </data>
-  <data name="searchByComboBox.Items1" xml:space="preserve">
-    <value>auteur</value>
-  </data>
-  <data name="searchByComboBox.Items2" xml:space="preserve">
-    <value>titre</value>
   </data>
   <data name="searchByComboBox.Location" type="System.Drawing.Point, System.Drawing">
     <value>218, 406</value>
@@ -191,9 +173,6 @@
   <data name="searchByComboBox.Size" type="System.Drawing.Size, System.Drawing">
     <value>238, 33</value>
   </data>
-  <data name="searchByComboBox.Text" xml:space="preserve">
-    <value>Recherche</value>
-  </data>
   <data name="searchLabelPromptLabel.Location" type="System.Drawing.Point, System.Drawing">
     <value>212, 331</value>
   </data>
@@ -201,10 +180,7 @@
     <value>6, 0, 6, 0</value>
   </data>
   <data name="searchLabelPromptLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>464, 37</value>
-  </data>
-  <data name="searchLabelPromptLabel.Text" xml:space="preserve">
-    <value>Comment trouver votre livre ?</value>
+    <value>637, 37</value>
   </data>
   <data name="queryPromptLabel.Location" type="System.Drawing.Point, System.Drawing">
     <value>212, 506</value>
@@ -233,9 +209,6 @@
   <data name="searchBookListView.Size" type="System.Drawing.Size, System.Drawing">
     <value>540, 452</value>
   </data>
-  <data name="searchButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
   <data name="searchButton.Location" type="System.Drawing.Point, System.Drawing">
     <value>218, 687</value>
   </data>
@@ -243,22 +216,16 @@
     <value>6, 6, 6, 6</value>
   </data>
   <data name="searchButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>468, 67</value>
-  </data>
-  <data name="searchButton.Text" xml:space="preserve">
-    <value>Recherche de livres</value>
+    <value>308, 67</value>
   </data>
   <data name="bookIdPromptLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>210, 331</value>
+    <value>214, 340</value>
   </data>
   <data name="bookIdPromptLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>6, 0, 6, 0</value>
   </data>
   <data name="bookIdPromptLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>541, 37</value>
-  </data>
-  <data name="bookIdPromptLabel.Text" xml:space="preserve">
-    <value>Veuillez saisir l'identifiant du livre :</value>
+    <value>404, 37</value>
   </data>
   <data name="bookIdTextBox.Location" type="System.Drawing.Point, System.Drawing">
     <value>224, 483</value>
@@ -276,10 +243,7 @@
     <value>6, 6, 6, 6</value>
   </data>
   <data name="borrowBookButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>432, 67</value>
-  </data>
-  <data name="borrowBookButton.Text" xml:space="preserve">
-    <value>Emprunter un livre</value>
+    <value>308, 67</value>
   </data>
   <data name="returnBookButton.Location" type="System.Drawing.Point, System.Drawing">
     <value>224, 552</value>
@@ -290,9 +254,6 @@
   <data name="returnBookButton.Size" type="System.Drawing.Size, System.Drawing">
     <value>308, 67</value>
   </data>
-  <data name="returnBookButton.Text" xml:space="preserve">
-    <value>Livre de retour</value>
-  </data>
   <data name="exitButton.Location" type="System.Drawing.Point, System.Drawing">
     <value>1254, 204</value>
   </data>
@@ -302,9 +263,6 @@
   <data name="exitButton.Size" type="System.Drawing.Size, System.Drawing">
     <value>186, 63</value>
   </data>
-  <data name="exitButton.Text" xml:space="preserve">
-    <value>Quitter</value>
-  </data>
   <data name="dashboardButton.Location" type="System.Drawing.Point, System.Drawing">
     <value>168, 192</value>
   </data>
@@ -313,9 +271,6 @@
   </data>
   <data name="dashboardButton.Size" type="System.Drawing.Size, System.Drawing">
     <value>184, 63</value>
-  </data>
-  <data name="dashboardButton.Text" xml:space="preserve">
-    <value>Retour</value>
   </data>
   <data name="DateControl.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 12pt, style=Bold</value>
@@ -334,8 +289,5 @@
   </data>
   <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>12, 12, 12, 12</value>
-  </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>Formulaire de visualisation des clients</value>
   </data>
 </root>

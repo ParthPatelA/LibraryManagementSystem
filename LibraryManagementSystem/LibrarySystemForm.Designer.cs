@@ -45,6 +45,8 @@
             this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.manageUsersButton = new System.Windows.Forms.Button();
             this.returnLoginFormButton = new System.Windows.Forms.Button();
+            this.DateControl = new LibraryManagementSystem.DateUserControl();
+            this.dateUserControl1 = new LibraryManagementSystem.DateUserControl();
             this.LibrarySummaryGroupBox.SuspendLayout();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -101,6 +103,7 @@
             // menuStrip1
             // 
             resources.ApplyResources(this.menuStrip1, "menuStrip1");
+            this.menuStrip1.GripMargin = new System.Windows.Forms.Padding(2, 2, 0, 2);
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(32, 32);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.fileToolStripMenuItem1,
@@ -154,10 +157,24 @@
             this.returnLoginFormButton.UseVisualStyleBackColor = true;
             this.returnLoginFormButton.Click += new System.EventHandler(this.returnLoginFormButton_Click);
             // 
+            // DateControl
+            // 
+            resources.ApplyResources(this.DateControl, "DateControl");
+            this.DateControl.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.DateControl.Name = "DateControl";
+            // 
+            // dateUserControl1
+            // 
+            resources.ApplyResources(this.dateUserControl1, "dateUserControl1");
+            this.dateUserControl1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.dateUserControl1.Name = "dateUserControl1";
+            // 
             // LibrarySystemForm
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.dateUserControl1);
+            this.Controls.Add(this.DateControl);
             this.Controls.Add(this.returnLoginFormButton);
             this.Controls.Add(this.manageUsersButton);
             this.Controls.Add(this.ManageBookButton);
@@ -192,5 +209,7 @@
         private System.Windows.Forms.ToolStripMenuItem aboutToolStripMenuItem;
         private System.Windows.Forms.Button manageUsersButton;
         private System.Windows.Forms.Button returnLoginFormButton;
+        private DateUserControl DateControl;
+        private DateUserControl dateUserControl1;
     }
 }

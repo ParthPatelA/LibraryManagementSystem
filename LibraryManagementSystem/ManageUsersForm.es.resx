@@ -118,49 +118,143 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="welcomeMessageLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1102, 63</value>
+  <data name="viewUserButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>96, 40</value>
   </data>
-  <data name="welcomeMessageLabel.Text" xml:space="preserve">
-    <value>Bienvenue à notre système de bibliothèque</value>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="viewUserButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 6, 6, 6</value>
   </data>
-  <data name="loginPromptLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>399, 44</value>
+  <data name="viewUserButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>300, 100</value>
   </data>
-  <data name="loginPromptLabel.Text" xml:space="preserve">
-    <value>Veuillez vous inscrire</value>
+  <data name="searchUserButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>522, 40</value>
   </data>
-  <data name="namePromptLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>359, 44</value>
+  <data name="searchUserButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 6, 6, 6</value>
   </data>
-  <data name="namePromptLabel.Text" xml:space="preserve">
-    <value>Entrez votre nom : </value>
+  <data name="searchUserButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>300, 100</value>
   </data>
-  <data name="emailPromptLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>379, 44</value>
+  <data name="removeUserButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>940, 40</value>
   </data>
-  <data name="emailPromptLabel.Text" xml:space="preserve">
-    <value>Entrez votre email : </value>
+  <data name="removeUserButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 6, 6, 6</value>
   </data>
-  <data name="validateButton.Text" xml:space="preserve">
-    <value>Validez</value>
+  <data name="removeUserButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>300, 100</value>
   </data>
-  <data name="roleComboBox.Items" xml:space="preserve">
-    <value>Bibliothécaire</value>
+  <data name="userListView.Location" type="System.Drawing.Point, System.Drawing">
+    <value>96, 269</value>
   </data>
-  <data name="roleComboBox.Items1" xml:space="preserve">
-    <value>Client</value>
+  <data name="userListView.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 6, 6, 6</value>
   </data>
-  <data name="roleComboBox.Text" xml:space="preserve">
-    <value>Type d'Utilisateur</value>
+  <data name="userListView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1144, 406</value>
   </data>
-  <data name="languageLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>166, 44</value>
+  <data name="fillFormLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>170, 317</value>
   </data>
-  <data name="languageLabel.Text" xml:space="preserve">
-    <value>Langue :</value>
+  <data name="fillFormLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 0, 6, 0</value>
   </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>Library Management System - Login Form</value>
+  <data name="fillFormLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>455, 37</value>
+  </data>
+  <data name="userNameLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>170, 417</value>
+  </data>
+  <data name="userNameLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 0, 6, 0</value>
+  </data>
+  <data name="userNameLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>298, 37</value>
+  </data>
+  <data name="nameTB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>576, 415</value>
+  </data>
+  <data name="nameTB.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 6, 6, 6</value>
+  </data>
+  <data name="nameTB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>196, 31</value>
+  </data>
+  <data name="searchUsersButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>178, 542</value>
+  </data>
+  <data name="searchUsersButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 6, 6, 6</value>
+  </data>
+  <data name="searchUsersButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>598, 77</value>
+  </data>
+  <data name="searchUserListView.Location" type="System.Drawing.Point, System.Drawing">
+    <value>848, 269</value>
+  </data>
+  <data name="searchUserListView.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 6, 6, 6</value>
+  </data>
+  <data name="searchUserListView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>392, 406</value>
+  </data>
+  <data name="userIdLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>170, 415</value>
+  </data>
+  <data name="userIdLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 0, 6, 0</value>
+  </data>
+  <data name="userIdLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>237, 37</value>
+  </data>
+  <data name="removeUsersButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>178, 513</value>
+  </data>
+  <data name="removeUsersButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 6, 6, 6</value>
+  </data>
+  <data name="removeUsersButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>598, 77</value>
+  </data>
+  <data name="dashboardButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>96, 158</value>
+  </data>
+  <data name="dashboardButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 6, 6, 6</value>
+  </data>
+  <data name="dashboardButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>300, 100</value>
+  </data>
+  <data name="ExitButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>940, 158</value>
+  </data>
+  <data name="ExitButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 6, 6, 6</value>
+  </data>
+  <data name="ExitButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>300, 100</value>
+  </data>
+  <data name="DateControl.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt, style=Bold</value>
+  </data>
+  <data name="DateControl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>500, 193</value>
+  </data>
+  <data name="DateControl.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 4, 5, 4</value>
+  </data>
+  <data name="DateControl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>354, 37</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>12, 25</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1346, 719</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>12, 12, 12, 12</value>
   </data>
 </root>

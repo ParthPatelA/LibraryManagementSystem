@@ -137,20 +137,23 @@
   <data name="exitButton.Text" xml:space="preserve">
     <value>Exit</value>
   </data>
-  <data name="dashboardButton.TabIndex" type="System.Int32, mscorlib">
-    <value>20</value>
+  <data name="searchBooksButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>122, 49</value>
   </data>
-  <data name="bookIdPromptLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>214, 20</value>
+  <data name="searchButton.Text" xml:space="preserve">
+    <value>Search Books</value>
   </data>
   <data name="&gt;&gt;bookIdPromptLabel.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>6</value>
   </data>
   <data name="&gt;&gt;searchLabelPromptLabel.ZOrder" xml:space="preserve">
-    <value>10</value>
+    <value>11</value>
   </data>
-  <data name="queryTextBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>109, 318</value>
+  <data name="&gt;&gt;DateControl.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="searchByComboBox.Items3" xml:space="preserve">
+    <value />
   </data>
   <data name="&gt;&gt;searchBooksButton.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -176,8 +179,14 @@
   <data name="searchBookListView.Size" type="System.Drawing.Size, System.Drawing">
     <value>272, 237</value>
   </data>
+  <data name="borrowBooksButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt, style=Bold</value>
+  </data>
   <data name="&gt;&gt;returnBookButton.Parent" xml:space="preserve">
     <value>$this</value>
+  </data>
+  <data name="borrowBooksButton.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
   </data>
   <data name="borrowBookButton.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 14.25pt, style=Bold</value>
@@ -186,7 +195,7 @@
     <value>Microsoft Sans Serif, 12pt, style=Bold</value>
   </data>
   <data name="&gt;&gt;searchBookListView.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>8</value>
   </data>
   <data name="searchByComboBox.Items1" xml:space="preserve">
     <value>author</value>
@@ -194,8 +203,8 @@
   <data name="searchByComboBox.Items2" xml:space="preserve">
     <value>title</value>
   </data>
-  <data name="searchByComboBox.Items3" xml:space="preserve">
-    <value />
+  <data name="queryPromptLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
   </data>
   <data name="returnBooksButton.Size" type="System.Drawing.Size, System.Drawing">
     <value>122, 49</value>
@@ -203,8 +212,8 @@
   <data name="&gt;&gt;viewBooksButton.Name" xml:space="preserve">
     <value>viewBooksButton</value>
   </data>
-  <data name="borrowBooksButton.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
+  <data name="returnBooksButton.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
   </data>
   <data name="searchButton.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 14.25pt, style=Bold</value>
@@ -219,7 +228,7 @@
     <value>CustomerViewForm</value>
   </data>
   <data name="&gt;&gt;queryPromptLabel.ZOrder" xml:space="preserve">
-    <value>9</value>
+    <value>10</value>
   </data>
   <data name="&gt;&gt;dashboardButton.Name" xml:space="preserve">
     <value>dashboardButton</value>
@@ -239,17 +248,17 @@
   <data name="returnBooksButton.Location" type="System.Drawing.Point, System.Drawing">
     <value>607, 41</value>
   </data>
+  <data name="&gt;&gt;searchByComboBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="&gt;&gt;searchBooksButton.ZOrder" xml:space="preserve">
-    <value>14</value>
+    <value>15</value>
   </data>
   <data name="searchLabelPromptLabel.Text" xml:space="preserve">
     <value>How would you like to search your book?</value>
   </data>
   <data name="bookIdPromptLabel.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
-  </data>
-  <data name="queryPromptLabel.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
   </data>
   <data name="searchByComboBox.Items4" xml:space="preserve">
     <value>titre</value>
@@ -266,9 +275,6 @@
   <data name="searchByComboBox.Text" xml:space="preserve">
     <value>Search</value>
   </data>
-  <data name="searchBookListView.Location" type="System.Drawing.Point, System.Drawing">
-    <value>459, 172</value>
-  </data>
   <data name="bookIdTextBox.Size" type="System.Drawing.Size, System.Drawing">
     <value>154, 20</value>
   </data>
@@ -276,13 +282,10 @@
     <value>800, 412</value>
   </data>
   <data name="&gt;&gt;viewBooksButton.ZOrder" xml:space="preserve">
-    <value>15</value>
+    <value>16</value>
   </data>
   <data name="&gt;&gt;searchBooksButton.Name" xml:space="preserve">
     <value>searchBooksButton</value>
-  </data>
-  <data name="dashboardButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>92, 33</value>
   </data>
   <data name="returnBookButton.Size" type="System.Drawing.Size, System.Drawing">
     <value>154, 35</value>
@@ -296,8 +299,8 @@
   <data name="&gt;&gt;exitButton.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="borrowBooksButton.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 12pt, style=Bold</value>
+  <data name="&gt;&gt;DateControl.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
   <data name="exitButton.Location" type="System.Drawing.Point, System.Drawing">
     <value>627, 106</value>
@@ -305,23 +308,23 @@
   <data name="searchBookListView.TabIndex" type="System.Int32, mscorlib">
     <value>13</value>
   </data>
-  <data name="returnBookButton.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 14.25pt, style=Bold</value>
-  </data>
   <data name="viewBooksButton.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
   </data>
   <data name="&gt;&gt;dashboardButton.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
+  <data name="&gt;&gt;bookIdTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="$this.Text" xml:space="preserve">
     <value>CustomerViewForm</value>
   </data>
   <data name="&gt;&gt;dashboardButton.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>1</value>
   </data>
   <data name="&gt;&gt;returnBookButton.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>3</value>
   </data>
   <data name="queryPromptLabel.Size" type="System.Drawing.Size, System.Drawing">
     <value>0, 20</value>
@@ -350,6 +353,9 @@
   <data name="queryPromptLabel.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 12pt, style=Bold</value>
   </data>
+  <data name="queryTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>109, 318</value>
+  </data>
   <data name="&gt;&gt;borrowBookButton.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
@@ -359,17 +365,14 @@
   <data name="queryPromptLabel.Visible" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
-  <data name="&gt;&gt;borrowBookButton.ZOrder" xml:space="preserve">
-    <value>3</value>
+  <data name="&gt;&gt;returnBooksButton.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
   <data name="exitButton.Size" type="System.Drawing.Size, System.Drawing">
     <value>93, 33</value>
   </data>
   <data name="searchLabelPromptLabel.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 12pt, style=Bold</value>
-  </data>
-  <data name="searchBooksButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>122, 49</value>
   </data>
   <data name="queryTextBox.Visible" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -386,8 +389,11 @@
   <data name="searchButton.TabIndex" type="System.Int32, mscorlib">
     <value>14</value>
   </data>
+  <data name="&gt;&gt;searchLabelPromptLabel.Name" xml:space="preserve">
+    <value>searchLabelPromptLabel</value>
+  </data>
   <data name="&gt;&gt;bookIdTextBox.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>5</value>
   </data>
   <data name="borrowBookButton.Visible" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -431,6 +437,10 @@
   <data name="&gt;&gt;returnBookButton.Name" xml:space="preserve">
     <value>returnBookButton</value>
   </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 6, 6, 6</value>
+  </data>
   <data name="&gt;&gt;bookIdPromptLabel.Name" xml:space="preserve">
     <value>bookIdPromptLabel</value>
   </data>
@@ -443,11 +453,20 @@
   <data name="searchButton.Size" type="System.Drawing.Size, System.Drawing">
     <value>154, 35</value>
   </data>
+  <data name="&gt;&gt;DateControl.Type" xml:space="preserve">
+    <value>LibraryManagementSystem.DateUserControl, LibraryManagementSystem, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
   <data name="&gt;&gt;bookListView.ZOrder" xml:space="preserve">
-    <value>16</value>
+    <value>17</value>
+  </data>
+  <data name="DateControl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 13</value>
   </data>
   <data name="bookIdPromptLabel.TabIndex" type="System.Int32, mscorlib">
     <value>15</value>
+  </data>
+  <data name="DateControl.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
   </data>
   <data name="&gt;&gt;bookIdTextBox.Name" xml:space="preserve">
     <value>bookIdTextBox</value>
@@ -456,13 +475,13 @@
     <value>112, 287</value>
   </data>
   <data name="&gt;&gt;returnBooksButton.ZOrder" xml:space="preserve">
-    <value>12</value>
+    <value>13</value>
   </data>
   <data name="searchBooksButton.Text" xml:space="preserve">
     <value>Search Books</value>
   </data>
-  <data name="&gt;&gt;borrowBookButton.Name" xml:space="preserve">
-    <value>borrowBookButton</value>
+  <data name="returnBookButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14.25pt, style=Bold</value>
   </data>
   <data name="&gt;&gt;viewBooksButton.Parent" xml:space="preserve">
     <value>$this</value>
@@ -480,7 +499,7 @@
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;searchByComboBox.ZOrder" xml:space="preserve">
-    <value>11</value>
+    <value>12</value>
   </data>
   <data name="borrowBooksButton.Text" xml:space="preserve">
     <value>Borrow Books</value>
@@ -495,22 +514,22 @@
     <value>107, 177</value>
   </data>
   <data name="&gt;&gt;exitButton.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>2</value>
   </data>
   <data name="searchLabelPromptLabel.Size" type="System.Drawing.Size, System.Drawing">
     <value>333, 20</value>
   </data>
   <data name="&gt;&gt;queryTextBox.ZOrder" xml:space="preserve">
-    <value>8</value>
+    <value>9</value>
   </data>
   <data name="&gt;&gt;borrowBooksButton.ZOrder" xml:space="preserve">
-    <value>13</value>
+    <value>14</value>
   </data>
   <data name="searchBooksButton.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 12pt, style=Bold</value>
   </data>
-  <data name="&gt;&gt;searchLabelPromptLabel.Name" xml:space="preserve">
-    <value>searchLabelPromptLabel</value>
+  <data name="searchBookListView.Location" type="System.Drawing.Point, System.Drawing">
+    <value>459, 172</value>
   </data>
   <data name="exitButton.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 12pt, style=Bold</value>
@@ -521,8 +540,8 @@
   <data name="&gt;&gt;borrowBooksButton.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="returnBooksButton.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
+  <data name="bookIdPromptLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>214, 20</value>
   </data>
   <data name="borrowBookButton.TabIndex" type="System.Int32, mscorlib">
     <value>17</value>
@@ -533,8 +552,8 @@
   <data name="returnBooksButton.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 12pt, style=Bold</value>
   </data>
-  <data name="&gt;&gt;returnBooksButton.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="&gt;&gt;borrowBookButton.Name" xml:space="preserve">
+    <value>borrowBookButton</value>
   </data>
   <data name="&gt;&gt;searchBooksButton.Parent" xml:space="preserve">
     <value>$this</value>
@@ -554,8 +573,11 @@
   <data name="viewBooksButton.Text" xml:space="preserve">
     <value>View Books</value>
   </data>
-  <data name="&gt;&gt;bookIdTextBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="dashboardButton.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;DateControl.Name" xml:space="preserve">
+    <value>DateControl</value>
   </data>
   <data name="&gt;&gt;queryTextBox.Type" xml:space="preserve">
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -608,17 +630,17 @@
   <data name="&gt;&gt;bookListView.Name" xml:space="preserve">
     <value>bookListView</value>
   </data>
-  <data name="&gt;&gt;searchByComboBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="dashboardButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>92, 33</value>
   </data>
   <data name="dashboardButton.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 12pt, style=Bold</value>
   </data>
   <data name="&gt;&gt;searchButton.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>7</value>
   </data>
-  <data name="searchButton.Text" xml:space="preserve">
-    <value>Search Books</value>
+  <data name="&gt;&gt;borrowBookButton.ZOrder" xml:space="preserve">
+    <value>4</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
