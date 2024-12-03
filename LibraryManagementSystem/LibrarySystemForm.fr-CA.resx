@@ -134,6 +134,21 @@
   <data name="welcomeLabel.Text" xml:space="preserve">
     <value>Bienvenue : </value>
   </data>
+  <data name="LibrarySummaryGroupBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 185</value>
+  </data>
+  <data name="LibrarySummaryGroupBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="LibrarySummaryGroupBox.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="LibrarySummaryGroupBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>682, 146</value>
+  </data>
+  <data name="LibrarySummaryGroupBox.Text" xml:space="preserve">
+    <value>Résumé de la bibliothèque</value>
+  </data>
   <data name="totalUsersLabel.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 88</value>
   </data>
@@ -157,21 +172,6 @@
   </data>
   <data name="totalBooksLabel.Text" xml:space="preserve">
     <value>Total des livres:</value>
-  </data>
-  <data name="LibrarySummaryGroupBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>20, 185</value>
-  </data>
-  <data name="LibrarySummaryGroupBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
-  </data>
-  <data name="LibrarySummaryGroupBox.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
-  </data>
-  <data name="LibrarySummaryGroupBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>682, 146</value>
-  </data>
-  <data name="LibrarySummaryGroupBox.Text" xml:space="preserve">
-    <value>Résumé de la bibliothèque</value>
   </data>
   <data name="ManageBookButton.Location" type="System.Drawing.Point, System.Drawing">
     <value>96, 373</value>
@@ -197,6 +197,15 @@
   <data name="ReportsButton.Text" xml:space="preserve">
     <value>Rapports</value>
   </data>
+  <data name="menuStrip1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>732, 40</value>
+  </data>
+  <data name="fileToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 36</value>
+  </data>
+  <data name="fileToolStripMenuItem1.Text" xml:space="preserve">
+    <value>Fichier</value>
+  </data>
   <data name="exitToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>288, 44</value>
   </data>
@@ -209,23 +218,14 @@
   <data name="logoutToolStripMenuItem.Text" xml:space="preserve">
     <value>Déconnexion</value>
   </data>
-  <data name="fileToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>104, 36</value>
-  </data>
-  <data name="fileToolStripMenuItem1.Text" xml:space="preserve">
-    <value>Fichier</value>
-  </data>
-  <data name="aboutToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>212, 44</value>
-  </data>
   <data name="helpToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>93, 36</value>
   </data>
   <data name="helpToolStripMenuItem.Text" xml:space="preserve">
     <value>Aidez</value>
   </data>
-  <data name="menuStrip1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>732, 40</value>
+  <data name="aboutToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>212, 44</value>
   </data>
   <data name="manageUsersButton.Location" type="System.Drawing.Point, System.Drawing">
     <value>96, 487</value>

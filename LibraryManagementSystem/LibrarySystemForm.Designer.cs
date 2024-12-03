@@ -46,7 +46,6 @@
             this.manageUsersButton = new System.Windows.Forms.Button();
             this.returnLoginFormButton = new System.Windows.Forms.Button();
             this.DateControl = new LibraryManagementSystem.DateUserControl();
-            this.dateUserControl1 = new LibraryManagementSystem.DateUserControl();
             this.LibrarySummaryGroupBox.SuspendLayout();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -163,17 +162,10 @@
             this.DateControl.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.DateControl.Name = "DateControl";
             // 
-            // dateUserControl1
-            // 
-            resources.ApplyResources(this.dateUserControl1, "dateUserControl1");
-            this.dateUserControl1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.dateUserControl1.Name = "dateUserControl1";
-            // 
             // LibrarySystemForm
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.dateUserControl1);
             this.Controls.Add(this.DateControl);
             this.Controls.Add(this.returnLoginFormButton);
             this.Controls.Add(this.manageUsersButton);
@@ -210,6 +202,5 @@
         private System.Windows.Forms.Button manageUsersButton;
         private System.Windows.Forms.Button returnLoginFormButton;
         private DateUserControl DateControl;
-        private DateUserControl dateUserControl1;
     }
 }
