@@ -33,6 +33,8 @@ namespace LibraryManagementSystem
             queryTextBox.Visible = false;
             searchButton.Visible = false;
             searchBookListView.Visible = false;
+            returnDateLabel.Visible = false;
+            outputReturnLabel.Visible = false;
 
             // Clear existing columns and items in the ListView
             bookListView.Columns.Clear();
@@ -85,6 +87,8 @@ namespace LibraryManagementSystem
             queryPromptLabel.Visible = true;
             queryTextBox.Visible = true;
             searchButton.Visible = true;
+            returnDateLabel.Visible = false;
+            outputReturnLabel.Visible = false;
         }
 
         private void searchButton_Click(object sender, EventArgs e)
@@ -236,6 +240,9 @@ namespace LibraryManagementSystem
             bookIdPromptLabel.Visible = true;
             bookIdTextBox.Visible = true;
             borrowBookButton.Visible = true;
+            returnDateLabel.Visible = false;
+            outputReturnLabel.Visible = false;
+            
         }
 
         private void borrowBookButton_Click(object sender, EventArgs e)
@@ -262,6 +269,13 @@ namespace LibraryManagementSystem
                 MessageBox.Show($"Error: {ex.Message}");
                 bookIdTextBox.Clear();
             }
+            if (returnDateLabel.Visible == false && outputReturnLabel.Visible == false)
+            {
+                DateTime addWeek = DateTime.Now.AddDays(14);
+                outputReturnLabel.Text = $"{addWeek:dd/MM/yyyy}";
+                returnDateLabel.Visible = true;
+                outputReturnLabel.Visible = true;
+            }
 
         }
         private void returnBooksButton_Click(object sender, EventArgs e)
@@ -280,6 +294,9 @@ namespace LibraryManagementSystem
             bookIdPromptLabel.Visible = true;
             bookIdTextBox.Visible = true;
             returnBookButton.Visible = true;
+
+            returnDateLabel.Visible = false;
+            outputReturnLabel.Visible = false;
         }
 
         private void returnBookButton_Click(object sender, EventArgs e)
@@ -318,6 +335,10 @@ namespace LibraryManagementSystem
             this.Hide();
         }
 
-       
+        private void CustomerViewForm_Load(object sender, EventArgs e)
+        {
+            returnDateLabel.Visible = false;
+            outputReturnLabel.Visible = false;
+        }
     }
 }

@@ -54,6 +54,7 @@
             this.removeBooksButton = new System.Windows.Forms.Button();
             this.dashboardButton = new System.Windows.Forms.Button();
             this.exitButton = new System.Windows.Forms.Button();
+            this.DateControl = new LibraryManagementSystem.DateUserControl();
             this.SuspendLayout();
             // 
             // listAllBooksButton
@@ -198,10 +199,17 @@
             this.exitButton.UseVisualStyleBackColor = true;
             this.exitButton.Click += new System.EventHandler(this.exitButton_Click);
             // 
+            // DateControl
+            // 
+            resources.ApplyResources(this.DateControl, "DateControl");
+            this.DateControl.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.DateControl.Name = "DateControl";
+            // 
             // ManageBooksForm
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.DateControl);
             this.Controls.Add(this.exitButton);
             this.Controls.Add(this.dashboardButton);
             this.Controls.Add(this.removeBooksButton);
@@ -260,5 +268,6 @@
         private System.Windows.Forms.Button removeBooksButton;
         private System.Windows.Forms.Button dashboardButton;
         private System.Windows.Forms.Button exitButton;
+        private DateUserControl DateControl;
     }
 }

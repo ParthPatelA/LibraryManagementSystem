@@ -140,7 +140,7 @@
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="searchLabelPromptLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>243, 20</value>
+    <value>464, 37</value>
   </data>
   <data name="searchLabelPromptLabel.Text" xml:space="preserve">
     <value>Comment trouver votre livre ?</value>
@@ -149,23 +149,26 @@
   <data name="searchButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
+  <data name="searchButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>218, 687</value>
+  </data>
   <data name="searchButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>234, 35</value>
+    <value>468, 67</value>
   </data>
   <data name="searchButton.Text" xml:space="preserve">
     <value>Recherche de livres</value>
   </data>
   <data name="bookIdPromptLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>105, 172</value>
+    <value>210, 331</value>
   </data>
   <data name="bookIdPromptLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>284, 20</value>
+    <value>541, 37</value>
   </data>
   <data name="bookIdPromptLabel.Text" xml:space="preserve">
     <value>Veuillez saisir l'identifiant du livre :</value>
   </data>
   <data name="borrowBookButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>216, 35</value>
+    <value>432, 67</value>
   </data>
   <data name="borrowBookButton.Text" xml:space="preserve">
     <value>Emprunter un livre</value>
@@ -178,6 +181,9 @@
   </data>
   <data name="dashboardButton.Text" xml:space="preserve">
     <value>Retour</value>
+  </data>
+  <data name="returnDateLabel.Text" xml:space="preserve">
+    <value>Date de Retour:</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>Formulaire de visualisation des clients</value>

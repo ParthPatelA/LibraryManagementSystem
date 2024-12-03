@@ -66,7 +66,14 @@
     <Compile Include="CustomerViewForm.Designer.cs">
       <DependentUpon>CustomerViewForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="IdGenerator.cs" />
+<Compile Include="IdGenerator.cs" />
+<Compile Include="DateUserControl.cs">
+  <SubType>UserControl</SubType>
+</Compile>
+<Compile Include="DateUserControl.Designer.cs">
+  <DependentUpon>DateUserControl.cs</DependentUpon>
+</Compile>
+<Compile Include="InventoryReportForm.cs">
     <Compile Include="InventoryReportForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -114,6 +121,9 @@
     <EmbeddedResource Include="AboutUsForm.resx">
       <DependentUpon>AboutUsForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="CustomerViewForm.en.resx">
+      <DependentUpon>CustomerViewForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="CustomerViewForm.es.resx">
       <DependentUpon>CustomerViewForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -123,13 +133,31 @@
     <EmbeddedResource Include="CustomerViewForm.resx">
       <DependentUpon>CustomerViewForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="DateUserControl.resx">
+      <DependentUpon>DateUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InventoryReportForm.en.resx">
+      <DependentUpon>InventoryReportForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InventoryReportForm.es.resx">
+      <DependentUpon>InventoryReportForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InventoryReportForm.fr-029.resx">
+      <DependentUpon>InventoryReportForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="InventoryReportForm.fr-CA.resx">
       <DependentUpon>InventoryReportForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="InventoryReportForm.resx">
       <DependentUpon>InventoryReportForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="LibrarySystemForm.en.resx">
+      <DependentUpon>LibrarySystemForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="LibrarySystemForm.es.resx">
+      <DependentUpon>LibrarySystemForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LibrarySystemForm.fr-029.resx">
       <DependentUpon>LibrarySystemForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LibrarySystemForm.fr-CA.resx">
@@ -138,20 +166,44 @@
     <EmbeddedResource Include="LibrarySystemForm.resx">
       <DependentUpon>LibrarySystemForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="LoginForm.en.resx">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="LoginForm.es.resx">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginForm.fo.resx">
       <DependentUpon>LoginForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LoginForm.fr-CA.resx">
       <DependentUpon>LoginForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="LoginForm.fr.resx">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="LoginForm.resx">
       <DependentUpon>LoginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManageBooksForm.en.resx">
+      <DependentUpon>ManageBooksForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManageBooksForm.es.resx">
+      <DependentUpon>ManageBooksForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManageBooksForm.fo.resx">
+      <DependentUpon>ManageBooksForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ManageBooksForm.fr-CA.resx">
       <DependentUpon>ManageBooksForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ManageBooksForm.resx">
       <DependentUpon>ManageBooksForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManageUsersForm.en.resx">
+      <DependentUpon>ManageUsersForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManageUsersForm.es.resx">
+      <DependentUpon>ManageUsersForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ManageUsersForm.fr-CA.resx">
       <DependentUpon>ManageUsersForm.cs</DependentUpon>

@@ -119,25 +119,25 @@
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="welcomeMessageLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>573, 31</value>
+    <value>1102, 63</value>
   </data>
   <data name="welcomeMessageLabel.Text" xml:space="preserve">
     <value>Bienvenue à notre système de bibliothèque</value>
   </data>
   <data name="loginPromptLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>210, 24</value>
+    <value>399, 44</value>
   </data>
   <data name="loginPromptLabel.Text" xml:space="preserve">
     <value>Veuillez vous inscrire</value>
   </data>
   <data name="namePromptLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>187, 24</value>
+    <value>359, 44</value>
   </data>
   <data name="namePromptLabel.Text" xml:space="preserve">
     <value>Entrez votre nom : </value>
   </data>
   <data name="emailPromptLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>196, 24</value>
+    <value>379, 44</value>
   </data>
   <data name="emailPromptLabel.Text" xml:space="preserve">
     <value>Entrez votre email : </value>
@@ -155,13 +155,10 @@
     <value>Type d'Utilisateur</value>
   </data>
   <data name="languageLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>84, 24</value>
+    <value>166, 44</value>
   </data>
   <data name="languageLabel.Text" xml:space="preserve">
     <value>Langue :</value>
-  </data>
-  <data name="languagesComboBox.Items2" xml:space="preserve">
-    <value>Spanish</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>Library Management System - Login Form</value>

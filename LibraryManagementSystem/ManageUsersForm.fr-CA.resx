@@ -118,78 +118,171 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="viewUserButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>96, 40</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="viewUserButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 6, 6, 6</value>
+  </data>
   <data name="viewUserButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>164, 52</value>
+    <value>328, 100</value>
   </data>
   <data name="viewUserButton.Text" xml:space="preserve">
     <value>Voir l'utilisateur</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="searchUserButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="searchUserButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>229, 12</value>
+    <value>458, 23</value>
+  </data>
+  <data name="searchUserButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 6, 6, 6</value>
   </data>
   <data name="searchUserButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>225, 70</value>
+    <value>450, 135</value>
   </data>
   <data name="searchUserButton.Text" xml:space="preserve">
     <value>Recherche d'un utilisateur</value>
   </data>
   <data name="removeUserButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>460, 17</value>
+    <value>920, 33</value>
+  </data>
+  <data name="removeUserButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 6, 6, 6</value>
   </data>
   <data name="removeUserButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>191, 61</value>
+    <value>382, 117</value>
   </data>
   <data name="removeUserButton.Text" xml:space="preserve">
     <value>Supprimer l'utilisateur</value>
   </data>
+  <data name="userListView.Location" type="System.Drawing.Point, System.Drawing">
+    <value>96, 269</value>
+  </data>
+  <data name="userListView.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 6, 6, 6</value>
+  </data>
+  <data name="userListView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1144, 406</value>
+  </data>
+  <data name="fillFormLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>170, 317</value>
+  </data>
+  <data name="fillFormLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 0, 6, 0</value>
+  </data>
   <data name="fillFormLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>326, 20</value>
+    <value>622, 37</value>
   </data>
   <data name="fillFormLabel.Text" xml:space="preserve">
     <value>Veuillez remplir le formulaire ci-dessous</value>
   </data>
   <data name="userNameLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>53, 217</value>
+    <value>106, 417</value>
+  </data>
+  <data name="userNameLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 0, 6, 0</value>
   </data>
   <data name="userNameLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>244, 20</value>
+    <value>466, 37</value>
   </data>
   <data name="userNameLabel.Text" xml:space="preserve">
     <value>Saisir le nom de l'utilisateur : </value>
   </data>
   <data name="nameTB.Location" type="System.Drawing.Point, System.Drawing">
-    <value>324, 214</value>
+    <value>648, 412</value>
+  </data>
+  <data name="nameTB.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 6, 6, 6</value>
+  </data>
+  <data name="nameTB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>196, 31</value>
   </data>
   <data name="searchUsersButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>89, 288</value>
+    <value>178, 554</value>
+  </data>
+  <data name="searchUsersButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 6, 6, 6</value>
+  </data>
+  <data name="searchUsersButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>598, 77</value>
   </data>
   <data name="searchUsersButton.Text" xml:space="preserve">
     <value>Recherche d'un utilisateur</value>
   </data>
+  <data name="searchUserListView.Location" type="System.Drawing.Point, System.Drawing">
+    <value>848, 269</value>
+  </data>
+  <data name="searchUserListView.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 6, 6, 6</value>
+  </data>
+  <data name="searchUserListView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>392, 406</value>
+  </data>
   <data name="userIdLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>44, 214</value>
+    <value>88, 412</value>
+  </data>
+  <data name="userIdLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 0, 6, 0</value>
   </data>
   <data name="userIdLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>274, 20</value>
+    <value>518, 37</value>
   </data>
   <data name="userIdLabel.Text" xml:space="preserve">
     <value>Saisir l'identifiant de l'utilisateur :</value>
   </data>
   <data name="removeUsersButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>89, 278</value>
+    <value>178, 535</value>
+  </data>
+  <data name="removeUsersButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 6, 6, 6</value>
+  </data>
+  <data name="removeUsersButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>598, 77</value>
   </data>
   <data name="removeUsersButton.Text" xml:space="preserve">
     <value>Supprimer l'utilisateur</value>
   </data>
+  <data name="dashboardButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>96, 158</value>
+  </data>
+  <data name="dashboardButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 6, 6, 6</value>
+  </data>
+  <data name="dashboardButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>300, 100</value>
+  </data>
   <data name="dashboardButton.Text" xml:space="preserve">
     <value>Retournez</value>
   </data>
+  <data name="ExitButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>940, 158</value>
+  </data>
+  <data name="ExitButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 6, 6, 6</value>
+  </data>
+  <data name="ExitButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>300, 100</value>
+  </data>
   <data name="ExitButton.Text" xml:space="preserve">
     <value>Quitter</value>
+  </data>
+  <data name="DateControl.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt, style=Bold</value>
+  </data>
+  <data name="DateControl.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 4, 5, 4</value>
+  </data>
+  <data name="DateControl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>354, 37</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>12, 25</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1346, 719</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>Formulaire de gestion des utilisateurs</value>

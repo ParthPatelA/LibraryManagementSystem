@@ -117,74 +117,114 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="viewBooksButton.Text" xml:space="preserve">
-    <value>Ver libros</value>
-  </data>
-  <data name="searchBooksButton.Text" xml:space="preserve">
-    <value>Buscar libros</value>
-  </data>
-  <data name="borrowBooksButton.Text" xml:space="preserve">
-    <value>Préstamo de libros</value>
-  </data>
-  <data name="returnBooksButton.Text" xml:space="preserve">
-    <value>Volver Libros</value>
-  </data>
-  <data name="searchByComboBox.Items" xml:space="preserve">
-    <value>género</value>
-  </data>
-  <data name="searchByComboBox.Items1" xml:space="preserve">
-    <value>autor</value>
-  </data>
-  <data name="searchByComboBox.Items2" xml:space="preserve">
-    <value>título</value>
-  </data>
-  <data name="searchByComboBox.Text" xml:space="preserve">
-    <value>Buscar en</value>
-  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="searchLabelPromptLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>547, 37</value>
+  <data name="welcomeMessageLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>428, 115</value>
   </data>
-  <data name="searchLabelPromptLabel.Text" xml:space="preserve">
-    <value>¿Cómo le gustaría buscar su libro?</value>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="welcomeMessageLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 0, 6, 0</value>
   </data>
-  <data name="searchButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>218, 687</value>
+  <data name="welcomeMessageLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>781, 63</value>
   </data>
-  <data name="searchButton.Text" xml:space="preserve">
-    <value>Buscar libros</value>
+  <data name="loginPromptLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>658, 260</value>
   </data>
-  <data name="bookIdPromptLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>559, 37</value>
+  <data name="loginPromptLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 0, 6, 0</value>
   </data>
-  <data name="bookIdPromptLabel.Text" xml:space="preserve">
-    <value>Por favor, introduzca el id del libro :</value>
+  <data name="loginPromptLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>283, 44</value>
   </data>
-  <data name="borrowBookButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>218, 550</value>
+  <data name="namePromptLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>314, 417</value>
   </data>
-  <data name="borrowBookButton.Text" xml:space="preserve">
-    <value>Libro prestado</value>
+  <data name="namePromptLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 0, 6, 0</value>
   </data>
-  <data name="returnBookButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>224, 550</value>
+  <data name="namePromptLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>349, 44</value>
   </data>
-  <data name="returnBookButton.Text" xml:space="preserve">
-    <value>Volver Libro</value>
+  <data name="emailPromptLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>314, 533</value>
   </data>
-  <data name="exitButton.Text" xml:space="preserve">
-    <value>Salida</value>
+  <data name="emailPromptLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 0, 6, 0</value>
   </data>
-  <data name="dashboardButton.Text" xml:space="preserve">
-    <value>Volver atrás</value>
+  <data name="emailPromptLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>347, 44</value>
   </data>
-  <data name="returnDateLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>314, 49</value>
+  <data name="nameTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>788, 427</value>
   </data>
-  <data name="returnDateLabel.Text" xml:space="preserve">
-    <value>Fecha de regreso:</value>
+  <data name="nameTextBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 6, 6, 6</value>
   </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>ClienteViewForm</value>
+  <data name="nameTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>448, 31</value>
+  </data>
+  <data name="emailTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>788, 540</value>
+  </data>
+  <data name="emailTextBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 6, 6, 6</value>
+  </data>
+  <data name="emailTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>448, 31</value>
+  </data>
+  <data name="validateButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>538, 713</value>
+  </data>
+  <data name="validateButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 6, 6, 6</value>
+  </data>
+  <data name="validateButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>488, 73</value>
+  </data>
+  <data name="displayMessage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>550, 633</value>
+  </data>
+  <data name="displayMessage.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 0, 6, 0</value>
+  </data>
+  <data name="displayMessage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 37</value>
+  </data>
+  <data name="roleComboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>322, 340</value>
+  </data>
+  <data name="roleComboBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="roleComboBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>316, 39</value>
+  </data>
+  <data name="languageLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1118, 17</value>
+  </data>
+  <data name="languageLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 0, 6, 0</value>
+  </data>
+  <data name="languageLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>208, 44</value>
+  </data>
+  <data name="languagesComboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1340, 27</value>
+  </data>
+  <data name="languagesComboBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 6, 6, 6</value>
+  </data>
+  <data name="languagesComboBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>238, 33</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>12, 25</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1600, 865</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>12, 12, 12, 12</value>
   </data>
 </root>
