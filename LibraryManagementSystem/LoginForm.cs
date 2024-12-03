@@ -96,6 +96,10 @@ namespace LibraryManagementSystem
                 case 1: changeLanguage.UpdateConfig("language", "fr-CA");
                         Application.Restart();
                         break;
+
+                case 2: changeLanguage.UpdateConfig("language", "es");
+                    Application.Restart();
+                    break;
             }
 
 

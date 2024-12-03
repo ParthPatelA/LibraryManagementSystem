@@ -107,7 +107,8 @@
             this.languagesComboBox.FormattingEnabled = true;
             this.languagesComboBox.Items.AddRange(new object[] {
             resources.GetString("languagesComboBox.Items"),
-            resources.GetString("languagesComboBox.Items1")});
+            resources.GetString("languagesComboBox.Items1"),
+            resources.GetString("languagesComboBox.Items2")});
             this.languagesComboBox.Name = "languagesComboBox";
             this.languagesComboBox.SelectedIndexChanged += new System.EventHandler(this.languagesComboBox_SelectedIndexChanged);
             // 

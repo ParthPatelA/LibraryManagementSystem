@@ -110,6 +110,9 @@
     <EmbeddedResource Include="AboutUsForm.resx">
       <DependentUpon>AboutUsForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="CustomerViewForm.es.resx">
+      <DependentUpon>CustomerViewForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="CustomerViewForm.fr-CA.resx">
       <DependentUpon>CustomerViewForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -122,11 +125,17 @@
     <EmbeddedResource Include="InventoryReportForm.resx">
       <DependentUpon>InventoryReportForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="LibrarySystemForm.es.resx">
+      <DependentUpon>LibrarySystemForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="LibrarySystemForm.fr-CA.resx">
       <DependentUpon>LibrarySystemForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LibrarySystemForm.resx">
       <DependentUpon>LibrarySystemForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginForm.es.resx">
+      <DependentUpon>LoginForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LoginForm.fr-CA.resx">
       <DependentUpon>LoginForm.cs</DependentUpon>

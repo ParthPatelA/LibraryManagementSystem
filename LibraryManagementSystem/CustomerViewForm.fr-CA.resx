@@ -118,16 +118,16 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="viewBooksButton.Text" xml:space="preserve">
-    <value>Regardez les livres</value>
+    <value>Regarder les livres</value>
   </data>
   <data name="searchBooksButton.Text" xml:space="preserve">
     <value>Recherche de livres</value>
   </data>
   <data name="borrowBooksButton.Text" xml:space="preserve">
-    <value>Emprunter des livres</value>
+    <value>Prêt de livres</value>
   </data>
   <data name="returnBooksButton.Text" xml:space="preserve">
-    <value>Retour de Livres</value>
+    <value>Retour aux livres</value>
   </data>
   <data name="searchByComboBox.Items1" xml:space="preserve">
     <value>auteur</value>
@@ -140,10 +140,10 @@
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="searchLabelPromptLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>372, 20</value>
+    <value>243, 20</value>
   </data>
   <data name="searchLabelPromptLabel.Text" xml:space="preserve">
-    <value>Comment voulez-vous rechercher votre livre ?</value>
+    <value>Comment trouver votre livre ?</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="searchButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
@@ -154,6 +154,9 @@
   </data>
   <data name="searchButton.Text" xml:space="preserve">
     <value>Recherche de livres</value>
+  </data>
+  <data name="bookIdPromptLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>105, 172</value>
   </data>
   <data name="bookIdPromptLabel.Size" type="System.Drawing.Size, System.Drawing">
     <value>284, 20</value>

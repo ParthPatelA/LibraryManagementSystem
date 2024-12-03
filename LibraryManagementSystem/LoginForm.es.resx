@@ -118,52 +118,53 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="welcomeMessageLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>98, 61</value>
+  </data>
   <data name="welcomeMessageLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>573, 31</value>
+    <value>585, 31</value>
   </data>
   <data name="welcomeMessageLabel.Text" xml:space="preserve">
-    <value>Bienvenue à notre système de bibliothèque</value>
+    <value>Bienvenido a nuestro sistema de bibliotecas</value>
   </data>
   <data name="loginPromptLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>210, 24</value>
+    <value>203, 24</value>
   </data>
   <data name="loginPromptLabel.Text" xml:space="preserve">
-    <value>Veuillez vous inscrire</value>
+    <value>Por favor, regístrese </value>
+  </data>
+  <data name="namePromptLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>89, 222</value>
   </data>
   <data name="namePromptLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>187, 24</value>
+    <value>287, 24</value>
   </data>
   <data name="namePromptLabel.Text" xml:space="preserve">
-    <value>Entrez votre nom : </value>
+    <value>Enter Introduzca su nombre : </value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="emailPromptLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="emailPromptLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>100, 259</value>
   </data>
   <data name="emailPromptLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>196, 24</value>
+    <value>276, 54</value>
   </data>
   <data name="emailPromptLabel.Text" xml:space="preserve">
-    <value>Entrez votre email : </value>
+    <value>Introduzca su dirección de correo electrónico : </value>
   </data>
   <data name="validateButton.Text" xml:space="preserve">
-    <value>Validez</value>
-  </data>
-  <data name="roleComboBox.Items" xml:space="preserve">
-    <value>Bibliothécaire</value>
-  </data>
-  <data name="roleComboBox.Items1" xml:space="preserve">
-    <value>Client</value>
+    <value>Validar</value>
   </data>
   <data name="roleComboBox.Text" xml:space="preserve">
-    <value>Type d'Utilisateur</value>
+    <value>Tipo de usuario</value>
   </data>
   <data name="languageLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>84, 24</value>
+    <value>76, 24</value>
   </data>
   <data name="languageLabel.Text" xml:space="preserve">
-    <value>Langue :</value>
-  </data>
-  <data name="languagesComboBox.Items2" xml:space="preserve">
-    <value>Spanish</value>
-  </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>Library Management System - Login Form</value>
+    <value>Idioma :</value>
   </data>
 </root>

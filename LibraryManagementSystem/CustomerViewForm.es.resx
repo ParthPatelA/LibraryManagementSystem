@@ -117,53 +117,65 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="viewBooksButton.Text" xml:space="preserve">
+    <value>Ver libros</value>
+  </data>
+  <data name="searchBooksButton.Text" xml:space="preserve">
+    <value>Buscar libros</value>
+  </data>
+  <data name="borrowBooksButton.Text" xml:space="preserve">
+    <value>Préstamo de libros</value>
+  </data>
+  <data name="returnBooksButton.Text" xml:space="preserve">
+    <value>Volver Libros</value>
+  </data>
+  <data name="searchByComboBox.Items" xml:space="preserve">
+    <value>género</value>
+  </data>
+  <data name="searchByComboBox.Items1" xml:space="preserve">
+    <value>autor</value>
+  </data>
+  <data name="searchByComboBox.Items2" xml:space="preserve">
+    <value>título</value>
+  </data>
+  <data name="searchByComboBox.Text" xml:space="preserve">
+    <value>Buscar en</value>
+  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="welcomeMessageLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>573, 31</value>
+  <data name="searchLabelPromptLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>286, 20</value>
   </data>
-  <data name="welcomeMessageLabel.Text" xml:space="preserve">
-    <value>Bienvenue à notre système de bibliothèque</value>
+  <data name="searchLabelPromptLabel.Text" xml:space="preserve">
+    <value>¿Cómo le gustaría buscar su libro?</value>
   </data>
-  <data name="loginPromptLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>210, 24</value>
+  <data name="searchButton.Text" xml:space="preserve">
+    <value>Buscar libros</value>
   </data>
-  <data name="loginPromptLabel.Text" xml:space="preserve">
-    <value>Veuillez vous inscrire</value>
+  <data name="bookIdPromptLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>291, 20</value>
   </data>
-  <data name="namePromptLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>187, 24</value>
+  <data name="bookIdPromptLabel.Text" xml:space="preserve">
+    <value>Por favor, introduzca el id del libro :</value>
   </data>
-  <data name="namePromptLabel.Text" xml:space="preserve">
-    <value>Entrez votre nom : </value>
+  <data name="borrowBookButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>109, 286</value>
   </data>
-  <data name="emailPromptLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>196, 24</value>
+  <data name="borrowBookButton.Text" xml:space="preserve">
+    <value>Libro prestado</value>
   </data>
-  <data name="emailPromptLabel.Text" xml:space="preserve">
-    <value>Entrez votre email : </value>
+  <data name="returnBookButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>112, 286</value>
   </data>
-  <data name="validateButton.Text" xml:space="preserve">
-    <value>Validez</value>
+  <data name="returnBookButton.Text" xml:space="preserve">
+    <value>Volver Libro</value>
   </data>
-  <data name="roleComboBox.Items" xml:space="preserve">
-    <value>Bibliothécaire</value>
+  <data name="exitButton.Text" xml:space="preserve">
+    <value>Salida</value>
   </data>
-  <data name="roleComboBox.Items1" xml:space="preserve">
-    <value>Client</value>
-  </data>
-  <data name="roleComboBox.Text" xml:space="preserve">
-    <value>Type d'Utilisateur</value>
-  </data>
-  <data name="languageLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>84, 24</value>
-  </data>
-  <data name="languageLabel.Text" xml:space="preserve">
-    <value>Langue :</value>
-  </data>
-  <data name="languagesComboBox.Items2" xml:space="preserve">
-    <value>Spanish</value>
+  <data name="dashboardButton.Text" xml:space="preserve">
+    <value>Volver atrás</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>Library Management System - Login Form</value>
+    <value>ClienteViewForm</value>
   </data>
 </root>
