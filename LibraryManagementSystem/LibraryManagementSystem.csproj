@@ -33,6 +33,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>packages\Newtonsoft.Json.13.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Configuration" />
     <Reference Include="System.Configuration.Install" />
@@ -63,12 +66,14 @@
     <Compile Include="CustomerViewForm.Designer.cs">
       <DependentUpon>CustomerViewForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="DateUserControl.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="DateUserControl.Designer.cs">
-      <DependentUpon>DateUserControl.cs</DependentUpon>
-    </Compile>
+<Compile Include="IdGenerator.cs" />
+<Compile Include="DateUserControl.cs">
+  <SubType>UserControl</SubType>
+</Compile>
+<Compile Include="DateUserControl.Designer.cs">
+  <DependentUpon>DateUserControl.cs</DependentUpon>
+</Compile>
+<Compile Include="InventoryReportForm.cs">
     <Compile Include="InventoryReportForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -220,6 +225,7 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resource1.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
