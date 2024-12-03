@@ -118,48 +118,6 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="welcomeMessageLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>573, 31</value>
-  </data>
-  <data name="welcomeMessageLabel.Text" xml:space="preserve">
-    <value>Bienvenue à notre système de bibliothèque</value>
-  </data>
-  <data name="loginPromptLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>210, 24</value>
-  </data>
-  <data name="loginPromptLabel.Text" xml:space="preserve">
-    <value>Veuillez vous inscrire</value>
-  </data>
-  <data name="namePromptLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>187, 24</value>
-  </data>
-  <data name="namePromptLabel.Text" xml:space="preserve">
-    <value>Entrez votre nom : </value>
-  </data>
-  <data name="emailPromptLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>196, 24</value>
-  </data>
-  <data name="emailPromptLabel.Text" xml:space="preserve">
-    <value>Entrez votre email : </value>
-  </data>
-  <data name="validateButton.Text" xml:space="preserve">
-    <value>Validez</value>
-  </data>
-  <data name="roleComboBox.Items" xml:space="preserve">
-    <value>Bibliothécaire</value>
-  </data>
-  <data name="roleComboBox.Items1" xml:space="preserve">
-    <value>Client</value>
-  </data>
-  <data name="roleComboBox.Text" xml:space="preserve">
-    <value>Type d'Utilisateur</value>
-  </data>
-  <data name="languageLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>84, 24</value>
-  </data>
-  <data name="languageLabel.Text" xml:space="preserve">
-    <value>Langue :</value>
-  </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         AAABAAkAEBAAAAEAIABoBAAAlgAAABgYAAABACAAiAkAAP4EAAAgIAAAAQAgAKgQAACGDgAAMDAAAAEA
@@ -3118,6 +3076,6 @@
 </value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>Système de gestion de bibliothèque - Formulaire de connexion</value>
+    <value>Library Management System - Login Form</value>
   </data>
 </root>

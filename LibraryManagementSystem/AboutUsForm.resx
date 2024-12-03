@@ -139,8 +139,8 @@
   <data name="returnButton.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 12pt, style=Bold</value>
   </data>
-  <data name="&gt;&gt;exitButton.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="returnButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>108, 52</value>
   </data>
   <data name="&gt;&gt;aboutUsLabel.ZOrder" xml:space="preserve">
     <value>3</value>
@@ -161,9 +161,6 @@
   <data name="returnButton.Location" type="System.Drawing.Point, System.Drawing">
     <value>41, 20</value>
   </data>
-  <data name="aboutUsLabel.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
   <data name="$this.Text" xml:space="preserve">
     <value>AboutUs</value>
   </data>
@@ -173,8 +170,8 @@
   <data name="label1.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
-  <data name="&gt;&gt;exitButton.Name" xml:space="preserve">
-    <value>exitButton</value>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
     <value>Our Library Management System is a user-friendly solution designed to simplify and 
@@ -200,6 +197,9 @@ Join us in transforming how libraries serve their communities!</value>
   <data name="exitButton.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 12pt, style=Bold</value>
   </data>
+  <data name="aboutUsLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
     <value>6, 13</value>
   </data>
@@ -209,8 +209,8 @@ Join us in transforming how libraries serve their communities!</value>
   <data name="aboutUsLabel.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 15.75pt, style=Bold, Italic</value>
   </data>
-  <data name="&gt;&gt;label1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;exitButton.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <data name="&gt;&gt;exitButton.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -218,14 +218,14 @@ Join us in transforming how libraries serve their communities!</value>
   <data name="returnButton.Text" xml:space="preserve">
     <value>Return</value>
   </data>
-  <data name="returnButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>108, 52</value>
+  <data name="aboutUsLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="aboutUsLabel.Text" xml:space="preserve">
     <value>About Us</value>
   </data>
-  <data name="aboutUsLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>108, 25</value>
+  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Sans Serif Collection, 8.25pt, style=Bold</value>
   </data>
   <data name="exitButton.Text" xml:space="preserve">
     <value>Exit</value>
@@ -239,8 +239,8 @@ Join us in transforming how libraries serve their communities!</value>
   <data name="exitButton.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
   </data>
-  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Sans Serif Collection, 8.25pt, style=Bold</value>
+  <data name="&gt;&gt;exitButton.Name" xml:space="preserve">
+    <value>exitButton</value>
   </data>
   <data name="returnButton.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -257,13 +257,13 @@ Join us in transforming how libraries serve their communities!</value>
   <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="aboutUsLabel.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
+  <data name="aboutUsLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>108, 25</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
   <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>fr-CA</value>
+    <value>es</value>
   </metadata>
 </root>

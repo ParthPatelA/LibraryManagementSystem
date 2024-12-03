@@ -143,6 +143,9 @@
   <data name="&gt;&gt;reportRichTextBox.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
+  <data name="returnToPreviousScreen.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt, style=Bold</value>
+  </data>
   <data name="reportRichTextBox.Location" type="System.Drawing.Point, System.Drawing">
     <value>22, 185</value>
   </data>
@@ -178,9 +181,6 @@
   </data>
   <data name="reportRichTextBox.Size" type="System.Drawing.Size, System.Drawing">
     <value>506, 215</value>
-  </data>
-  <data name="generateInventoryReportButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>22, 32</value>
   </data>
   <data name="&gt;&gt;ExitButton.Name" xml:space="preserve">
     <value>ExitButton</value>
@@ -236,8 +236,8 @@
   <data name="&gt;&gt;reportRichTextBox.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="returnToPreviousScreen.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 12pt, style=Bold</value>
+  <data name="generateInventoryReportButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 32</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>InventoryReportForm</value>
@@ -270,6 +270,6 @@
     <value>True</value>
   </metadata>
   <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>fr-CA</value>
+    <value>es</value>
   </metadata>
 </root>

@@ -118,47 +118,35 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="welcomeMessageLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>573, 31</value>
+  <data name="aboutUsLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>174, 25</value>
   </data>
-  <data name="welcomeMessageLabel.Text" xml:space="preserve">
-    <value>Bienvenue à notre système de bibliothèque</value>
+  <data name="aboutUsLabel.Text" xml:space="preserve">
+    <value>Quiénes somos</value>
   </data>
-  <data name="loginPromptLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>210, 24</value>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1220, 351</value>
   </data>
-  <data name="loginPromptLabel.Text" xml:space="preserve">
-    <value>Veuillez vous inscrire</value>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Nuestro sistema de gestión de bibliotecas es una solución fácil de usar diseñada para simplificar y mejorar las operaciones de la biblioteca. 
+Proporcionamos herramientas para gestionar los libros, los socios y las transacciones de forma eficiente. 
+eficientemente, ayudando a las bibliotecas a centrarse en fomentar
+amor por la lectura y el aprendizaje.
+
+Características principales:
+
+       -Fácil catalogación y búsqueda avanzada.
+       -Gestión ágil de socios y préstamos. 
+       -Análisis de uso en tiempo real.
+       -Acceso seguro basado en funciones.
+
+Únase a nosotros para transformar la forma en que las bibliotecas sirven a sus comunidades.</value>
   </data>
-  <data name="namePromptLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>187, 24</value>
+  <data name="returnButton.Text" xml:space="preserve">
+    <value>Volver</value>
   </data>
-  <data name="namePromptLabel.Text" xml:space="preserve">
-    <value>Entrez votre nom : </value>
-  </data>
-  <data name="emailPromptLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>196, 24</value>
-  </data>
-  <data name="emailPromptLabel.Text" xml:space="preserve">
-    <value>Entrez votre email : </value>
-  </data>
-  <data name="validateButton.Text" xml:space="preserve">
-    <value>Validez</value>
-  </data>
-  <data name="roleComboBox.Items" xml:space="preserve">
-    <value>Bibliothécaire</value>
-  </data>
-  <data name="roleComboBox.Items1" xml:space="preserve">
-    <value>Client</value>
-  </data>
-  <data name="roleComboBox.Text" xml:space="preserve">
-    <value>Type d'Utilisateur</value>
-  </data>
-  <data name="languageLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>84, 24</value>
-  </data>
-  <data name="languageLabel.Text" xml:space="preserve">
-    <value>Langue :</value>
+  <data name="exitButton.Text" xml:space="preserve">
+    <value>Salida</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -3118,6 +3106,6 @@
 </value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>Système de gestion de bibliothèque - Formulaire de connexion</value>
+    <value>Quiénes somos</value>
   </data>
 </root>

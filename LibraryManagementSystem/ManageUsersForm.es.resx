@@ -117,48 +117,69 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="viewUserButton.Text" xml:space="preserve">
+    <value>Ver usuario</value>
+  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="welcomeMessageLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>573, 31</value>
+  <data name="searchUserButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 52</value>
   </data>
-  <data name="welcomeMessageLabel.Text" xml:space="preserve">
-    <value>Bienvenue à notre système de bibliothèque</value>
+  <data name="searchUserButton.Text" xml:space="preserve">
+    <value>Buscar usuario</value>
   </data>
-  <data name="loginPromptLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>210, 24</value>
+  <data name="removeUserButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>461, 21</value>
   </data>
-  <data name="loginPromptLabel.Text" xml:space="preserve">
-    <value>Veuillez vous inscrire</value>
+  <data name="removeUserButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>171, 52</value>
   </data>
-  <data name="namePromptLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>187, 24</value>
+  <data name="removeUserButton.Text" xml:space="preserve">
+    <value>Eliminar usuario</value>
   </data>
-  <data name="namePromptLabel.Text" xml:space="preserve">
-    <value>Entrez votre nom : </value>
+  <data name="fillFormLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>252, 20</value>
   </data>
-  <data name="emailPromptLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>196, 24</value>
+  <data name="fillFormLabel.Text" xml:space="preserve">
+    <value>Rellene el siguiente formulario</value>
   </data>
-  <data name="emailPromptLabel.Text" xml:space="preserve">
-    <value>Entrez votre email : </value>
+  <data name="userNameLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>44, 214</value>
   </data>
-  <data name="validateButton.Text" xml:space="preserve">
-    <value>Validez</value>
+  <data name="userNameLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>283, 20</value>
   </data>
-  <data name="roleComboBox.Items" xml:space="preserve">
-    <value>Bibliothécaire</value>
+  <data name="userNameLabel.Text" xml:space="preserve">
+    <value>Introduzca el nombre de usuario : </value>
   </data>
-  <data name="roleComboBox.Items1" xml:space="preserve">
-    <value>Client</value>
+  <data name="nameTB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>318, 216</value>
   </data>
-  <data name="roleComboBox.Text" xml:space="preserve">
-    <value>Type d'Utilisateur</value>
+  <data name="searchUsersButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>89, 288</value>
   </data>
-  <data name="languageLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>84, 24</value>
+  <data name="searchUsersButton.Text" xml:space="preserve">
+    <value>Buscar usuario</value>
   </data>
-  <data name="languageLabel.Text" xml:space="preserve">
-    <value>Langue :</value>
+  <data name="userIdLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>44, 214</value>
+  </data>
+  <data name="userIdLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>237, 20</value>
+  </data>
+  <data name="userIdLabel.Text" xml:space="preserve">
+    <value>Introduzca el ID de usuario :</value>
+  </data>
+  <data name="removeUsersButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>89, 288</value>
+  </data>
+  <data name="removeUsersButton.Text" xml:space="preserve">
+    <value>Eliminar usuario</value>
+  </data>
+  <data name="dashboardButton.Text" xml:space="preserve">
+    <value>Volver</value>
+  </data>
+  <data name="ExitButton.Text" xml:space="preserve">
+    <value>Salida</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -3118,6 +3139,6 @@
 </value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>Système de gestion de bibliothèque - Formulaire de connexion</value>
+    <value>Formulario de gestión de usuarios</value>
   </data>
 </root>

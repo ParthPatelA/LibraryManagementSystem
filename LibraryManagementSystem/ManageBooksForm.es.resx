@@ -117,48 +117,75 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="listAllBooksButton.Text" xml:space="preserve">
+    <value>Buscar libro</value>
+  </data>
+  <data name="addBookButton.Text" xml:space="preserve">
+    <value>Añadir libro</value>
+  </data>
+  <data name="removeBookButton.Text" xml:space="preserve">
+    <value>Borrar libro</value>
+  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="welcomeMessageLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>573, 31</value>
+  <data name="fillOutFormLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>252, 20</value>
   </data>
-  <data name="welcomeMessageLabel.Text" xml:space="preserve">
-    <value>Bienvenue à notre système de bibliothèque</value>
+  <data name="fillOutFormLabel.Text" xml:space="preserve">
+    <value>Rellene el siguiente formulario</value>
   </data>
-  <data name="loginPromptLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>210, 24</value>
+  <data name="authorLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 20</value>
   </data>
-  <data name="loginPromptLabel.Text" xml:space="preserve">
-    <value>Veuillez vous inscrire</value>
+  <data name="authorLabel.Text" xml:space="preserve">
+    <value>Autores :</value>
   </data>
-  <data name="namePromptLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>187, 24</value>
+  <data name="genreLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 20</value>
   </data>
-  <data name="namePromptLabel.Text" xml:space="preserve">
-    <value>Entrez votre nom : </value>
+  <data name="genreLabel.Text" xml:space="preserve">
+    <value>Género :  </value>
   </data>
-  <data name="emailPromptLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>196, 24</value>
+  <data name="copiesAvailableLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 20</value>
   </data>
-  <data name="emailPromptLabel.Text" xml:space="preserve">
-    <value>Entrez votre email : </value>
+  <data name="copiesAvailableLabel.Text" xml:space="preserve">
+    <value>Copias disponibles:</value>
   </data>
-  <data name="validateButton.Text" xml:space="preserve">
-    <value>Validez</value>
+  <data name="yearPublishedLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 20</value>
   </data>
-  <data name="roleComboBox.Items" xml:space="preserve">
-    <value>Bibliothécaire</value>
+  <data name="yearPublishedLabel.Text" xml:space="preserve">
+    <value>Años de publicación :</value>
   </data>
-  <data name="roleComboBox.Items1" xml:space="preserve">
-    <value>Client</value>
+  <data name="availabilityLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>136, 20</value>
   </data>
-  <data name="roleComboBox.Text" xml:space="preserve">
-    <value>Type d'Utilisateur</value>
+  <data name="availabilityLabel.Text" xml:space="preserve">
+    <value>Disponibilidad : </value>
   </data>
-  <data name="languageLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>84, 24</value>
+  <data name="availabilityTB.Text" xml:space="preserve">
+    <value>Verdadero/Falso</value>
   </data>
-  <data name="languageLabel.Text" xml:space="preserve">
-    <value>Langue :</value>
+  <data name="addBooksButton.Text" xml:space="preserve">
+    <value>Añadir libro</value>
+  </data>
+  <data name="bookIdLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>77, 20</value>
+  </data>
+  <data name="bookIdLabel.Text" xml:space="preserve">
+    <value>ID libro :</value>
+  </data>
+  <data name="removeBooksButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>75, 254</value>
+  </data>
+  <data name="removeBooksButton.Text" xml:space="preserve">
+    <value>Borrar libro</value>
+  </data>
+  <data name="dashboardButton.Text" xml:space="preserve">
+    <value>Volver</value>
+  </data>
+  <data name="exitButton.Text" xml:space="preserve">
+    <value>Salida</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -3118,6 +3145,6 @@
 </value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>Système de gestion de bibliothèque - Formulaire de connexion</value>
+    <value>Administrar libros</value>
   </data>
 </root>

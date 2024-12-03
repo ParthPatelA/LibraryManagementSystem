@@ -130,17 +130,14 @@
   <data name="&gt;&gt;nameTextBox.Type" xml:space="preserve">
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="languageLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>559, 9</value>
-  </data>
   <data name="&gt;&gt;welcomeMessageLabel.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
     <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="validateButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>269, 371</value>
+  <data name="languagesComboBox.Items2" xml:space="preserve">
+    <value>Spanish</value>
   </data>
   <data name="roleComboBox.Items" xml:space="preserve">
     <value>Librarian</value>
@@ -191,6 +188,9 @@
   <data name="&gt;&gt;emailTextBox.Name" xml:space="preserve">
     <value>emailTextBox</value>
   </data>
+  <data name="&gt;&gt;displayMessage.Name" xml:space="preserve">
+    <value>displayMessage</value>
+  </data>
   <data name="emailTextBox.Size" type="System.Drawing.Size, System.Drawing">
     <value>226, 20</value>
   </data>
@@ -203,6 +203,9 @@
   </data>
   <data name="languagesComboBox.Location" type="System.Drawing.Point, System.Drawing">
     <value>670, 14</value>
+  </data>
+  <data name="loginPromptLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
   </data>
   <data name="&gt;&gt;emailPromptLabel.Parent" xml:space="preserve">
     <value>$this</value>
@@ -276,14 +279,17 @@
   <data name="&gt;&gt;loginPromptLabel.Name" xml:space="preserve">
     <value>loginPromptLabel</value>
   </data>
+  <data name="welcomeMessageLabel.Text" xml:space="preserve">
+    <value>Welcome to our library system</value>
+  </data>
+  <data name="welcomeMessageLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
   <data name="namePromptLabel.Location" type="System.Drawing.Point, System.Drawing">
     <value>157, 217</value>
   </data>
   <data name="&gt;&gt;emailPromptLabel.Name" xml:space="preserve">
     <value>emailPromptLabel</value>
-  </data>
-  <data name="&gt;&gt;validateButton.Parent" xml:space="preserve">
-    <value>$this</value>
   </data>
   <data name="languagesComboBox.Items1" xml:space="preserve">
     <value>French</value>
@@ -300,9 +306,6 @@
   <data name="languageLabel.Size" type="System.Drawing.Size, System.Drawing">
     <value>105, 24</value>
   </data>
-  <data name="&gt;&gt;roleComboBox.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
   <data name="emailTextBox.Location" type="System.Drawing.Point, System.Drawing">
     <value>394, 281</value>
   </data>
@@ -312,8 +315,8 @@
   <data name="displayMessage.Size" type="System.Drawing.Size, System.Drawing">
     <value>0, 20</value>
   </data>
-  <data name="emailPromptLabel.Text" xml:space="preserve">
-    <value>Enter your email : </value>
+  <data name="languageLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>559, 9</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
     <value>800, 450</value>
@@ -327,14 +330,11 @@
   <data name="namePromptLabel.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
-  <data name="&gt;&gt;validateButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
     <value>6, 13</value>
   </data>
-  <data name="welcomeMessageLabel.Text" xml:space="preserve">
-    <value>Welcome to our library system</value>
+  <data name="validateButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>269, 371</value>
   </data>
   <data name="&gt;&gt;namePromptLabel.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -351,14 +351,11 @@
   <data name="namePromptLabel.Text" xml:space="preserve">
     <value>Enter your name : </value>
   </data>
-  <data name="loginPromptLabel.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
+  <data name="&gt;&gt;roleComboBox.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
   <data name="validateButton.Size" type="System.Drawing.Size, System.Drawing">
     <value>244, 38</value>
-  </data>
-  <data name="welcomeMessageLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>214, 60</value>
   </data>
   <data name="&gt;&gt;nameTextBox.Name" xml:space="preserve">
     <value>nameTextBox</value>
@@ -375,8 +372,8 @@
   <data name="namePromptLabel.Size" type="System.Drawing.Size, System.Drawing">
     <value>183, 24</value>
   </data>
-  <data name="&gt;&gt;displayMessage.Name" xml:space="preserve">
-    <value>displayMessage</value>
+  <data name="welcomeMessageLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>214, 60</value>
   </data>
   <data name="emailTextBox.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
@@ -399,8 +396,8 @@
   <data name="nameTextBox.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
   </data>
-  <data name="welcomeMessageLabel.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="&gt;&gt;validateButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="displayMessage.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 12pt</value>
@@ -408,11 +405,14 @@
   <data name="&gt;&gt;languagesComboBox.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
+  <data name="emailPromptLabel.Text" xml:space="preserve">
+    <value>Enter your email : </value>
+  </data>
   <data name="&gt;&gt;languagesComboBox.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="languagesComboBox.Items2" xml:space="preserve">
-    <value>Spanish</value>
+  <data name="&gt;&gt;validateButton.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
   <data name="&gt;&gt;languageLabel.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -454,6 +454,6 @@
     <value>True</value>
   </metadata>
   <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>es</value>
+    <value>fr-CA</value>
   </metadata>
 </root>
