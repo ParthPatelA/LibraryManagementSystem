@@ -73,7 +73,6 @@
 <Compile Include="DateUserControl.Designer.cs">
   <DependentUpon>DateUserControl.cs</DependentUpon>
 </Compile>
-<Compile Include="InventoryReportForm.cs">
     <Compile Include="InventoryReportForm.cs">
       <SubType>Form</SubType>
     </Compile>
