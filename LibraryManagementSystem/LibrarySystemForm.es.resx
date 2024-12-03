@@ -117,53 +117,53 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="welcomeLabel.Text" xml:space="preserve">
+    <value>Bienvenido : </value>
+  </data>
+  <data name="totalUsersLabel.Text" xml:space="preserve">
+    <value>Total de usuarios:</value>
+  </data>
+  <data name="totalBooksLabel.Text" xml:space="preserve">
+    <value>Total de libros:</value>
+  </data>
+  <data name="LibrarySummaryGroupBox.Text" xml:space="preserve">
+    <value>Resumen de la biblioteca</value>
+  </data>
+  <data name="ManageBookButton.Text" xml:space="preserve">
+    <value>Gestionar libros</value>
+  </data>
+  <data name="ReportsButton.Text" xml:space="preserve">
+    <value>Informes</value>
+  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="welcomeMessageLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>573, 31</value>
+  <data name="exitToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
   </data>
-  <data name="welcomeMessageLabel.Text" xml:space="preserve">
-    <value>Bienvenue à notre système de bibliothèque</value>
+  <data name="exitToolStripMenuItem.Text" xml:space="preserve">
+    <value>Salida</value>
   </data>
-  <data name="loginPromptLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>210, 24</value>
+  <data name="logoutToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
   </data>
-  <data name="loginPromptLabel.Text" xml:space="preserve">
-    <value>Veuillez vous inscrire</value>
+  <data name="logoutToolStripMenuItem.Text" xml:space="preserve">
+    <value>Cierre de sesión</value>
   </data>
-  <data name="namePromptLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>187, 24</value>
+  <data name="fileToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 22</value>
   </data>
-  <data name="namePromptLabel.Text" xml:space="preserve">
-    <value>Entrez votre nom : </value>
+  <data name="fileToolStripMenuItem1.Text" xml:space="preserve">
+    <value>Archivo</value>
   </data>
-  <data name="emailPromptLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>196, 24</value>
+  <data name="aboutToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
   </data>
-  <data name="emailPromptLabel.Text" xml:space="preserve">
-    <value>Entrez votre email : </value>
+  <data name="aboutToolStripMenuItem.Text" xml:space="preserve">
+    <value>Acerca de</value>
   </data>
-  <data name="validateButton.Text" xml:space="preserve">
-    <value>Validez</value>
+  <data name="manageUsersButton.Text" xml:space="preserve">
+    <value>Gestionar usuarios</value>
   </data>
-  <data name="roleComboBox.Items" xml:space="preserve">
-    <value>Bibliothécaire</value>
-  </data>
-  <data name="roleComboBox.Items1" xml:space="preserve">
-    <value>Client</value>
-  </data>
-  <data name="roleComboBox.Text" xml:space="preserve">
-    <value>Type d'Utilisateur</value>
-  </data>
-  <data name="languageLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>84, 24</value>
-  </data>
-  <data name="languageLabel.Text" xml:space="preserve">
-    <value>Langue :</value>
-  </data>
-  <data name="languagesComboBox.Items2" xml:space="preserve">
-    <value>Spanish</value>
-  </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>Library Management System - Login Form</value>
+  <data name="returnLoginFormButton.Text" xml:space="preserve">
+    <value>Volver al formulario de acceso</value>
   </data>
 </root>
