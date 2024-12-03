@@ -117,61 +117,14 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="bookListView.Location" type="System.Drawing.Point, System.Drawing">
-    <value>158, 279</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="bookListView.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>6, 6, 6, 6</value>
-  </data>
-  <data name="bookListView.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1300, 504</value>
-  </data>
-  <data name="viewBooksButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>158, 79</value>
-  </data>
-  <data name="viewBooksButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>6, 6, 6, 6</value>
-  </data>
-  <data name="viewBooksButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>244, 94</value>
-  </data>
   <data name="viewBooksButton.Text" xml:space="preserve">
     <value>Regarder les livres</value>
-  </data>
-  <data name="searchBooksButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>484, 79</value>
-  </data>
-  <data name="searchBooksButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>6, 6, 6, 6</value>
-  </data>
-  <data name="searchBooksButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>244, 94</value>
   </data>
   <data name="searchBooksButton.Text" xml:space="preserve">
     <value>Recherche de livres</value>
   </data>
-  <data name="borrowBooksButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>826, 79</value>
-  </data>
-  <data name="borrowBooksButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>6, 6, 6, 6</value>
-  </data>
-  <data name="borrowBooksButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>244, 94</value>
-  </data>
   <data name="borrowBooksButton.Text" xml:space="preserve">
     <value>Prêt de livres</value>
-  </data>
-  <data name="returnBooksButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1214, 79</value>
-  </data>
-  <data name="returnBooksButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>6, 6, 6, 6</value>
-  </data>
-  <data name="returnBooksButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>244, 94</value>
   </data>
   <data name="returnBooksButton.Text" xml:space="preserve">
     <value>Retour aux livres</value>
@@ -182,65 +135,22 @@
   <data name="searchByComboBox.Items2" xml:space="preserve">
     <value>titre</value>
   </data>
-  <data name="searchByComboBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>218, 406</value>
-  </data>
-  <data name="searchByComboBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>6, 6, 6, 6</value>
-  </data>
-  <data name="searchByComboBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>238, 33</value>
-  </data>
   <data name="searchByComboBox.Text" xml:space="preserve">
     <value>Recherche</value>
   </data>
-  <data name="searchLabelPromptLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>212, 331</value>
-  </data>
-  <data name="searchLabelPromptLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>6, 0, 6, 0</value>
-  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="searchLabelPromptLabel.Size" type="System.Drawing.Size, System.Drawing">
     <value>464, 37</value>
   </data>
   <data name="searchLabelPromptLabel.Text" xml:space="preserve">
     <value>Comment trouver votre livre ?</value>
   </data>
-  <data name="queryPromptLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>212, 506</value>
-  </data>
-  <data name="queryPromptLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>6, 0, 6, 0</value>
-  </data>
-  <data name="queryPromptLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>0, 37</value>
-  </data>
-  <data name="queryTextBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>218, 612</value>
-  </data>
-  <data name="queryTextBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>6, 6, 6, 6</value>
-  </data>
-  <data name="queryTextBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>304, 31</value>
-  </data>
-  <data name="searchBookListView.Location" type="System.Drawing.Point, System.Drawing">
-    <value>918, 331</value>
-  </data>
-  <data name="searchBookListView.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>6, 6, 6, 6</value>
-  </data>
-  <data name="searchBookListView.Size" type="System.Drawing.Size, System.Drawing">
-    <value>540, 452</value>
-  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="searchButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="searchButton.Location" type="System.Drawing.Point, System.Drawing">
     <value>218, 687</value>
-  </data>
-  <data name="searchButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>6, 6, 6, 6</value>
   </data>
   <data name="searchButton.Size" type="System.Drawing.Size, System.Drawing">
     <value>468, 67</value>
@@ -251,29 +161,11 @@
   <data name="bookIdPromptLabel.Location" type="System.Drawing.Point, System.Drawing">
     <value>210, 331</value>
   </data>
-  <data name="bookIdPromptLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>6, 0, 6, 0</value>
-  </data>
   <data name="bookIdPromptLabel.Size" type="System.Drawing.Size, System.Drawing">
     <value>541, 37</value>
   </data>
   <data name="bookIdPromptLabel.Text" xml:space="preserve">
     <value>Veuillez saisir l'identifiant du livre :</value>
-  </data>
-  <data name="bookIdTextBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>224, 483</value>
-  </data>
-  <data name="bookIdTextBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>6, 6, 6, 6</value>
-  </data>
-  <data name="bookIdTextBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>304, 31</value>
-  </data>
-  <data name="borrowBookButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>224, 552</value>
-  </data>
-  <data name="borrowBookButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>6, 6, 6, 6</value>
   </data>
   <data name="borrowBookButton.Size" type="System.Drawing.Size, System.Drawing">
     <value>432, 67</value>
@@ -281,59 +173,17 @@
   <data name="borrowBookButton.Text" xml:space="preserve">
     <value>Emprunter un livre</value>
   </data>
-  <data name="returnBookButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>224, 552</value>
-  </data>
-  <data name="returnBookButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>6, 6, 6, 6</value>
-  </data>
-  <data name="returnBookButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>308, 67</value>
-  </data>
   <data name="returnBookButton.Text" xml:space="preserve">
     <value>Livre de retour</value>
-  </data>
-  <data name="exitButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1254, 204</value>
-  </data>
-  <data name="exitButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>6, 6, 6, 6</value>
-  </data>
-  <data name="exitButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>186, 63</value>
   </data>
   <data name="exitButton.Text" xml:space="preserve">
     <value>Quitter</value>
   </data>
-  <data name="dashboardButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>168, 192</value>
-  </data>
-  <data name="dashboardButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>6, 6, 6, 6</value>
-  </data>
-  <data name="dashboardButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>184, 63</value>
-  </data>
   <data name="dashboardButton.Text" xml:space="preserve">
     <value>Retour</value>
   </data>
-  <data name="DateControl.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 12pt, style=Bold</value>
-  </data>
-  <data name="DateControl.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>5, 4, 5, 4</value>
-  </data>
-  <data name="DateControl.Size" type="System.Drawing.Size, System.Drawing">
-    <value>354, 37</value>
-  </data>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>12, 25</value>
-  </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>1600, 792</value>
-  </data>
-  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>12, 12, 12, 12</value>
+  <data name="returnDateLabel.Text" xml:space="preserve">
+    <value>Date de Retour:</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>Formulaire de visualisation des clients</value>
