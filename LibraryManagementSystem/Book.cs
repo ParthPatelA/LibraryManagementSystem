@@ -15,14 +15,13 @@ namespace LibraryManagementSystem
         public string YearPublished { get; set; }
         public string ISBN { get; set; }
         public int CopiesAvailable { get; set; }
-
         public bool IsAvailable { get; set; } = true;
-        private static readonly HashSet<int> generatedIds = new HashSet<int>();
-        private static readonly Random random = new Random();
+
+        public Book() { }
 
         public Book(string title, string author, string genre, string yearPublished, string iSBN, int copiesAvailable, bool isAvailable)
         {
-            BookId = GenerateUniqueRandomId();
+            BookId = IdGenerator.GenerateUserId();
             Title = title;
             Author = author;
             Genre = genre;
@@ -30,19 +29,6 @@ namespace LibraryManagementSystem
             ISBN = iSBN;
             CopiesAvailable = copiesAvailable;
             IsAvailable = isAvailable;
-        }
-
-        public static int GenerateUniqueRandomId()
-        {
-            int newId;
-
-            // Keep generating until we get a unique ID
-            do
-            {
-                newId = random.Next(1, 1000); // Generate a random ID within a range
-            } while (!generatedIds.Add(newId)); // Add to HashSet, ensures uniqueness
-
-            return newId;
         }
     }
 }
