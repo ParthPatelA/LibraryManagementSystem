@@ -17,8 +17,6 @@ namespace LibraryManagementSystem
         public int CopiesAvailable { get; set; }
         public bool IsAvailable { get; set; } = true;
 
-        public Book() { }
-
         public Book(string title, string author, string genre, string yearPublished, string iSBN, int copiesAvailable, bool isAvailable)
         {
             BookId = IdGenerator.GenerateUserId();
