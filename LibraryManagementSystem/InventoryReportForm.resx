@@ -137,15 +137,21 @@
   <data name="&gt;&gt;generateInventoryReportButton.ZOrder" xml:space="preserve">
     <value>5</value>
   </data>
-  <data name="&gt;&gt;returnToPreviousScreen.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
   <data name="&gt;&gt;generateUserReportButton.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>6, 6, 6, 6</value>
+  </data>
+  <data name="&gt;&gt;reportRichTextBox.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="returnToPreviousScreen.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt, style=Bold</value>
+  </data>
+  <data name="reportRichTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 185</value>
   </data>
   <data name="generateUserReportButton.Location" type="System.Drawing.Point, System.Drawing">
     <value>379, 32</value>
@@ -183,9 +189,6 @@
   <data name="reportRichTextBox.Size" type="System.Drawing.Size, System.Drawing">
     <value>506, 215</value>
   </data>
-  <data name="generateInventoryReportButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>22, 32</value>
-  </data>
   <data name="&gt;&gt;ExitButton.Name" xml:space="preserve">
     <value>ExitButton</value>
   </data>
@@ -197,9 +200,6 @@
   </data>
   <data name="&gt;&gt;generateUserReportButton.ZOrder" xml:space="preserve">
     <value>4</value>
-  </data>
-  <data name="&gt;&gt;generateInventoryReportButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="returnToPreviousScreen.Size" type="System.Drawing.Size, System.Drawing">
     <value>114, 42</value>
@@ -246,8 +246,8 @@
   <data name="&gt;&gt;reportRichTextBox.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="returnToPreviousScreen.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 12pt, style=Bold</value>
+  <data name="generateInventoryReportButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 32</value>
   </data>
   <data name="generateUserReportButton.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -261,8 +261,8 @@
   <data name="&gt;&gt;generateUserReportButton.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;reportRichTextBox.ZOrder" xml:space="preserve">
-    <value>1</value>
+  <data name="&gt;&gt;generateInventoryReportButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="returnToPreviousScreen.Location" type="System.Drawing.Point, System.Drawing">
     <value>22, 120</value>
@@ -285,13 +285,13 @@
   <data name="&gt;&gt;DateControl.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="reportRichTextBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>22, 185</value>
+  <data name="&gt;&gt;returnToPreviousScreen.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
   <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>en</value>
+    <value>es</value>
   </metadata>
 </root>

@@ -118,91 +118,6 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="welcomeMessageLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>214, 60</value>
-  </data>
-  <data name="welcomeMessageLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>406, 31</value>
-  </data>
-  <data name="loginPromptLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>329, 135</value>
-  </data>
-  <data name="loginPromptLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>148, 24</value>
-  </data>
-  <data name="namePromptLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>157, 217</value>
-  </data>
-  <data name="namePromptLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>183, 24</value>
-  </data>
-  <data name="emailPromptLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>157, 277</value>
-  </data>
-  <data name="emailPromptLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>181, 24</value>
-  </data>
-  <data name="nameTextBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>394, 222</value>
-  </data>
-  <data name="nameTextBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>226, 20</value>
-  </data>
-  <data name="emailTextBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>394, 281</value>
-  </data>
-  <data name="emailTextBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>226, 20</value>
-  </data>
-  <data name="validateButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>269, 371</value>
-  </data>
-  <data name="validateButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>244, 38</value>
-  </data>
-  <data name="displayMessage.Location" type="System.Drawing.Point, System.Drawing">
-    <value>275, 329</value>
-  </data>
-  <data name="displayMessage.Size" type="System.Drawing.Size, System.Drawing">
-    <value>0, 20</value>
-  </data>
-  <data name="roleComboBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>161, 177</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="roleComboBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
-  </data>
-  <data name="roleComboBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>160, 24</value>
-  </data>
-  <data name="languageLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>559, 9</value>
-  </data>
-  <data name="languageLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>105, 24</value>
-  </data>
-  <data name="languagesComboBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>670, 14</value>
-  </data>
-  <data name="languagesComboBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>121, 21</value>
-  </data>
-  <data name="DateControl.Location" type="System.Drawing.Point, System.Drawing">
-    <value>7, 9</value>
-  </data>
-  <data name="DateControl.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
-  </data>
-  <data name="DateControl.Size" type="System.Drawing.Size, System.Drawing">
-    <value>178, 20</value>
-  </data>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>6, 13</value>
-  </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>800, 450</value>
-  </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         AAABAAkAEBAAAAEAIABoBAAAlgAAABgYAAABACAAiAkAAP4EAAAgIAAAAQAgAKgQAACGDgAAMDAAAAEA
@@ -3159,11 +3074,5 @@
         D0HUCoUPlaAwiwe0UfPuAirTnkE9pZOodfYJYAwVwp9BZeiHil+jwBRSpmYV4sxCADp550X+fxN4SM4s
         4h9IAAAAAElFTkSuQmCC
 </value>
-  </data>
-  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>6, 6, 6, 6</value>
-  </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>Library Management System - Login Form</value>
   </data>
 </root>

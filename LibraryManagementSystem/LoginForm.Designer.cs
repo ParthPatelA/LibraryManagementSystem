@@ -75,8 +75,8 @@
             // 
             // validateButton
             // 
-            this.validateButton.BackColor = System.Drawing.SystemColors.ControlDark;
             resources.ApplyResources(this.validateButton, "validateButton");
+            this.validateButton.BackColor = System.Drawing.SystemColors.ControlDark;
             this.validateButton.Name = "validateButton";
             this.validateButton.UseVisualStyleBackColor = false;
             this.validateButton.Click += new System.EventHandler(this.validateButton_Click);
@@ -104,19 +104,19 @@
             // 
             // languagesComboBox
             // 
+            resources.ApplyResources(this.languagesComboBox, "languagesComboBox");
             this.languagesComboBox.FormattingEnabled = true;
             this.languagesComboBox.Items.AddRange(new object[] {
             resources.GetString("languagesComboBox.Items"),
             resources.GetString("languagesComboBox.Items1"),
             resources.GetString("languagesComboBox.Items2")});
-            resources.ApplyResources(this.languagesComboBox, "languagesComboBox");
             this.languagesComboBox.Name = "languagesComboBox";
             this.languagesComboBox.SelectedIndexChanged += new System.EventHandler(this.languagesComboBox_SelectedIndexChanged);
             // 
             // DateControl
             // 
-            this.DateControl.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             resources.ApplyResources(this.DateControl, "DateControl");
+            this.DateControl.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.DateControl.Name = "DateControl";
             // 
             // LoginForm

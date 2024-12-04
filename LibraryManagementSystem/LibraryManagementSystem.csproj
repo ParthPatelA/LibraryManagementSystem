@@ -66,13 +66,13 @@
     <Compile Include="CustomerViewForm.Designer.cs">
       <DependentUpon>CustomerViewForm.cs</DependentUpon>
     </Compile>
-<Compile Include="IdGenerator.cs" />
-<Compile Include="DateUserControl.cs">
-  <SubType>UserControl</SubType>
-</Compile>
-<Compile Include="DateUserControl.Designer.cs">
-  <DependentUpon>DateUserControl.cs</DependentUpon>
-</Compile>
+    <Compile Include="IdGenerator.cs" />
+    <Compile Include="DateUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DateUserControl.Designer.cs">
+      <DependentUpon>DateUserControl.cs</DependentUpon>
+    </Compile>
     <Compile Include="InventoryReportForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -114,6 +114,12 @@
       <DependentUpon>Resource1.resx</DependentUpon>
     </Compile>
     <Compile Include="User.cs" />
+    <EmbeddedResource Include="AboutUsForm.en.resx">
+      <DependentUpon>AboutUsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AboutUsForm.es.resx">
+      <DependentUpon>AboutUsForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="AboutUsForm.fr-CA.resx">
       <DependentUpon>AboutUsForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -198,7 +204,13 @@
     <EmbeddedResource Include="ManageBooksForm.resx">
       <DependentUpon>ManageBooksForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ManageBooksForm.ssy.resx">
+      <DependentUpon>ManageBooksForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ManageUsersForm.en.resx">
+      <DependentUpon>ManageUsersForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManageUsersForm.es-VE.resx">
       <DependentUpon>ManageUsersForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ManageUsersForm.es.resx">
