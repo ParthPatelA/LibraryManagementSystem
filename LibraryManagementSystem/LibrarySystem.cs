@@ -120,7 +120,7 @@ namespace LibraryManagementSystem
             if (book == null) throw new ArgumentNullException(nameof(book));
             books.Add(book);
             SaveBooksToFile();
-            LogAction($"Book added: {book.Title} (ID: {book.BookId})");
+            LogAction($"BookID: {book.BookId}");
         }
         // Removes a book from the library system by its ID.
         public bool RemoveBook(int bookId)
@@ -129,7 +129,7 @@ namespace LibraryManagementSystem
             if (book == null) return false;
             books.Remove(book);
             SaveBooksToFile();
-            LogAction($"Book removed: {book.Title} (ID: {bookId})");
+            LogAction($"BookID: {bookId}");
             return true;
         }
         // Adds a user to the library system.
@@ -138,7 +138,7 @@ namespace LibraryManagementSystem
             if (user == null) throw new ArgumentNullException(nameof(user));
             users.Add(user);
             SaveUsersToFile();
-            LogAction($"User added: {user.Name} (ID: {user.UserId})");
+            LogAction($"UserID: {user.UserId}");
         }
         // Removes a user from the library system by their ID.
         public bool RemoveUser(int userId)
@@ -147,7 +147,7 @@ namespace LibraryManagementSystem
             if (user == null) return false;
             users.Remove(user);
             SaveUsersToFile();
-            LogAction($"User removed: {user.Name} (ID: {user.UserId})");
+            LogAction($"UserID: {user.UserId}");
             return true;
         }
         // Allows a user to borrow a book.
@@ -165,7 +165,7 @@ namespace LibraryManagementSystem
             {
                 customer.BorrowBook(bookId);
             }
-            LogAction($"Book borrowed: {book.Title} by User {user.Name} (ID: {userId})");
+            LogAction($"BookId borrowed: {book.BookId} by UserID: {userId})");
             SaveBooksToFile();
         }
         //Allows a user to return a borrowed book.
@@ -182,7 +182,7 @@ namespace LibraryManagementSystem
                 customer.RemoveBook(bookId);
             }
             SaveBooksToFile();
-            LogAction($"Book returned: {book.Title} by User {user.Name} (ID: {userId})");
+            LogAction($"Book returned: BookID {book.BookId} by UserID: {userId}");
         }
 
         private bool ContainsIgnoreCase(string source, string toCheck)
@@ -207,9 +207,9 @@ namespace LibraryManagementSystem
         public List<User> GetAllUsers() => new List<User>(users);
 
         public string GenerateInventoryReport() =>
-            string.Join(Environment.NewLine, books.Select(b => $"{b.Title} ({b.CopiesAvailable} copies available)"));
+            string.Join(Environment.NewLine, books.Select(b => $"{b.BookId},{b.Title} ({b.CopiesAvailable} copies available)"));
 
         public string GenerateUserReport() =>
-            string.Join(Environment.NewLine, users.Select(u => $"{u.Name} ({u.GetType().Name})"));
+            string.Join(Environment.NewLine, users.Select(u => $"{u.UserId},{u.Name} ({u.GetType().Name})"));
     }
 }
