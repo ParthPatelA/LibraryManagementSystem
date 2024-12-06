@@ -48,10 +48,5 @@ TestResults/
 *.trx
 *.coverage
 
-# Configuration Files
-appsettings.json
-appsettings.*.json
-secrets.json
-
 # Publish output
 publish/
