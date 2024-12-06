@@ -140,8 +140,8 @@
   <data name="DateControl.Location" type="System.Drawing.Point, System.Drawing">
     <value>470, 182</value>
   </data>
-  <data name="availabilityLabel.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
+  <data name="titleTB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
   </data>
   <data name="&gt;&gt;isbnLabel.ZOrder" xml:space="preserve">
     <value>16</value>
@@ -173,11 +173,11 @@
   <data name="&gt;&gt;removeBooksButton.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="titleTB.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 20</value>
-  </data>
   <data name="copiesAvailableLabel.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 12pt, style=Bold</value>
+  </data>
+  <data name="availabilityLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
   </data>
   <data name="&gt;&gt;DateControl.ZOrder" xml:space="preserve">
     <value>0</value>
@@ -200,8 +200,8 @@
   <data name="authorLabel.Visible" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
-  <data name="&gt;&gt;bookIdTB.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="titleLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="removeBookButton.Text" xml:space="preserve">
     <value>Delete Book</value>
@@ -230,8 +230,8 @@
   <data name="bookListView.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
   </data>
-  <data name="&gt;&gt;dashboardButton.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="&gt;&gt;yearPublishedTB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;genreTB.Parent" xml:space="preserve">
     <value>$this</value>
@@ -269,8 +269,8 @@
   <data name="&gt;&gt;titleLabel.ZOrder" xml:space="preserve">
     <value>20</value>
   </data>
-  <data name="&gt;&gt;addBookButton.Name" xml:space="preserve">
-    <value>addBookButton</value>
+  <data name="&gt;&gt;authorTB.ZOrder" xml:space="preserve">
+    <value>12</value>
   </data>
   <data name="&gt;&gt;removeBooksButton.Name" xml:space="preserve">
     <value>removeBooksButton</value>
@@ -305,17 +305,14 @@
   <data name="&gt;&gt;availabilityLabel.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="titleLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>89, 213</value>
-  </data>
   <data name="bookIdLabel.Size" type="System.Drawing.Size, System.Drawing">
     <value>81, 20</value>
   </data>
   <data name="&gt;&gt;copiesAvailableLabel.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;copiesAvailableLabel.Name" xml:space="preserve">
-    <value>copiesAvailableLabel</value>
+  <data name="fillOutFormLabel.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="genreLabel.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
@@ -347,6 +344,9 @@
   <data name="titleTB.Visible" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
+  <data name="&gt;&gt;bookIdTB.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
   <data name="&gt;&gt;addBookButton.ZOrder" xml:space="preserve">
     <value>24</value>
   </data>
@@ -362,8 +362,8 @@
   <data name="availabilityTB.Visible" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
-  <data name="isbnLabel.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
+  <data name="&gt;&gt;removeBookButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;authorTB.Name" xml:space="preserve">
     <value>authorTB</value>
@@ -389,8 +389,8 @@
   <data name="&gt;&gt;yearPublishedLabel.ZOrder" xml:space="preserve">
     <value>15</value>
   </data>
-  <data name="&gt;&gt;yearPublishedTB.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;dashboardButton.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
   <data name="&gt;&gt;listAllBooksButton.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -482,6 +482,9 @@
   <data name="&gt;&gt;isbnLabel.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="bookIdLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>84, 211</value>
+  </data>
   <data name="exitButton.Size" type="System.Drawing.Size, System.Drawing">
     <value>151, 45</value>
   </data>
@@ -500,11 +503,8 @@
   <data name="&gt;&gt;copiesAvailableLabel.ZOrder" xml:space="preserve">
     <value>17</value>
   </data>
-  <data name="titleLabel.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="bookIdLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>84, 211</value>
+  <data name="&gt;&gt;copiesAvailableLabel.Name" xml:space="preserve">
+    <value>copiesAvailableLabel</value>
   </data>
   <data name="availabilityLabel.Location" type="System.Drawing.Point, System.Drawing">
     <value>84, 489</value>
@@ -523,9 +523,6 @@
   </data>
   <data name="fillOutFormLabel.Text" xml:space="preserve">
     <value>Please fill in the form below</value>
-  </data>
-  <data name="&gt;&gt;removeBookButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="authorLabel.Text" xml:space="preserve">
     <value>Authors : </value>
@@ -572,11 +569,11 @@
   <data name="copiesAvailableLabel.Location" type="System.Drawing.Point, System.Drawing">
     <value>84, 446</value>
   </data>
+  <data name="&gt;&gt;titleTB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="&gt;&gt;exitButton.Name" xml:space="preserve">
     <value>exitButton</value>
-  </data>
-  <data name="titleLabel.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
   </data>
   <data name="yearPublishedLabel.TabIndex" type="System.Int32, mscorlib">
     <value>10</value>
@@ -596,8 +593,8 @@
   <data name="&gt;&gt;fillOutFormLabel.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;authorTB.ZOrder" xml:space="preserve">
-    <value>12</value>
+  <data name="&gt;&gt;addBookButton.Name" xml:space="preserve">
+    <value>addBookButton</value>
   </data>
   <data name="removeBookButton.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -616,9 +613,6 @@
   </data>
   <data name="availabilityTB.TabIndex" type="System.Int32, mscorlib">
     <value>18</value>
-  </data>
-  <data name="&gt;&gt;DateControl.Name" xml:space="preserve">
-    <value>DateControl</value>
   </data>
   <data name="&gt;&gt;DateControl.Type" xml:space="preserve">
     <value>LibraryManagementSystem.DateUserControl, LibraryManagementSystem, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
@@ -647,6 +641,9 @@
   <data name="addBookButton.Location" type="System.Drawing.Point, System.Drawing">
     <value>243, 23</value>
   </data>
+  <data name="isbnLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>6, 6, 6, 6</value>
@@ -663,7 +660,7 @@
   <data name="&gt;&gt;genreLabel.ZOrder" xml:space="preserve">
     <value>18</value>
   </data>
-  <data name="fillOutFormLabel.Visible" type="System.Boolean, mscorlib">
+  <data name="titleLabel.Visible" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
   <data name="&gt;&gt;bookIdLabel.Type" xml:space="preserve">
@@ -678,8 +675,8 @@
   <data name="bookIdTB.Size" type="System.Drawing.Size, System.Drawing">
     <value>100, 20</value>
   </data>
-  <data name="&gt;&gt;titleTB.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="removeBooksButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>236, 39</value>
   </data>
   <data name="bookIdLabel.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 12pt, style=Bold</value>
@@ -722,6 +719,9 @@
   </data>
   <data name="&gt;&gt;availabilityTB.Name" xml:space="preserve">
     <value>availabilityTB</value>
+  </data>
+  <data name="yearPublishedLabel.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="availabilityLabel.Visible" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -807,8 +807,8 @@
   <data name="addBookButton.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
-  <data name="removeBooksButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>236, 39</value>
+  <data name="titleLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>89, 213</value>
   </data>
   <data name="bookIdTB.TabIndex" type="System.Int32, mscorlib">
     <value>21</value>
@@ -861,8 +861,8 @@
   <data name="dashboardButton.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 14.25pt, style=Bold</value>
   </data>
-  <data name="yearPublishedLabel.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
+  <data name="&gt;&gt;DateControl.Name" xml:space="preserve">
+    <value>DateControl</value>
   </data>
   <data name="listAllBooksButton.Location" type="System.Drawing.Point, System.Drawing">
     <value>52, 23</value>
